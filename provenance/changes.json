@@ -1,0 +1,3010 @@
+{
+ "count": 310,
+ "changes": [
+  {
+   "layout": "c71",
+   "finalPage": 81,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון' (the same title on pages 84–92)",
+   "after": "'מעגל ברביע הראשון: נקודות הקצה'",
+   "reason": "Pages 84–92 each need a distinct, accurate title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c71",
+   "finalPage": 81,
+   "type": "fix-figure",
+   "before": "grid patterns g71a/g71b/g71c anchored at (0,0) while the axes start at x=24 (and y=154 in the third figure), so grid lines were 6 px (and 10 px) off the integer coordinates",
+   "after": "patterns anchored with x=24 y=216 (and x=24 y=154), so the points and O sit on grid intersections",
+   "reason": "The intro says 'קראו מן הרשת', so the grid must line up with the integer coordinates.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c71",
+   "finalPage": 81,
+   "type": "fix-table",
+   "before": "td.ltr-pair cells (the inline-block from .ltr-pair) left their columns in the Q3 table",
+   "after": "main[data-layout=c71] td.ltr-pair{display:table-cell}",
+   "reason": "The table was broken.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c71",
+   "finalPage": 81,
+   "type": "overflow",
+   "before": "page <style> used unscoped .a4-page selectors (these leak into print.html); figures were capped at 64/52mm by a4-utilization !important rules, leaving about 35mm empty at the bottom",
+   "after": "all selectors scoped to main[data-layout=\"c71\"]; figure max-height 78/62mm and choice-box padding raised with main.a4-page[...] !important",
+   "reason": "CSS contract; filled the empty area without adding content.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c72",
+   "finalPage": 82,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: נקודות על הצירים'",
+   "reason": "Distinct title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c72",
+   "finalPage": 82,
+   "type": "fix-figure",
+   "before": "Q2 figure: circle O(4,7), r=4 reaches y=11, but the grid covered only 10 units and the stroke was clipped at the SVG top edge (viewBox 0 0 240 220)",
+   "after": "both figures use viewBox 0 -8 240 228; the Q2 grid rect runs y=0…198 (11 units) and the y-axis is extended; the 'y' label moved accordingly",
+   "reason": "The circle was clipped and extended past the grid.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c72",
+   "finalPage": 82,
+   "type": "fix-figure",
+   "before": "'T' label at (31,66) sat on the circle stroke next to the y-axis",
+   "after": "'T' at (8,76), direction=ltr, left of the y-axis",
+   "reason": "Overlapping label.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c72",
+   "finalPage": 82,
+   "type": "fix-figure",
+   "before": "patterns g72a/g72b anchored at (0,0) (6 px offset in x)",
+   "after": "x=24 y=198",
+   "reason": "Grid aligned with the coordinates.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c72",
+   "finalPage": 82,
+   "type": "fix-table",
+   "before": "td.ltr-pair '(5,__)' cell pushed out of the 'נקודה עליונה' column",
+   "after": "page CSS main[data-layout=c72] td.ltr-pair{display:table-cell}",
+   "reason": "Broken table.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c73",
+   "finalPage": 83,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: מקצות קוטר אל המרכז'",
+   "reason": "Distinct title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c73",
+   "finalPage": 83,
+   "type": "fix-figure",
+   "before": "right panel drew centre (6,4), r=4 with the top point at grid y=8 labelled '(6,12)', not touching the y-axis (the text says (6,0)–(6,12), so O(6,6), r=6 and tangent to the y-axis); labels '(0,5)' and '(8,5)' printed under the x-axis far from their points; panel order was the reverse of the RTL task order",
+   "after": "figure redrawn. Left panel (under the vertical-diameter task): 13 px per unit, O(6,6), r=6, points (6,0) and (6,12), circle tangent to the y-axis, grid aligned. Right panel (under the horizontal-diameter task): 18 px per unit, O(4,5), r=4, labels (0,5) and (8,5) placed next to their points.",
+   "reason": "Figure/text mismatch; the old figure suggested the wrong answer 'לא' to 'יש גם השקה לציר y'.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c73",
+   "finalPage": 83,
+   "type": "fix-math",
+   "before": "'מרכז המעגל O(4,6), וקצה אחד של קוטר נמצא על ציר y. השלימו את שני הקצוות.'",
+   "after": "'מרכז המעגל O(4,6), והמעגל נמצא כולו ברביע הראשון. קצה אחד של קוטר נמצא על ציר y. השלימו את שני הקצוות.'",
+   "reason": "Missing condition: without it any r>4 gives other ends (0, 6±√(r²−16)). With it r=4, so the ends are (0,6) and (8,6), a unique answer.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c73",
+   "finalPage": 83,
+   "type": "overflow",
+   "before": "unscoped .a4-page style; figure 76mm, about 25mm empty at the bottom",
+   "after": "scoped to main[data-layout=\"c73\"]; figure height 84mm and choice-box padding 7mm",
+   "reason": "CSS contract and page balance.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c74",
+   "finalPage": 84,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: משיק לציר אחד'",
+   "reason": "Distinct title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c74",
+   "finalPage": 84,
+   "type": "fix-math",
+   "before": "intro 'כאשר מעגל משיק לציר אחד, מרחק המרכז מן הציר הזה שווה לרדיוס.'",
+   "after": "same sentence + ' בכל השאלות בדף המעגל נמצא כולו ברביע הראשון.'",
+   "reason": "Without the quadrant-I premise, Q1 had two correct options (O(2,3) is also tangent to x only) and Q3/Q4 had two centres each (O(8,−3), O(−4,9)).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c74",
+   "finalPage": 84,
+   "type": "dedupe-vary",
+   "qid": "c74.4",
+   "before": "'נקודת ההשקה עם ציר y היא T(0,9), והרדיוס 4. השלימו את המרכז.'",
+   "after": "'מעגל שרדיוסו 4 משיק לציר y בנקודה T(0,9). מהו מרכז המעגל?'",
+   "reason": "Near-duplicate gate c74.3~c74.4 (0.94). Same task and data (answer O(4,9)); only the wording changed. The gate now passes.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c74",
+   "finalPage": 84,
+   "type": "fix-figure",
+   "before": "'T' label at (27,75) overlapped the circle stroke in the 'השקה לציר y בלבד' figure",
+   "after": "'T' at (5,84), direction=ltr, left of the axis",
+   "reason": "Overlapping label.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c74",
+   "finalPage": 84,
+   "type": "overflow",
+   "before": "unscoped .a4-page style",
+   "after": "scoped to main[data-layout=\"c74\"]",
+   "reason": "CSS contract.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c75",
+   "finalPage": 85,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: משיק לשני הצירים'",
+   "reason": "Distinct title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c75",
+   "finalPage": 85,
+   "type": "fix-math",
+   "before": "intro 'כאשר המעגל משיק לשני הצירים, מרכזו הוא O(r,r).'",
+   "after": "'כאשר המעגל נמצא ברביע הראשון ומשיק לשני הצירים, מרכזו הוא O(r,r). בכל שאלה שבה לא נאמר אחרת, המעגל משיק לשני הצירים.'",
+   "reason": "Q1, Q2, Q4 and Q5 ('radius 7 / diameter 18 / C=16π / A=49π → centre') have a unique centre only under this premise, and O(r,r) holds only in quadrant I.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c75",
+   "finalPage": 85,
+   "type": "fix-figure",
+   "before": "side legend 'd = 18 / C = 16π / A = 49π' next to a drawn circle with r=5 (a mismatch); the Hebrew strategy line was RTL-anchored at x=330 and ran across the circle",
+   "after": "legend lines anchored at x=500: 'נתון אחד → מצאו r → מצאו את המרכז', 'נתון קוטר d', 'נתון היקף C', 'נתון שטח A' (generic, no values)",
+   "reason": "The legend described data that did not match the drawn circle, and the text overlapped the figure.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c75",
+   "finalPage": 85,
+   "type": "fix-figure",
+   "before": "both 'T' labels sat on the circle stroke; grid pattern offset from the axes at (40,210)",
+   "after": "'T' labels left of the y-axis and below the x-axis (direction=ltr); pattern x=40 y=210",
+   "reason": "Legibility and grid alignment.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c75",
+   "finalPage": 85,
+   "type": "overflow",
+   "before": "last task's answer box 12mm, empty area at the bottom",
+   "after": "[data-q=c75.8] .answer-box min-height 21mm (scoped CSS)",
+   "reason": "Balanced the page; 26mm overflowed by 13px, so it was reduced to 21mm.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: הרדיוס המרבי'",
+   "reason": "Distinct title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "fix-table",
+   "before": "worked table: td.ltr-pair and td.math-ltr (inline-block) cells were displaced; the 'בדיקת y' values showed under 'בדיקת x' and the last column was empty",
+   "after": "main[data-layout=c76] td.ltr-pair, td.math-ltr{display:table-cell}",
+   "reason": "Broken table.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "dedupe-vary",
+   "qid": "c76.1",
+   "before": "'O(5,5). בחרו אילו רדיוסים מתוך 3, 5, 6 …' with pills 3/5/6 (identical to the worked table directly above)",
+   "after": "'O(6,4). בחרו אילו רדיוסים מתוך 3, 4, 6 …' with pills 3/4/6 (answer: 3 and 4)",
+   "reason": "The old question repeated the worked example. Re-solved: 6−3=3, 4−3=1 ✓; 6−4=2, 4−4=0 ✓ (tangent); 4−6=−2 ✗. It now tests that the smaller coordinate (y) is the limit.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "fix-wording",
+   "qid": "c76.2",
+   "before": "'O(9,4). בחרו את הרדיוס הגדול ביותר מתוך 4, 5, 9.'",
+   "after": "'O(9,4). בחרו מתוך 4, 5, 9 את הרדיוס הגדול ביותר שמשאיר את המעגל כולו ברביע הראשון.'",
+   "reason": "Without the condition the literal answer is 9; the intended answer is 4.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "fix-wording",
+   "qid": "c76.4",
+   "before": "'r=5. בחרו אילו מרכזים מותרים.'",
+   "after": "'r=5. בחרו אילו מרכזים משאירים את המעגל כולו ברביע הראשון.'",
+   "reason": "'מותרים' did not state the criterion. Answer: O(5,5) and O(6,9).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "dedupe-remove",
+   "qid": "c76.6",
+   "before": "'O(7,5). מתוך 3, 5, 7 בחרו את הרדיוס המרבי האפשרי.' (answer 5)",
+   "after": "(removed)",
+   "reason": "The min(x,y) template appeared 5 times; this one had the same format as c76.2 (multiple choice, maximum radius from three values).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "fix-figure",
+   "before": "figure 'השקה לציר y': circle cx=68 cy=82 r=50 also touched the x-axis (82+50=132); figure 'דוגמה שחורגת': circle bottom at y=152, beyond the viewBox (clipped)",
+   "after": "cy=72 (tangent to y only); the 'exceeding' circle moved to cy=96 (bottom 146) and its guides adjusted",
+   "reason": "Caption/figure mismatch and clipping.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "overflow",
+   "before": "about 36mm empty after removing c76.6",
+   "after": "scoped CSS: table cells padding 3.2mm, choice-grid gap/margins 4mm, choice-box padding 4mm, task margin 5mm, strip margin 5mm",
+   "reason": "Rebalanced the page after the dedupe; no new content.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c77",
+   "finalPage": 87,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: הזזת המרכז'",
+   "reason": "Distinct title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c77",
+   "finalPage": 87,
+   "type": "fix-figure",
+   "before": "state figures 'מצב א/ב/ג' showed O(3,3), O(5,3), O(5,5), but the question 'לכל מצב סמנו' uses the path O(2,2) → O(5,2) → O(5,5); labels were RTL-anchored over the centre dot",
+   "after": "figures redrawn as O(2,2), O(5,2), O(5,5) with r=2 at 18 px per unit (tangent to both axes / x only / none); labels centred under the dot inside the circle",
+   "reason": "Figure/text mismatch: the state captions pointed to the wrong circles.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c77",
+   "finalPage": 87,
+   "type": "fix-table",
+   "qid": "c77.6",
+   "before": "one set of 4 pills (אין השקה / x בלבד / y בלבד / שני הצירים) for three states, in a half-width box",
+   "after": "full-width table: a row per state (מצב א: O(2,2), מצב ב: O(5,2), מצב ג: O(5,5)) × 4 check columns; instruction ends 'לכל מצב סמנו בטבלה.'",
+   "reason": "The answer could not be marked separately for each state.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c77",
+   "finalPage": 87,
+   "type": "other",
+   "qid": "c77.5",
+   "before": "c77.5 in a half-width choice-box next to c77.6",
+   "after": "c77.5 as a full-width section (text and options unchanged)",
+   "reason": "Layout follows from the restructured c77.6.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c77",
+   "finalPage": 87,
+   "type": "overflow",
+   "before": "unscoped .a4-page style",
+   "after": "scoped to main[data-layout=\"c77\"]",
+   "reason": "CSS contract.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c78",
+   "finalPage": 88,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: שילוב תנאים ותיקון טעויות'",
+   "reason": "Distinct title; it keeps the quadrant-I premise that c78.3 relies on.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c78",
+   "finalPage": 88,
+   "type": "fix-figure",
+   "before": "legend 'בדקו לפי נתונים — לא לפי מראה' RTL-anchored at x=340 ran across the grid; labels '(0,4)' and 'O(7,4)' overlapped the y-axis and the centre; '(7,0)' crossed the stroke; grid pattern 5 px off",
+   "after": "legend lines anchored at x=500 (right side, clear of the grid); labels direction=ltr beside their points, '(7,0)' below the axis; pattern x=45 y=220",
+   "reason": "Overlapping text and grid misalignment. The geometry was already correct (20 px per unit).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c78",
+   "finalPage": 88,
+   "type": "overflow",
+   "before": "unscoped .a4-page style",
+   "after": "scoped to main[data-layout=\"c78\"]",
+   "reason": "CSS contract.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c79",
+   "finalPage": 89,
+   "type": "other",
+   "before": "h1 'מעגל ברביע הראשון'",
+   "after": "'מעגל ברביע הראשון: אתגר מסכם'",
+   "reason": "Distinct title.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c79",
+   "finalPage": 89,
+   "type": "fix-math",
+   "before": "intro 'אתגר מסכם: בחרו את השרטוט, …'",
+   "after": "'בכל השאלות בדף המעגל צריך להישאר כולו ברביע הראשון. בחרו את השרטוט, התאימו נתונים והשלימו נקודה או מרכז חסרים.'",
+   "reason": "c79.5 had two options fitting the literal wording (O(0,5) also has (0,9) as its top point); the premise excludes it. The wording 'צריך להישאר' stays consistent with c79.2 (the impossible drawing).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c79",
+   "finalPage": 89,
+   "type": "fix-table",
+   "before": "td.ltr-pair cells of the matching table were shifted",
+   "after": "main[data-layout=c79] td.ltr-pair{display:table-cell}",
+   "reason": "Broken table.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c79",
+   "finalPage": 89,
+   "type": "dedupe-vary",
+   "qid": "c79.8",
+   "before": "'סיום: O(7,4). …הרדיוס הגדול ביותר…' with pills 3/4/7 (answer 4, the same as c76.2 O(9,4)→4)",
+   "after": "'סיום: O(10,6). …' with pills 5/6/10 (answer 6)",
+   "reason": "Near-duplicate of 89:c76.2 (same template and answer). Re-solved: min(10,6)=6; 5 also stays but is not the largest; 10 exceeds.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c80",
+   "finalPage": 90,
+   "type": "fix-figure",
+   "before": "four SVGs lacked class coord-svg: circles rendered as solid black discs, axes were invisible, and the O(…) labels (font-size 10, RTL-anchored) were hidden or cut",
+   "after": "class=\"coord-svg\" added; labels use class=label with direction=ltr, placed outside the circles (below or beside them)",
+   "reason": "Figures were unreadable. The coordinates were verified at 10 px per unit (O(−3,4) r=2, O(5,−2) r=3, O(−4,−3) r=2, O(0,5) r=2).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c80",
+   "finalPage": 90,
+   "type": "fix-table",
+   "qid": "c80.2",
+   "before": "table headers O | ימין | שמאל | עליון | תחתון with the radii only in the Q1 captions; td.ltr-pair cells displaced",
+   "after": "'r' column added (2 and 3); td.ltr-pair{display:table-cell}",
+   "reason": "Missing data and a broken table. Answers: (−5,4), (−3,6), (−3,2); (8,−2), (2,−2), (5,1), (5,−5).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c80",
+   "finalPage": 90,
+   "type": "overflow",
+   "before": "choice-row grid (1fr auto 1fr) stretched the 4 pills of c80.3 into a mismatched 2-row layout; about 40mm empty",
+   "after": "scoped CSS: .choice-row flex-wrap; visual-card svg height 46mm; table rows padding 3.5mm",
+   "reason": "Readability and page balance.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c81",
+   "finalPage": 91,
+   "type": "fix-table",
+   "qid": "c81.1",
+   "before": "15 td.ltr-pair cells left their columns (blanks sat under the wrong headers)",
+   "after": "main[data-layout=c81] td.ltr-pair{display:table-cell}",
+   "reason": "Broken table. The math was verified (e.g. O(−5,−4), r=3 gives (−2,−4), (−8,−4), (−5,−1), (−5,−7)).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c81",
+   "finalPage": 91,
+   "type": "overflow",
+   "before": "about 40mm empty after the table fix",
+   "after": "scoped CSS: table cells padding 5mm, task margin 7mm, the c81.2 answer box min-height 24mm, choice-row padding 3.5mm",
+   "reason": "Balanced the page.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c82",
+   "finalPage": 92,
+   "type": "internal-text",
+   "before": "anchor '…כמספרים נגדיים על הצירים. אפס נכתב 0 בלבד — לא „−0”.'",
+   "after": "'…כמספרים נגדיים על הצירים.'",
+   "reason": "A notation/style-guide rule (authoring text) shown to students (RULES §3).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c82",
+   "finalPage": 92,
+   "type": "fix-wording",
+   "qid": "c82.1",
+   "before": "question block with no instruction (the figure and blanks only)",
+   "after": "added '<p class=instruction>השלימו לפי השרטוט את ארבע נקודות הקצה, את הקוטר d, את ההיקף C ואת השטח A.</p>'",
+   "reason": "The question had no task sentence.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c82",
+   "finalPage": 92,
+   "type": "fix-figure",
+   "before": "SVG without coord-svg: a black disc with the axes and the O(0,0) label hidden",
+   "after": "class=\"coord-svg\"; label O(0,0) with class=label and direction=ltr",
+   "reason": "Unreadable figure.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c82",
+   "finalPage": 92,
+   "type": "fix-math",
+   "qid": "c82.3",
+   "before": "'נתונה נקודת קצה (−7,0). השלימו.'",
+   "after": "'נתונה נקודת קצה (−7,0) של מעגל שמרכזו O(0,0). השלימו.'",
+   "reason": "The centre was implied only by the page title (a hidden assumption, RULES §8).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c82",
+   "finalPage": 92,
+   "type": "fix-wording",
+   "qid": "c82.4",
+   "before": "'בחרו אילו זוגות יוצרים קוטר.' with pills <span class=ltr-pair>(5,0) ו־(−5,0)</span> (rendered as '(5,0) (5,0−)־ו')",
+   "after": "'בחרו אילו זוגות של נקודות יוצרים קוטר במעגל שבשרטוט.' with each point in its own ltr-pair and the Hebrew 'ו־' outside",
+   "reason": "Bidi display bug (the minus and ו־ appeared in the wrong place), and the circle is now named.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c82",
+   "finalPage": 92,
+   "type": "fix-table",
+   "before": "td.ltr-pair cells of the d=12 table displaced",
+   "after": "td.ltr-pair{display:table-cell}",
+   "reason": "Broken table.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c82",
+   "finalPage": 92,
+   "type": "overflow",
+   "before": "a4-utilization !important capped the svg at 44mm; about 30mm empty",
+   "after": "main.a4-page[data-layout=c82]: svg 54mm !important, table cells 5mm, c82.3 box padding 6mm, --a4-work-extra 34mm",
+   "reason": "Balanced the page.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c83",
+   "finalPage": 93,
+   "type": "fix-table",
+   "qid": "c83.1",
+   "before": "td.ltr-pair endpoint cells displaced (the 'נוגע בציר x?' cell shifted)",
+   "after": "main[data-layout=c83] td.ltr-pair{display:table-cell}",
+   "reason": "Broken table. Math verified: (3,4), (−3,4), (0,7), (0,1); not tangent.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c84",
+   "finalPage": 94,
+   "type": "overflow",
+   "before": "unscoped .a4-page selectors in the page <style>",
+   "after": "all selectors scoped to main[data-layout=\"c84\"]",
+   "reason": "CSS contract; the rules leaked into print.html. Rendering is unchanged.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c85",
+   "finalPage": 95,
+   "type": "fix-table",
+   "before": "first-column td.ltr-pair cells misaligned",
+   "after": "td.ltr-pair{display:table-cell}",
+   "reason": "Broken table. Values verified: P 25 on, Q 16 inside, R 41 outside, S 25 on.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c85",
+   "finalPage": 95,
+   "type": "fix-math",
+   "before": "header 'Δx²+Δy²'",
+   "after": "'<span class=math-ltr>|Δx|² + |Δy|²</span>'",
+   "reason": "The notation was ambiguous (Δ(x²) versus (Δx)²) and now matches the |Δx| and |Δy| columns; the LTR span keeps the bars in place.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c85",
+   "finalPage": 95,
+   "type": "fix-wording",
+   "qid": "c85.3",
+   "before": "'התאימו את ההשוואה לסיווג.' with each comparison already followed by '→' and its correct classification pill",
+   "after": "'התאימו לכל השוואה את הסיווג שלה. בחרו מתוך:' with a word bank (בתוך העיגול / מחוץ לעיגול / על המעגל, shuffled) and blanks after each '→'",
+   "reason": "The answers were pre-filled, so there was nothing to match.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c85",
+   "finalPage": 95,
+   "type": "overflow",
+   "before": "the 4 pills of c85.2 were stretched by the 3-column choice-row grid",
+   "after": "[data-q=c85.2] .choice-row flex-wrap (scoped)",
+   "reason": "Layout.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c86",
+   "finalPage": 97,
+   "type": "fix-figure",
+   "before": "SVG without coord-svg: a black disc hid the axes and the guide triangle",
+   "after": "class=\"coord-svg\" (geometry verified at 10 px per unit: O(3,4), r=5 meets the y-axis at (0,8) and (0,0))",
+   "reason": "Unreadable figure.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c86",
+   "finalPage": 97,
+   "type": "fix-table",
+   "before": "td.ltr-pair (sort table) and td.math-ltr (rule table) cells displaced",
+   "after": "td.ltr-pair, td.math-ltr{display:table-cell}",
+   "reason": "Broken tables.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c86",
+   "finalPage": 97,
+   "type": "fix-wording",
+   "qid": "c86.3",
+   "before": "'מרחק אנכי לציר x: ____ / 3²+t²=5² → t=____'",
+   "after": "'… / ____²+t²=5² → t=____'",
+   "reason": "The template printed the answer to the first blank (3). Answer: t=4, so (−8,0) and (0,0).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c86",
+   "finalPage": 97,
+   "type": "overflow",
+   "before": "about 30mm empty",
+   "after": "scoped CSS: svg 50mm, table rows 3.6mm, c86.3 box padding 5mm",
+   "reason": "Balanced the page.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c87",
+   "finalPage": 98,
+   "type": "fix-figure",
+   "before": "SVG without coord-svg: the circle was a black disc and the axes were invisible",
+   "after": "class=\"coord-svg\" (scale verified at 12.5 px per unit: rectangle ±6 × ±4, circle r=4)",
+   "reason": "Unreadable figure.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c87",
+   "finalPage": 98,
+   "type": "fix-wording",
+   "qid": "c87.1",
+   "before": "question block with no instruction",
+   "after": "added '<p class=instruction>השלימו לפי השרטוט.</p>'",
+   "reason": "The question had no task sentence.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c87",
+   "finalPage": 98,
+   "type": "fix-math",
+   "before": "anchor with no rule for the '≈ ____' blanks",
+   "after": "anchor + 'בחישובים מקורבים השתמשו ב־π ≈ 3.14.'",
+   "reason": "The expected approximations were undefined (16π≈50.24, 96−16π≈45.76, 96−9π≈67.74).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c88",
+   "finalPage": 99,
+   "type": "fix-figure",
+   "before": "at 10 px per unit (axes at x=150, y=120) the circle was drawn at cx=105 (x=−4.5), A at x=55 (−9.5) and B at x=155 (+0.5), shifted 1.5 units; the circle met the y-axis near (0,6.2) and (0,1.8); black disc; labels hidden or cut",
+   "after": "circle cx=120 (O(−3,4)), A at x=70, B at x=170, r=50; the circle now passes through (0,8) and (0,0); class=coord-svg; labels A(−8,4) and B(2,4) beside their points and O below the centre (direction=ltr)",
+   "reason": "The figure did not match the stated scale or the answer to c88.4.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c88",
+   "finalPage": 99,
+   "type": "internal-text",
+   "before": "anchor '…השתמשו באמצע קטע, פיתגורס, היקף ושטח — ללא משוואת מעגל.'",
+   "after": "'…השתמשו באמצע קטע, פיתגורס, היקף ושטח. בחישובים מקורבים השתמשו ב־π ≈ 3.14.'",
+   "reason": "'ללא משוואת מעגל' is an authoring constraint, not student text; the π rule defines the ≈ blanks of c88.3 (31.4 and 78.5).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c88",
+   "finalPage": 99,
+   "type": "fix-wording",
+   "qid": "c88.4",
+   "before": "'3²+t²=5² → t=____' under the blank 'מרחק אופקי מן המרכז לציר y: ____'",
+   "after": "'____²+t²=5² → t=____'",
+   "reason": "The template gave away the first blank. Answer: 3, t=4, so (0,8) and (0,0).",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c88",
+   "finalPage": 99,
+   "type": "fix-wording",
+   "qid": "c88.5",
+   "before": "pills 'השקה / שתי נקודות / אין חיתוך' with no axis named",
+   "after": "'הקשר לציר y:' placed before the pills",
+   "reason": "Ambiguous: with r=3 the circle is tangent to the y-axis but does not meet the x-axis.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c88",
+   "finalPage": 99,
+   "type": "overflow",
+   "before": "unscoped .a4-page style; figure 42mm; about 30mm empty",
+   "after": "scoped to main[data-layout=\"c88\"]; figure 52mm, visual card 58mm, table-compact cells 1.8mm",
+   "reason": "CSS contract and page balance.",
+   "by": "fix:maagal-D"
+  },
+  {
+   "layout": "c2",
+   "finalPage": 2,
+   "type": "fix-figure",
+   "qid": "c2.1",
+   "before": "center point drawn larger and darker (r=2.5 #111827) than the other points (r=2.2 #64748b)",
+   "after": "all points r=2.4 #111827",
+   "reason": "The dot style gave away the answer",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c2",
+   "finalPage": 2,
+   "type": "fix-figure",
+   "qid": "c2.1",
+   "before": "labels anchored RTL so they sat on the circle stroke or on the wrong side of their point; in card 2, A at (72,37) was cramped near the stroke",
+   "after": "every label centred just above its own point, inside the circle; card-2 point A moved to (70,40)",
+   "reason": "Overlapping or ambiguous labels. The answers are unchanged (A, B, C, C)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c2",
+   "finalPage": 2,
+   "type": "overflow",
+   "qid": "c2.1",
+   "before": "cards pushed about 6mm past the left edge of the task body (three nowrap pills in a 1fr auto 1fr grid)",
+   "after": "scoped CSS: grid repeat(4,minmax(0,1fr)); pill row repeat(3,auto) centred",
+   "reason": "Layout overflow inside the page",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c2",
+   "finalPage": 2,
+   "type": "fix-wording",
+   "qid": "c2.3",
+   "before": "באיור הנקודה P אינה במרכז. בחרו תשובה וסיבה מתאימות.",
+   "after": "באיור מסומנת נקודה P בתוך העיגול. האם P יכולה להיות מרכז המעגל? בחרו תשובה וסיבה מתאימות.",
+   "reason": "The question stem gave away the answer",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c2",
+   "finalPage": 2,
+   "type": "fix-figure",
+   "qid": "c2.3",
+   "before": "dashed segments from P ended at (35,24) and (116,72), outside the circle (r=42); the P label sat on a dashed line",
+   "after": "endpoints (40.4,29.7) and (113.5,70.8), exactly on the circle; P label moved to (38,56)",
+   "reason": "The distances from P to the circle must end on the circle",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c3",
+   "finalPage": 3,
+   "type": "fix-figure",
+   "qid": "c3.1",
+   "before": "SVG forced to 27mm high by the shared rule: letters about 1.6mm, figure unreadable",
+   "after": "scoped CSS: svg height 84mm",
+   "reason": "The figure was illegible in print",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c3",
+   "finalPage": 3,
+   "type": "fix-figure",
+   "qid": "c3.1",
+   "before": "radii A–F blue, distractors G and H grey",
+   "after": "all segments blue, same width",
+   "reason": "The colour gave away the answer",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c3",
+   "finalPage": 3,
+   "type": "fix-figure",
+   "qid": "c3.1",
+   "before": "labels O, A–H overlapping lines (O under segment B, E and G on their segments)",
+   "after": "all labels placed beside their segments with text-anchor=middle; O below the centre",
+   "reason": "Overlapping labels",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c3",
+   "finalPage": 3,
+   "type": "other",
+   "qid": "c3.1",
+   "before": "8 letter pills squeezed into a 1fr auto 1fr grid (3 columns, uneven)",
+   "after": "flex-wrap row of 8 equal pills",
+   "reason": "Broken option layout",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c3",
+   "finalPage": 3,
+   "type": "other",
+   "qid": "c3.2",
+   "before": "word bank rendered as 'מרכזמעגלשוויםרדיוס' (unstyled .word spans)",
+   "after": "scoped CSS: inline-flex with a 5mm gap; sentence-list as a spaced grid",
+   "reason": "The words ran together",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c4",
+   "finalPage": 4,
+   "type": "fix-figure",
+   "qid": "c4.1",
+   "before": "diameters A–C blue, chords D–F grey and thinner",
+   "after": "all six segments blue, width 3",
+   "reason": "The colour gave away the answer",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c4",
+   "finalPage": 4,
+   "type": "fix-figure",
+   "qid": "c4.1",
+   "before": "labels RTL-anchored: A on the stroke, E placed at C's upper end, F on the stroke",
+   "after": "scoped text-anchor:end restores the intended positions; E moved to E's lower end (116,215); F moved to (87,189)",
+   "reason": "Ambiguous or overlapping labels",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c4",
+   "finalPage": 4,
+   "type": "fix-wording",
+   "qid": "c4.2",
+   "before": "השלימו קוטר נוסף שעובר דרך O.",
+   "after": "השלימו את הרדיוס OP לקוטר של המעגל.",
+   "reason": "The figure shows only the radius OP, not a diameter (known item)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c4",
+   "finalPage": 4,
+   "type": "fix-figure",
+   "qid": "c4.2",
+   "before": "O label drawn on the segment OP",
+   "after": "O label centred below the centre (180,91)",
+   "reason": "Overlapping label",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c5",
+   "finalPage": 5,
+   "type": "fix-figure",
+   "qid": "c5.1",
+   "before": "'6 ס״מ' label RTL-anchored, sitting over the centre and the blue half",
+   "after": "text-anchor=middle at the midpoint of the orange radius (211,72)",
+   "reason": "The label must name the orange radius",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c6",
+   "finalPage": 10,
+   "type": "fix-wording",
+   "qid": "c6.2",
+   "before": "… → בתוך העיגול (arrow U+2192, six pills)",
+   "after": "… ← בתוך העיגול (U+2190)",
+   "reason": "In RTL the → arrow pointed back from the result to the condition (bidi display bug)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c7",
+   "finalPage": 11,
+   "type": "fix-figure",
+   "qid": "c7.2",
+   "before": "drawing box height 48mm",
+   "after": "64mm",
+   "reason": "A circle with d = 6 cm needs 60mm at 100% print",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c7",
+   "finalPage": 11,
+   "type": "fix-figure",
+   "qid": "c7.3",
+   "before": "card height 72mm",
+   "after": "85mm (AB stays centred, with 42mm above and below it)",
+   "reason": "A circle on AB = 8 cm needs 80mm",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c7",
+   "finalPage": 11,
+   "type": "fix-wording",
+   "qid": "c7.3",
+   "before": "<span class=math-ltr>פתיחת המחוגה = r = ____ ס״מ</span> in a separate box under the card",
+   "after": "פתיחת המחוגה = <span class=math-ltr>r</span> = ____ ס״מ in RTL, in a small box in the card's top corner (clear of the 80mm circle)",
+   "reason": "Bidi: the Hebrew sentence read in reverse; moving the box also saved height so the page fits",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c7",
+   "finalPage": 11,
+   "type": "overflow",
+   "qid": "c7.1",
+   "before": "drawing box 58mm",
+   "after": "78mm (bottom aligned with c7.2; row height unchanged)",
+   "reason": "Visual balance",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c8",
+   "finalPage": 7,
+   "type": "fix-wording",
+   "qid": "c8.1",
+   "before": "בכל שרטוט כתבו את הרדיוס.",
+   "after": "בכל שרטוט כתבו את הרדיוס. השרטוטים אינם בקנה מידה.",
+   "reason": "Three equal circles are labelled 3, 5 and 7 cm; the drawing was misleading without a note (RULES §8)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c8",
+   "finalPage": 7,
+   "type": "fix-figure",
+   "qid": "c8.1",
+   "before": "'נתון נוסף: 8/12/4' anchored at x=18 and cut to 'נתון'; radius labels and O overlapping",
+   "after": "distractors centred below each circle (75,122); radius labels beside their radii; O labels moved clear of the lines",
+   "reason": "Clipped and overlapping SVG text",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c8",
+   "finalPage": 7,
+   "type": "fix-figure",
+   "qid": "c8.3",
+   "before": "caption 'נתונים נוספים שאינם על רדיוס' (clipped); '6 ס״מ' on the radius; O on the radius",
+   "after": "caption removed; '6 ס״מ' above the radius (168,64); O below-left of the centre",
+   "reason": "The caption gave away the answer and was cut off; overlapping labels",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c8",
+   "finalPage": 7,
+   "type": "overflow",
+   "qid": "c8.3",
+   "before": "nowrap choice pills sticking out of the thinking box",
+   "after": "scoped CSS: pills wrap, centred",
+   "reason": "Horizontal overflow of the options",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c9",
+   "finalPage": 8,
+   "type": "dedupe-vary",
+   "qid": "c9.2",
+   "before": "table d = 8, 12, 18 ס״מ (the same diameters as c9.1)",
+   "after": "d = 16, 28, 44 ס״מ (r = 8, 14, 22)",
+   "reason": "Dedupe 9:1 = 9:0 (known item)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c9",
+   "finalPage": 8,
+   "type": "fix-figure",
+   "qid": "c9.1",
+   "before": "svg 27mm high; 'd = …' labels on O or crossing the circle stroke",
+   "after": "svg 42mm; card 1 label above the horizontal diameter with O below; cards 2 and 3 labels centred under the circle; scoped text-anchor fix",
+   "reason": "Illegible and overlapping labels",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c9",
+   "finalPage": 8,
+   "type": "fix-wording",
+   "qid": "c9.1",
+   "before": "קראו את הקוטר בכל שרטוט והשלימו את הרדיוס.",
+   "after": "… השרטוטים אינם בקנה מידה.",
+   "reason": "Equal circles labelled d = 8/12/18",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c11",
+   "finalPage": 18,
+   "type": "fix-figure",
+   "qid": "c11.2",
+   "before": "shared .visual-card svg{width:100%;height:27mm} overrode width/height=46/66/86mm: circles drawn about 11.7, 12.3 and 12.6mm radius",
+   "after": "inline style width/height 46mm, 66mm, 86mm on each svg: radii now exactly 20, 30 and 40mm (measured 40.2/60.1/80.1mm diameters in the render); O label anchor fixed",
+   "reason": "The circles did not match the 50mm calibration line (known item)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c12",
+   "finalPage": 19,
+   "type": "fix-figure",
+   "qid": "c12.2",
+   "before": "circles shrunk by the shared CSS to about 23.5, 24.5 and 25.1mm diameter",
+   "after": "inline width/height 48, 68, 88mm: diameters exactly 40, 60 and 80mm",
+   "reason": "Circles must be to scale for the measurement task",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c12",
+   "finalPage": 19,
+   "type": "sub-bullets",
+   "qid": "c12.2",
+   "before": "א: d=____ מ״מ · r=____ מ״מ / ב: … / ג:<br>…",
+   "after": "<div data-sub><span class=sub-bullet></span><span class=math-ltr>d =</span> ____ מ״מ · <span class=math-ltr>r =</span> ____ מ״מ</div> ×3 (third card widened to 140mm, nowrap)",
+   "reason": "Labelled sub-parts converted to bullets; labels not referenced",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c13",
+   "finalPage": 14,
+   "type": "dedupe-remove",
+   "qid": "c13.4",
+   "before": "תלמיד כתב: d = r + 2. בחרו את הכלל הנכון. (d = r + 2 / d = 2·r)",
+   "after": "(removed)",
+   "reason": "Dedupe decision: 13:3 duplicates 20:1, which is kept",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c13",
+   "finalPage": 14,
+   "type": "fix-wording",
+   "qid": "c13.2",
+   "before": "התאימו כל רדיוס לקוטר המתאים.",
+   "after": "בכל שורה הקיפו את הקוטר המתאים לרדיוס.",
+   "reason": "The format is choose-one-per-row, not matching",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c13",
+   "finalPage": 14,
+   "type": "overflow",
+   "qid": "c13.3",
+   "before": "about 42mm empty after removing c13.4",
+   "after": "scoped CSS: table cells 12.5mm, task margin 5mm, choice gap 4mm, lined 'מרחב עבודה / חישוב' area (22mm) after the last task",
+   "reason": "Rebalance space without inventing questions",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c14",
+   "finalPage": 15,
+   "type": "fix-wording",
+   "qid": "c14.2",
+   "before": "<span>→</span> between the d pill and the r options",
+   "after": "<span>←</span>",
+   "reason": "In RTL, → pointed from the options back to the given value (bidi display)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c15",
+   "finalPage": 16,
+   "type": "fix-wording",
+   "qid": "c15.2",
+   "before": "<td>r = 1½ ס״מ</td> (and 2¼, 5½), rendered '½r = 1'",
+   "after": "<td><span class=math-ltr>r = 1½</span> ס״מ</td>",
+   "reason": "Bidi display bug for mixed numbers",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c16",
+   "finalPage": 20,
+   "type": "dedupe-vary",
+   "qid": "c16.2",
+   "before": "d = 40 מ״מ ו־r = 2 ס״מ (already row 1 of c16.1)",
+   "after": "d = 70 מ״מ ו־r = 3.5 ס״מ (answer still מתאימים: 3.5·2 = 7 ס״מ = 70 מ״מ)",
+   "reason": "The answer was given away by the table above",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c16",
+   "finalPage": 20,
+   "type": "other",
+   "qid": "c16.2",
+   "before": "text | pill | pill in a 1fr auto 1fr grid (uneven pills)",
+   "after": "scoped grid 1fr auto auto; pills min-width 32mm",
+   "reason": "Layout",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c17",
+   "finalPage": 17,
+   "type": "fix-wording",
+   "qid": "c17.1",
+   "before": "<td>1¼ ס״מ</td>, rendered '¼1'",
+   "after": "<td><span class=math-ltr>1¼</span> ס״מ</td>",
+   "reason": "Bidi display bug",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c18",
+   "finalPage": 23,
+   "type": "fix-math",
+   "qid": "c18.2",
+   "before": "בחרו את ההשוואה הנכונה. — r = 7 ס״מ vs d = 13 ס״מ [14 > 13]; r = 35 מ״מ vs d = 6 ס״מ [70 מ״מ > 60 מ״מ] (one option per row)",
+   "after": "בכל שורה בחרו את ההשוואה הנכונה בין הקטרים של שני המעגלים. — r = 6 ס״מ vs d = 11 ס״מ: [6 ס״מ < 11 ס״מ] / [12 ס״מ > 11 ס״מ ✓]; r = 45 מ״מ vs d = 10 ס״מ: [45 > 10] / [90 מ״מ < 100 מ״מ ✓]",
+   "reason": "Rows had no choice; the data repeated rows 1 and 4 of c18.1 and 35:2. Each row now has one correct option and one naive distractor, with new values. Inequalities are in math-ltr with <bdi> units; glyphs checked, not mirrored",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c18",
+   "finalPage": 23,
+   "type": "fix-wording",
+   "qid": "c18.3",
+   "before": "סמנו מה נכון להשוות.",
+   "after": "סמנו את כל ההשוואות הנכונות.",
+   "reason": "Two correct options (radius with radius, diameter with diameter) must be stated explicitly (RULES §8)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c18",
+   "finalPage": 23,
+   "type": "other",
+   "qid": "c18.3",
+   "before": "three uneven pills",
+   "after": "scoped grid repeat(3,1fr)",
+   "reason": "Layout",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c19",
+   "finalPage": 21,
+   "type": "fix-math",
+   "qid": "c19.3",
+   "before": "בחרו את הפעולה המתאימה. נתון רדיוס → [כפל ב־2]; נתון קוטר → [חילוק ב־2]",
+   "after": "בכל שורה בחרו את הפעולה המתאימה. נתון רדיוס ומחפשים קוטר [כפל ב־2 | חילוק ב־2]; נתון קוטר ומחפשים רדיוס [כפל ב־2 | חילוק ב־2]",
+   "reason": "Each row had a single option (nothing to choose) and a backwards → in RTL",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c20",
+   "finalPage": 24,
+   "type": "fix-wording",
+   "qid": "c20.3",
+   "before": "<span class=math-ltr>r_A = ____</span> ס״מ … r_B … d_B (raw underscores; A/B while the text says מעגל א/ב)",
+   "after": "רדיוס מעגל א = ____ ס״מ · רדיוס מעגל ב = ____ ס״מ · קוטר מעגל ב = ____ ס״מ (nowrap items in a flex row)",
+   "reason": "TeX-style artefact and label mismatch; answers 9, 11, 22",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c20",
+   "finalPage": 24,
+   "type": "fix-wording",
+   "qid": "c20.4",
+   "before": "סמנו לפחות שני זוגות רדיוסים שסכום קוטריהם 20 ס״מ.",
+   "after": "לפניכם זוגות של רדיוסים (בס״מ). סמנו את כל הזוגות שסכום הקטרים שלהם 20 ס״מ.",
+   "reason": "Three pairs are correct (2+8, 3+7, 4+6); units were missing",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c20",
+   "finalPage": 24,
+   "type": "other",
+   "qid": "c20.2",
+   "before": "three uneven pills",
+   "after": "scoped grid repeat(3,1fr)",
+   "reason": "Layout",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "g8-06",
+   "finalPage": 6,
+   "type": "internal-text",
+   "qid": "",
+   "before": "משפחת G8-06: מחברים בין רדיוס לקוטר ומבחינים בין קוטר למיתר.",
+   "after": "מיתר הוא קטע ששני קצותיו נמצאים על המעגל. בדף זה מחברים בין רדיוס לקוטר ומבחינים בין קוטר למיתר.",
+   "reason": "Generator code removed (known item); the chord definition is needed because the term is not defined anywhere else in the workbook",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "g8-06",
+   "finalPage": 6,
+   "type": "fix-figure",
+   "qid": "g8-06.1",
+   "before": "'chord' (93,55)–(168,122) passed through the centre, with ends inside the circle; the blue radius covered half of the red diameter; 'd=?' shown as '?=d'; caption duplicated the title; no centre mark",
+   "after": "diameter (75,88)–(185,88); separate radius to (157.5,40.37); chord (78.32,106.81)–(172.13,123.35) with both ends on the circle, 27.5 units from the centre; labels O, r, 'd = ?' (direction:ltr) and מיתר; caption removed",
+   "reason": "The figure contradicted the concept being taught",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "g8-06",
+   "finalPage": 6,
+   "type": "sub-bullets",
+   "qid": "g8-06.1",
+   "before": "בציור רדיוס המעגל הוא r. מה אורך הקוטר? הסבירו גם מה ההבדל בין קוטר למיתר.",
+   "after": "instruction 'בציור רדיוס המעגל הוא r.' + data-sub 'מה אורך הקוטר? d = ___' + data-sub 'הסבירו מה ההבדל בין קוטר למיתר.' with 3 answer lines",
+   "reason": "Two sub-questions; added answer space",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "g8-06",
+   "finalPage": 6,
+   "type": "internal-text",
+   "qid": "g8-06.2",
+   "before": "משפחת המקור בוחרת אחד מהרדיוסים 4, 5, 6, 7 ס״מ. השלימו את כל מקרי המקור.",
+   "after": "השלימו וענו.",
+   "reason": "Generator text (known item)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "g8-06",
+   "finalPage": 6,
+   "type": "fix-table",
+   "qid": "g8-06.2",
+   "before": "4-row table r | d | כל קוטר הוא מיתר? | כל מיתר הוא קוטר? with the same yes/no repeated per r, followed by a thinking box printing the answers",
+   "after": "data-sub 'השלימו את הקוטר לכל רדיוס.' with a horizontal table r (ס״מ) 4/5/6/7 → d (ס״מ); data-sub 'האם כל קוטר הוא מיתר? כן / לא'; data-sub 'האם כל מיתר הוא קוטר? כן / לא'; answer box removed",
+   "reason": "The yes/no answers do not depend on r, and the visible box gave away the answers",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "g8-06",
+   "finalPage": 6,
+   "type": "other",
+   "qid": "",
+   "before": "unscoped .source-table/.source-figure CSS in the head",
+   "after": "selectors scoped to main[data-layout=\"g8-06\"]; the table now uses the workbook's work-table class",
+   "reason": "Markup contract and uniform design (RULES §9)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c21",
+   "finalPage": 25,
+   "type": "fix-figure",
+   "qid": "c21.1",
+   "before": "chord ב from (53,32) to (133,45): ends 46.4 and 45.5 from O (r = 48)",
+   "after": "(51.22,31.71)–(135.74,45.45), on the same line, both exactly 48 from O",
+   "reason": "Chord ends must lie on the circle",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c21",
+   "finalPage": 25,
+   "type": "other",
+   "qid": "c21.1",
+   "before": "svg 27mm; uneven א/ב pills; RTL-anchored O labels",
+   "after": "scoped CSS: svg 36mm, grid 1fr auto auto, equal pills, text-anchor fix",
+   "reason": "Legibility and layout",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c22",
+   "finalPage": 26,
+   "type": "page-ref",
+   "qid": "c22.1",
+   "before": "העבירו שלוש מדידות מדף 21 וחשבו את היחס.",
+   "after": "העתיקו שלוש מדידות של קוטר והיקף שמדדתם בעצמים עגולים, וחשבו את היחס.",
+   "reason": "Page reference removed (it pointed at the wrong page after reordering; known item)",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c22",
+   "finalPage": 26,
+   "type": "fix-wording",
+   "qid": "c22.4",
+   "before": "בחרו את הטווח שמתאים לרוב תוצאות המדידה התקינות.",
+   "after": "בחרו את הערך שסביבו מתקבצות רוב תוצאות המדידה התקינות.",
+   "reason": "The options are single values, not ranges",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c22",
+   "finalPage": 26,
+   "type": "other",
+   "qid": "c22.4",
+   "before": "uneven pills",
+   "after": "scoped grid repeat(3,1fr)",
+   "reason": "Layout",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c23",
+   "finalPage": 27,
+   "type": "fix-table",
+   "qid": "c23.1",
+   "before": "מיינו כל ערך: סביר / חשוד / לא מתאים למדידת מעגל. — 3 columns with no criterion separating חשוד from לא מתאים",
+   "after": "מיינו כל ערך: סביר, או רחוק מדי — כנראה שגיאת מדידה שצריך לבדוק. — columns סביר | רחוק מדי — לבדוק את המדידה (50/50)",
+   "reason": "2.40 and 4.10 fitted either of two categories (ambiguous answer). Now: 3.11–3.16 סביר; 2.40 and 4.10 רחוק מדי",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c23",
+   "finalPage": 27,
+   "type": "other",
+   "qid": "c23.2",
+   "before": "uneven pills in c23.2 and c23.3",
+   "after": "scoped grid repeat(3,1fr)",
+   "reason": "Layout",
+   "by": "fix:maagal-A"
+  },
+  {
+   "layout": "c48",
+   "finalPage": 54,
+   "type": "fix-wording",
+   "qid": "c48.3",
+   "before": "<span class=\"math-ltr\">d = ____</span> &nbsp; <span class=\"math-ltr\">r = ____</span>",
+   "after": "<span class=\"math-ltr\">d = ____</span> ס״מ &nbsp; <span class=\"math-ltr\">r = ____</span> ס״מ",
+   "reason": "length blanks had no unit (§8 units)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c48",
+   "finalPage": 54,
+   "type": "fix-wording",
+   "qid": "c48.4",
+   "before": "<span class=\"math-ltr\">r = ____</span> &nbsp; <span class=\"math-ltr\">d = ____</span>",
+   "after": "<span class=\"math-ltr\">r = ____</span> ס״מ &nbsp; <span class=\"math-ltr\">d = ____</span> ס״מ",
+   "reason": "length blanks had no unit",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c49",
+   "finalPage": 57,
+   "type": "dedupe-vary",
+   "qid": "c49.1",
+   "before": "rows 1–4 givens r=4 ס״מ (C), d=10 ס״מ (A), C=12π ס״מ (A), A=49π ס״מ² (C)",
+   "after": "r=9 ס״מ (C), d=16 ס״מ (A), C=30π ס״מ (A), A=144π ס״מ² (C)",
+   "reason": "rows 1–4 repeated page 51 Q1–Q4 data verbatim; planning answers (intermediate/formula/unit) unchanged and the pre-filled '—' marks stay correct (r→C none; d→A, C→A, A→C need r)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c49",
+   "finalPage": 57,
+   "type": "fix-wording",
+   "before": "נתון → מבוקש → נתון ביניים אם צריך → נוסחה → יחידה",
+   "after": "נתון ← מבוקש ← נתון ביניים אם צריך ← נוסחה ← יחידה",
+   "reason": "bidi: → in RTL Hebrew flow pointed against the reading direction; house style (pages 33, 36) uses ←",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c50",
+   "finalPage": 55,
+   "type": "fix-math",
+   "qid": "c50.1",
+   "before": "<td class=\"math-ltr\">r=x−$1</td><td class=\"math-ltr\">x−$1</td>",
+   "after": "<td><span class=\"math-ltr\">r=x−1</span></td><td><span class=\"math-ltr\">x−1</span></td>",
+   "reason": "literal regex back-reference from smartschool 20097ca; pre-20097ca value recovered from 20097ca^:circle/page-50.html ('r=x-1'); answers C=2π(x−1), A=π(x−1)²",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c50",
+   "finalPage": 55,
+   "type": "fix-table",
+   "qid": "c50.1",
+   "before": "16 × <td class=\"math-ltr\"> (display:inline-block pulled cells out of the grid); two side-by-side 5-row tables with narrow C/A columns",
+   "after": "<td><span class=\"math-ltr\">…</span></td>; tables stacked (grid 1fr), page CSS widths נתון 20% / r 16% / C 32% / A 32%, rows 11.5mm",
+   "reason": "broken table grid; room to write π·(x+2)² etc.",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c50",
+   "finalPage": 55,
+   "type": "dedupe-remove",
+   "qid": "c50.2",
+   "before": "התאימו לביטויים הבסיסיים: r=x → [C=2·π·x][A=π·x²]; r=x+2 → [C=2·π·(x+2)][A=π·(x+2)²]; d=2x → [r=x][A=π·x²]",
+   "after": "(removed)",
+   "reason": "same givens and wanted quantities as c50.1 rows r=x, r=x+2, d=2x on the same page, with the answers pre-printed next to each given (no real matching, gave away c50.1)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c50",
+   "finalPage": 55,
+   "type": "fix-wording",
+   "qid": "c50.4",
+   "before": "<span>C:</span>[ס״מ] <span>A:</span>[ס״מ²] (one pill per quantity = no choice)",
+   "after": "C: [ס״מ][ס״מ²] / A: [ס״מ][ס״מ²] in two choice rows (flex, page CSS)",
+   "reason": "'בחרו' offered exactly the correct unit for each quantity — zero-choice item",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c50",
+   "finalPage": 55,
+   "type": "other",
+   "before": "<style>.a4-page{padding-top:7mm;padding-bottom:21mm;font-size:15.5px;line-height:1.3}… (unscoped)",
+   "after": "<style data-page-css=\"c50\"> with every selector scoped to main[data-layout=\"c50\"]",
+   "reason": "contract: page CSS scoped to data-layout; compaction no longer needed",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c51",
+   "finalPage": 56,
+   "type": "fix-math",
+   "qid": "c51.1",
+   "before": "r=x−$1, x=7",
+   "after": "r=x−2, x=7",
+   "reason": "regex artefact; value from smartschool 20097ca^:circle/page-51.html; r=5, C=10π, A=25π",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c51",
+   "finalPage": 56,
+   "type": "fix-math",
+   "qid": "c51.1",
+   "before": "r=x−$1, x=5",
+   "after": "r=x−1, x=5",
+   "reason": "regex artefact; value from 20097ca^; r=4, C=8π, A=16π",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c51",
+   "finalPage": 56,
+   "type": "fix-table",
+   "qid": "c51.1",
+   "before": "10 × <td class=\"math-ltr\"> (cells displaced)",
+   "after": "<td><span class=\"math-ltr\">…</span></td> + page CSS column widths 30/18/26/26%",
+   "reason": "broken table grid, too-narrow answer columns",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c52",
+   "finalPage": 59,
+   "type": "dedupe-vary",
+   "qid": "c52.1",
+   "before": "גדר סביב ערוגה עגולה 18π מ׳ ; פס מתכת סביב מכסה 7π ס״מ",
+   "after": "6π מ׳ (d=6, r=3) ; 9π ס״מ (d=9, r=4.5)",
+   "reason": "18π and 7π in the same C→d,r role already on page 33 (and 18π on page 35)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c52",
+   "finalPage": 59,
+   "type": "fix-table",
+   "qid": "c52.1",
+   "before": "<td class=\"math-ltr\">18π מ׳</td> ×6",
+   "after": "<td><span class=\"math-ltr\">6π</span> מ׳</td> (unit outside the LTR island), rows 16mm",
+   "reason": "displaced cells; unit read before the value in RTL",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c52",
+   "finalPage": 59,
+   "type": "dedupe-vary",
+   "qid": "c52.2",
+   "before": "גלגל אופניים עבר 188.4 ס״מ … d≈188.4÷3.14",
+   "after": "157 ס״מ … d≈157÷3.14 (d=50, r=25)",
+   "reason": "exact inverse of BBB curriculum page 76 (bicycle wheel r=30 → 188.4)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c52",
+   "finalPage": 59,
+   "type": "dedupe-vary",
+   "qid": "c52.3",
+   "before": "לגינה עגולה היקף 20π מ׳ … C=20π → r → A ; pills קודם מוצאים רדיוס / קודם מוצאים מחיר",
+   "after": "היקף 28π מ׳ … השלימו את שרשרת הפתרון ובחרו מה מוצאים קודם. C=28π → r=14 → A=196π ; pills קודם מוצאים רדיוס / קודם מוצאים שטח",
+   "reason": "identical to page 57 row 1 (garden C=20π, lawn); pills had no instruction; 'price' distractor unrelated to the task",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c52",
+   "finalPage": 59,
+   "type": "fix-wording",
+   "qid": "c52.2",
+   "before": "… ס״מ &nbsp; → &nbsp; …",
+   "after": "… ס״מ &nbsp; ← &nbsp; …",
+   "reason": "arrow between LTR islands in RTL flow pointed backwards",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c53",
+   "finalPage": 60,
+   "type": "dedupe-vary",
+   "qid": "c53.1",
+   "before": "ערוגה 36π מ׳² ; שטיח 64π ס״מ² (r ס״מ) ; רחבת משחק 100π מ׳² ; משטח שולחן 25π ס״מ² ; בריכה 49π מ׳²",
+   "after": "ערוגה 9π מ׳² (r=3) ; שטיח 1.44π מ׳² (r=1.2 מ׳) ; רחבת משחק 144π מ׳² (r=12) ; משטח שולחן 2500π ס״מ² (r=50) ; בריכה 16π מ׳² (r=4); מדבקה 2.25π kept",
+   "reason": "36π, 49π, 100π, 64π, 25π already in the same A→r²→r table on pages 45/46; a carpet with r=8 cm and a table top with r=5 cm were unrealistic",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c53",
+   "finalPage": 60,
+   "type": "fix-table",
+   "qid": "c53.1",
+   "before": "<td class=\"math-ltr\">36π מ׳²</td> ×6",
+   "after": "<td><span class=\"math-ltr\">9π</span> מ׳²</td>",
+   "reason": "displaced cells / unit order",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c53",
+   "finalPage": 60,
+   "type": "dedupe-vary",
+   "qid": "c53.2",
+   "before": "שטח מכסה עגול הוא 78.5 ס״מ² … r²≈78.5÷3.14",
+   "after": "113.04 ס״מ² … r²≈113.04÷3.14 (=36, r=6)",
+   "reason": "78.5 → r=5 already on page 46 (and 40/49)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c53",
+   "finalPage": 60,
+   "type": "fix-wording",
+   "qid": "c53.2",
+   "before": "</span> → <span",
+   "after": "</span> ← <span",
+   "reason": "RTL arrow direction",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c53",
+   "finalPage": 60,
+   "type": "overflow",
+   "before": "--a4-work-extra 28mm (shared)",
+   "after": "main[data-layout=\"c53\"].a4-page{--a4-work-extra:53mm}",
+   "reason": "34mm empty band at the bottom",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c54",
+   "finalPage": 61,
+   "type": "fix-wording",
+   "qid": "c54.1",
+   "before": "שטיח עגול — רוצים סרט סביב השפה (A=49π ס״מ²)",
+   "after": "מפית עגולה — רוצים סרט סביב השפה",
+   "reason": "a carpet with r=7 cm is unrealistic; math unchanged (r=7, C=14π)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c54",
+   "finalPage": 61,
+   "type": "fix-wording",
+   "qid": "c54.1",
+   "before": "שולחן עגול — רוצים פס מסביב (A=81π ס״מ²)",
+   "after": "צלחת עגולה — רוצים פס מסביב",
+   "reason": "a table with d=18 cm is unrealistic; math unchanged (r=9, C=18π)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c54",
+   "finalPage": 61,
+   "type": "fix-wording",
+   "qid": "c54.3",
+   "before": "תלמיד מצא r=7 ס״מ לשטיח, אך השאלה ביקשה את אורך הסרט סביבו.",
+   "after": "תלמיד מצא r=7 ס״מ למפית, אך השאלה ביקשה את אורך הסרט סביבה.",
+   "reason": "keeps the reference to the renamed table row",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c54",
+   "finalPage": 61,
+   "type": "fix-table",
+   "qid": "c54.1",
+   "before": "11 × td.math-ltr; cell 'C=____π ס״מ; A=____π ס״מ²'",
+   "after": "spans with units outside; that cell split onto two lines; page CSS column widths and 22mm rows",
+   "reason": "broken grid, awkward wrap",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c55",
+   "finalPage": 58,
+   "type": "fix-wording",
+   "before": "נתון יכול להיות נכון ועדיין לא נחוץ. סמנו לכל נתון: …",
+   "after": "נתון יכול להיות נכון ועדיין לא נחוץ. כששני נתונים מובילים לאותה תוצאה, הנתון שנכנס ישירות לנוסחה הוא הנחוץ. סמנו לכל נתון: …",
+   "reason": "classification was ambiguous (r and d each sufficient) — rule makes the answer unique",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c55",
+   "finalPage": 58,
+   "type": "fix-math",
+   "qid": "c55.1",
+   "before": "מבוקש C: d = 8 מ׳ ; r = 4 מ׳",
+   "after": "מבוקש C: d = 8 מ׳ ; A=16π מ׳²",
+   "reason": "C=π·d and C=2·π·r are equally direct, so 'needed' vs 'redundant' had no unique answer; A=16π is consistent (r=4) but not direct",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c55",
+   "finalPage": 58,
+   "type": "fix-table",
+   "qid": "c55.1",
+   "before": "<tr><td>מבוקש A</td><td>r = 3 ס״מ; קוד פריט 41</td>…",
+   "after": "rowspan=2: 'r = 3 ס״מ' and 'קוד פריט 41' each with its own bubbles",
+   "reason": "two data shared one set of bubbles",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c55",
+   "finalPage": 58,
+   "type": "fix-table",
+   "qid": "c55.1",
+   "before": "td.math-ltr ×2",
+   "after": "span inside td, unit outside",
+   "reason": "displaced cells",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c56",
+   "finalPage": 62,
+   "type": "fix-table",
+   "qid": "c56.1",
+   "before": "17 × td.math-ltr (results stacked under the wrong column, page overflowed 58px, c56.3 cut off)",
+   "after": "<td><span class=\"math-ltr\">…</span> unit</td>",
+   "reason": "broken table caused the overflow",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c56",
+   "finalPage": 62,
+   "type": "dedupe-vary",
+   "qid": "c56.1",
+   "before": "שולחן עגול d=14 ס״מ → שטח",
+   "after": "שולחן עגול d=80 ס״מ (r=40, A=1600π)",
+   "reason": "same data/answer as c56.2 on the same page (d=14→r=7→A=49π) and a 14 cm table is unrealistic",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c56",
+   "finalPage": 62,
+   "type": "fix-wording",
+   "qid": "c56.1",
+   "before": "שטיח עגול A=64π ס״מ²",
+   "after": "מראה עגולה A=64π ס״מ²",
+   "reason": "a carpet with d=16 cm is unrealistic; math unchanged",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c56",
+   "finalPage": 62,
+   "type": "fix-wording",
+   "qid": "c56.2",
+   "before": "pills [d÷2][r=7][A=49π] (already in solution order)",
+   "after": "[A=49π][d÷2][r=7]",
+   "reason": "ordering task was trivial",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c56",
+   "finalPage": 62,
+   "type": "dedupe-vary",
+   "qid": "c56.3",
+   "before": "למסגרת עגולה היקף 16π ס״מ … C=16π → r → A",
+   "after": "היקף 22π ס״מ … C=22π → r=11 → A=121π",
+   "reason": "same computation as page 63 c60.1 (C=16π → r=8 → A=64π)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c56",
+   "finalPage": 62,
+   "type": "overflow",
+   "before": "overflow=58px",
+   "after": "OK; main[data-layout=\"c56\"].a4-page{--a4-work-extra:58mm}",
+   "reason": "table fixed; freed space given to the work box",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c57",
+   "finalPage": 63,
+   "type": "fix-wording",
+   "qid": "c57.2",
+   "before": "<span class=\"choice-pill\">A: d=10</span><span class=\"choice-pill\">B: r=6</span><span class=\"choice-pill math-ltr\">C: C=11π</span>",
+   "after": "מכסה א: d=10 / מכסה ב: r=6 / מכסה ג: C=11π",
+   "reason": "lid names A, B, C clashed with the symbols A (area) and C (circumference) — 'C: C=11π'",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c57",
+   "finalPage": 63,
+   "type": "fix-table",
+   "qid": "c57.1",
+   "before": "<td class=\"math-ltr\">C=18π</td>",
+   "after": "<td><span class=\"math-ltr\">C=18π</span></td>",
+   "reason": "displaced cell",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c58",
+   "finalPage": 64,
+   "type": "dedupe-vary",
+   "qid": "c58.1",
+   "before": "rows: r=3|r=4 ; A=49π|r=8 ; r=2.5|d=6",
+   "after": "r=4|r=3 (→1) ; A=50π|r=7 (50π>49π →1) ; r=3.5|d=6 (12.25π>9π →1)",
+   "reason": "row r=2.5 vs d=6 identical to page 47 c44.1; every non-equal answer was 'עיגול 2' (predictable). Answers now 1,2,1,שווים,2,1",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c58",
+   "finalPage": 64,
+   "type": "fix-table",
+   "qid": "c58.1",
+   "before": "td.math-ltr ×5 (incl. ratio table)",
+   "after": "span inside td; rows 15mm",
+   "reason": "displaced cells; fill 32mm hole",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c59",
+   "finalPage": 65,
+   "type": "internal-text",
+   "before": "המחירים בדף הם נתוני תרגול פדגוגיים בלבד. קודם מחשבים …",
+   "after": "קודם מחשבים את הגודל הגאומטרי המתאים ליחידת המחיר, ורק אחר כך את העלות.",
+   "reason": "authoring disclaimer visible to students (§3)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c59",
+   "finalPage": 65,
+   "type": "dedupe-vary",
+   "qid": "c59.1",
+   "before": "גדר סביב גינה ברדיוס 5 מ׳, במחיר 40 ₪ למטר.",
+   "after": "ברדיוס 6 מ׳ (C=12π, 480π ≈ 1507.96 ₪)",
+   "reason": "same garden r=5 fence as page 51 c48.6",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c59",
+   "finalPage": 65,
+   "type": "fix-wording",
+   "qid": "c59.3",
+   "before": "פס מתכת סביב מכסה בקוטר 6 מ׳",
+   "after": "פס מתכת סביב בריכה עגולה בקוטר 6 מ׳",
+   "reason": "a 6-metre lid is unrealistic; math unchanged (6π, 108π)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c59",
+   "finalPage": 65,
+   "type": "fix-wording",
+   "before": "עלות <span class=\"math-ltr\">= ____π</span> ₪ <span class=\"math-ltr\">≈ ____</span> ₪ ; 'מ׳ → עלות'",
+   "after": "עלות = <span class=\"math-ltr\">____π</span> ₪ ≈ <span class=\"math-ltr\">____</span> ₪ ; 'מ׳ ← עלות' (4 chains)",
+   "reason": "bidi: operators at the left edge of LTR islands and → against RTL reading order",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c59",
+   "finalPage": 65,
+   "type": "overflow",
+   "before": "no work box, 38mm empty",
+   "after": "page CSS work box (--a4-work-extra 23mm, same design as styles.css)",
+   "reason": "rebalance spacing",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c60",
+   "finalPage": 66,
+   "type": "dedupe-vary",
+   "qid": "c60.4",
+   "before": "לערוגה עגולה שטח 49π מ׳²",
+   "after": "שטח 6.25π מ׳² (r=2.5, C=5π)",
+   "reason": "same A=49π→r=7→C=14π computation as page 57 c54.1 row 2",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c60",
+   "finalPage": 66,
+   "type": "dedupe-vary",
+   "qid": "c60.5",
+   "before": "גלגל עובר 31.4 ס״מ בסיבוב אחד",
+   "after": "גלגל עובר 94.2 ס״מ (d=30, r=15)",
+   "reason": "31.4 → d=10 already on page 33 (and 23)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c60",
+   "finalPage": 66,
+   "type": "fix-wording",
+   "qid": "c60.2",
+   "before": "&nbsp; → &nbsp;",
+   "after": "&nbsp; ← &nbsp;",
+   "reason": "RTL arrow direction",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c60",
+   "finalPage": 66,
+   "type": "overflow",
+   "before": "--a4-work-extra 20mm",
+   "after": "main[data-layout=\"c60\"].a4-page{--a4-work-extra:58mm}",
+   "reason": "~55mm empty band",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c61",
+   "finalPage": 73,
+   "type": "dedupe-vary",
+   "qid": "c61.1",
+   "before": "square side 12 ס״מ (label '12 ס״מ', aria 'שצלעו 12 סנטימטר')",
+   "after": "side 8 ס״מ: d=8, r=4, C=8π≈25.13, A=16π≈50.27, square 64, outside 64−16π≈13.73",
+   "reason": "dedupe decision: same configuration and numbers as BBB p79 (r=6 in a square) — keep BBB, change 64:0",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c61",
+   "finalPage": 73,
+   "type": "fix-figure",
+   "qid": "c61.1",
+   "before": "<text x=\"91\" y=\"178\" font-size=\"12\">12 ס״מ</text> (RTL-anchored, tiny), svg forced to 27mm",
+   "after": "dimension line with end ticks, <text x=\"110\" y=\"191\" text-anchor=\"middle\" font-size=\"14\">8 ס״מ</text>; page CSS .visual-card svg{height:auto;max-height:58mm}",
+   "reason": "label tiny/misplaced; figure legibility",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c61",
+   "finalPage": 73,
+   "type": "keep-label",
+   "qid": "c61.1",
+   "before": "<b>מקרה 1</b>",
+   "after": "(removed)",
+   "reason": "lone case number with no case 2 and no reference — visible numbering",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c62",
+   "finalPage": 100,
+   "type": "other",
+   "qid": "c62.2",
+   "before": "order c62.1 (Pythagoras, side 6) then c62.2 'במקרה קל יותר האלכסון נתון 10 ס״מ'",
+   "after": "c62.2 first: 'אלכסון הריבוע הוא 10 ס״מ. השלימו.' then c62.1",
+   "reason": "§6: the intermediate skill (diagonal = diameter) must precede the harder Pythagoras task; wording no longer depends on position",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c62",
+   "finalPage": 100,
+   "type": "fix-math",
+   "qid": "c62.1",
+   "before": "C = ____√2π",
+   "after": "C = ____√2·π",
+   "reason": "ambiguous notation (could read √(2π)); answer 6√2·π",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c62",
+   "finalPage": 100,
+   "type": "fix-figure",
+   "qid": "c62.1",
+   "before": "<text x=\"116\" y=\"90\">O</text><text x=\"92\" y=\"34\">6 ס״מ</text>",
+   "after": "O at (126,100) and '6 ס״מ' at (110,37) with text-anchor=middle; svg enlarged",
+   "reason": "labels overlapped the diagonals / circle",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c63",
+   "finalPage": 69,
+   "type": "fix-math",
+   "qid": "c63.1",
+   "before": "<span class=\"math-ltr\">C_{שלם}=____π</span> ס״מ",
+   "after": "היקף המעגל השלם: <span class=\"math-ltr\">____π</span> ס״מ",
+   "reason": "raw TeX subscript shown to students (no MathJax on this page)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c63",
+   "finalPage": 69,
+   "type": "fix-figure",
+   "qid": "c63.1",
+   "before": "<text x=\"142\" y=\"108\">r=4</text>, svg 27mm",
+   "after": "text-anchor=middle at x=148; svg height:auto;max-height:58mm",
+   "reason": "tiny figure",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c63",
+   "finalPage": 69,
+   "type": "fix-table",
+   "qid": "c63.2",
+   "before": "td.math-ltr ×3 (cells wrapped/misaligned)",
+   "after": "spans with units outside",
+   "reason": "broken table",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c63",
+   "finalPage": 69,
+   "type": "overflow",
+   "before": "work box 28mm, 54mm empty",
+   "after": "--a4-work-extra:64mm",
+   "reason": "rebalance",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c64",
+   "finalPage": 70,
+   "type": "dedupe-vary",
+   "qid": "c64.1",
+   "before": "quarter circle r=6 (labels 'r=6', aria 'ברדיוס 6')",
+   "after": "r=10: C=20π, arc 5π, perimeter 5π+20, area 25π≈78.54",
+   "reason": "same as targilim g8-05 on page 42 (r=6, 90°: arc 3π, area 9π)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c64",
+   "finalPage": 70,
+   "type": "fix-math",
+   "qid": "c64.1",
+   "before": "<span class=\"math-ltr\">C_{שלם}=____π</span> ס״מ",
+   "after": "היקף המעגל השלם: <span class=\"math-ltr\">____π</span> ס״מ",
+   "reason": "raw TeX",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c64",
+   "finalPage": 70,
+   "type": "fix-figure",
+   "qid": "c64.1",
+   "before": "<text x=\"43\" y=\"83\">r=6</text> (overlapping the radius)",
+   "after": "centered labels 'r=10' inside the sector and under the horizontal radius",
+   "reason": "label overlap",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c64",
+   "finalPage": 70,
+   "type": "fix-table",
+   "qid": "c64.2",
+   "before": "<p>עבור r=4 ס״מ השלימו.</p> … <th>אורך הקשת</th> … <td class=\"math-ltr\">____π</td><td class=\"math-ltr\">____π + ____</td><td class=\"math-ltr\">____π</td>",
+   "after": "<p>רבע עיגול נוסף, ברדיוס r=4 ס״מ. השלימו את הטבלה.</p> … <th>אורך קשת הרבע</th> … ____π ס״מ | ____π + ____ ס״מ | ____π ס״מ²",
+   "reason": "blanks had no units, cells misaligned; wording distinguished from c63.2 (acceptance near-duplicate gate hit 0.94 after adding units)",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c64",
+   "finalPage": 70,
+   "type": "sub-bullets",
+   "qid": "c64.3",
+   "before": "4 pills in a 3-column grid (wrapped unevenly)",
+   "after": "flex-wrap row (page CSS)",
+   "reason": "layout",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c64",
+   "finalPage": 70,
+   "type": "overflow",
+   "before": "no work box, 44mm empty",
+   "after": "page CSS work box 27mm",
+   "reason": "rebalance",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c65",
+   "finalPage": 75,
+   "type": "fix-figure",
+   "qid": "c65.1",
+   "before": "rect 180×110 for 14×10 (12.9 vs 11 px/unit), label '10' without unit",
+   "after": "rect 154×110 (11 px/unit), circle r=44 (=4), labels 'r=4', '14 ס״מ', '10 ס״מ' centered",
+   "reason": "figure not to scale; missing unit",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c65",
+   "finalPage": 75,
+   "type": "fix-wording",
+   "qid": "c65.2",
+   "before": "ריבוע 12·12 ס״מ",
+   "after": "ריבוע שצלעו 12 ס״מ",
+   "reason": "dimensions written with a multiplication dot",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c65",
+   "finalPage": 75,
+   "type": "fix-wording",
+   "qid": "c65.3",
+   "before": "מלבן 20·12 ס״מ",
+   "after": "מלבן שממדיו 20 ס״מ ו־12 ס״מ",
+   "reason": "same",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c66",
+   "finalPage": 77,
+   "type": "dedupe-vary",
+   "qid": "c66.2",
+   "before": "<td class=\"math-ltr\">R=7, r=5</td>",
+   "after": "<td><span class=\"math-ltr\">R=8, r=4</span> ס״מ</td> (64π, 16π, 48π)",
+   "reason": "dedupe decision: same as BBB p82 promenade (π·7²−π·5²) — keep the integrative item, change this case",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c66",
+   "finalPage": 77,
+   "type": "fix-figure",
+   "qid": "c66.1",
+   "before": "<text x=\"142\" y=\"77\">R=5</text><text x=\"113\" y=\"101\">r=3</text> (overlapping)",
+   "after": "R=5 outside the ring at the end of the radius, r=3 inside the inner circle, centered",
+   "reason": "labels overlapped each other and the circles",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c67",
+   "finalPage": 78,
+   "type": "fix-figure",
+   "qid": "c67.1",
+   "before": "rect 140×90 with r=45 arcs; labels '10 מ׳' at x=125 and '6 מ׳' at x=28 (RTL-anchored → clipped over the arc), svg 27mm",
+   "after": "rect 150×90 (=10×6 to scale), labels centered '10 מ׳' above and '6 מ׳' beside the dashed width; svg height:auto;max-height:58mm; grid 1fr 1.25fr",
+   "reason": "tiny, clipped label; not to scale",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c67",
+   "finalPage": 78,
+   "type": "fix-wording",
+   "qid": "c67.1",
+   "before": "היקף: <span class=\"math-ltr\">2·10 + ____π = ____ + ____π ≈ ____</span> מ׳ (wrapped mid-expression)",
+   "after": "היקף: 2·10 + ____π<br>= ____ + ____π ≈ ____ מ׳ (same for שטח)",
+   "reason": "long LTR island wrapped and orphaned the unit",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c67",
+   "finalPage": 78,
+   "type": "fix-wording",
+   "qid": "c67.2",
+   "before": "<span class=\"math-ltr\">r=____</span> &nbsp;|&nbsp; היקף <span class=\"math-ltr\">= ____ + ____π ≈ ____</span> מ׳ …",
+   "after": "r=____ מ׳<br>היקף = ____ + ____π ≈ ____ מ׳<br>שטח = ____ + ____π ≈ ____ מ׳²",
+   "reason": "missing unit on r; '=' sat at the far edge of the LTR island",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c67",
+   "finalPage": 78,
+   "type": "overflow",
+   "qid": "c67.3",
+   "before": "three nowrap pills in a 3-column grid spilled outside the card",
+   "after": "flex-wrap row (page CSS)",
+   "reason": "pill overflowed its box",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c68",
+   "finalPage": 80,
+   "type": "fix-figure",
+   "qid": "c68.1",
+   "before": "circle cx=55 cy=135 r=100 cut off by the viewBox, tiny unlabeled-unit figure",
+   "after": "full circle (cx=110, cy=115, r=100), O, P, legs 80/60 px, labels 8, 6, r; caption 'המידות בס״מ'",
+   "reason": "figure clipped; no units while answers use ס״מ",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c68",
+   "finalPage": 80,
+   "type": "fix-wording",
+   "qid": "c68.2",
+   "before": "</span> → <span (3×)",
+   "after": "</span> ← <span",
+   "reason": "RTL arrow direction",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c69",
+   "finalPage": 67,
+   "type": "internal-text",
+   "before": "כל הנתונים בדף הם נתוני תרגול פדגוגיים סינתטיים, ולא מחירי שוק. הקריטריון המרכזי: …",
+   "after": "משווים בין שתי פיצות עגולות, א ו־ב. הקריטריון המרכזי: כמה שטח מתקבל לכל שקל.",
+   "reason": "authoring disclaimer; the pizza context was only introduced in Q2",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c69",
+   "finalPage": 67,
+   "type": "dedupe-vary",
+   "qid": "c69.1",
+   "before": "א: 30 ס״מ, 36 ₪ ; ב: 40 ס״מ, 56 ₪",
+   "after": "א: 24 ס״מ, 28 ₪ (r=12, 144π≈452.39, ≈16.16 cm²/₪) ; ב: 36 ס״מ, 54 ₪ (r=18, 324π≈1017.88, ≈18.85 cm²/₪)",
+   "reason": "pizzas d=30/d=40 already compared on page 50; answers keep the design: larger ב, better value ב, cheaper א",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c69",
+   "finalPage": 67,
+   "type": "dedupe-remove",
+   "qid": "c69.6",
+   "before": "בדקו את קירובי השטח. א: 225π ≈ ____ | ב: 400π ≈ ____",
+   "after": "(removed)",
+   "reason": "repeated Q1's 'A מקורב' column and printed Q1's exact areas",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c69",
+   "finalPage": 67,
+   "type": "overflow",
+   "before": "55mm hole after removal",
+   "after": "table rows 16mm + page CSS work box 34mm",
+   "reason": "rebalance",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c70",
+   "finalPage": 101,
+   "type": "fix-wording",
+   "before": "<h1 class=\"page-title\">משימת סיום כיתה ט׳</h1>",
+   "after": "<h1 class=\"page-title\">משימה מסכמת: שתי רחבות</h1>",
+   "reason": "workbook is grade 8 (RULES §5, BBB pages say כיתה ח׳); 'final' task sits mid-workbook — it summarises the applications stage",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c70",
+   "finalPage": 101,
+   "type": "dedupe-vary",
+   "qid": "c70.1",
+   "before": "ניצביו 6 מ׳ ו־8 מ׳ ; r² = 6² + 8² ; labels '8 מ׳','6 מ׳'",
+   "after": "9 מ׳ ו־12 מ׳ ; r² = 9² + 12² (r=15, C=30π≈94.25, A=225π≈706.86); labels 12, 9, caption 'המידות במטרים'",
+   "reason": "identical 6-8-10 → 20π, 100π to page 71 c68.1; same 3:4:5 drawing stays to scale",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c70",
+   "finalPage": 101,
+   "type": "fix-figure",
+   "qid": "c70.1",
+   "before": "circle cut off by the viewBox, tiny figure",
+   "after": "full circle, enlarged",
+   "reason": "legibility",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c70",
+   "finalPage": 101,
+   "type": "fix-wording",
+   "qid": "c70.2",
+   "before": "מ׳ → … (3×)",
+   "after": "מ׳ ← …",
+   "reason": "RTL arrow direction",
+   "by": "fix:maagal-C"
+  },
+  {
+   "layout": "c24",
+   "finalPage": 28,
+   "type": "other",
+   "qid": "c24.2",
+   "before": "<span class=\"math-ltr\">π = 3.14</span><span>→</span> (arrow pointed back at the wrong statement in RTL)",
+   "after": "<span class=\"math-ltr\">π = 3.14</span><span>←</span>",
+   "reason": "In RTL the arrow must point from the wrong writing to the corrections. I checked the options: π < 3.14 is false, so only π ≈ 3.14 is correct.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c24",
+   "finalPage": 28,
+   "type": "overflow",
+   "qid": "c24.2",
+   "before": "The shared 3-column grid wrapped the second pill under the wrong statement.",
+   "after": "page <style>: main[data-layout=\"c24\"] [data-q=\"c24.2\"] .choice-row{display:flex;flex-wrap:wrap;align-items:center;gap:4mm}",
+   "reason": "The two options now sit in one row after the arrow.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c25",
+   "finalPage": 29,
+   "type": "fix-wording",
+   "qid": "",
+   "before": "<span class=\"math-ltr\">C = 6π ס״מ ≈ 18.85 ס״מ</span> (rendered 'C = 6π ס״מ 18.85 ≈ ס״מ')",
+   "after": "<span class=\"math-ltr\">C = 6π</span> ס״מ <span class=\"math-ltr\">≈ 18.85</span> ס״מ",
+   "reason": "Bidi display bug in the anchor.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c25",
+   "finalPage": 29,
+   "type": "fix-table",
+   "qid": "c25.1",
+   "before": "<td class=\"math-ltr\">4π ס״מ</td> … (8 cells; inline-block td broke the table and reversed the unit order)",
+   "after": "<td><span class=\"math-ltr\">4π</span> ס״מ</td> …",
+   "reason": "Broken table cells; the unit now reads the same way as in the other column.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c25",
+   "finalPage": 29,
+   "type": "other",
+   "qid": "c25.2/c25.3",
+   "before": "<span class=\"choice-pill math-ltr\">8π ס״מ</span>",
+   "after": "<span class=\"choice-pill\"><span class=\"math-ltr\">8π</span> ס״מ</span>",
+   "reason": "Unit order now matches the 25.13 ס״מ pill.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c26",
+   "finalPage": 30,
+   "type": "dedupe-vary",
+   "qid": "c26.4",
+   "before": "מכסה שקוטרו 30 ס״מ … C = 30π ס״מ ≈ ____",
+   "after": "מכסה שקוטרו 26 ס״מ … C = 26π ס״מ ≈ ____ (≈ 81.68)",
+   "reason": "The same lid (d=30, C) is computed again on p34 (c33.5) in the same role (dedupe_additional).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c27",
+   "finalPage": 31,
+   "type": "sub-bullets",
+   "qid": "c27.3",
+   "before": "<table class=\"work-table\"><tr><td>דרך א</td><td>C = 2·π·6 = ______</td></tr><tr><td>דרך ב</td><td>d = 2·6 = ____, ואז C = π·d = ______</td></tr></table>",
+   "after": "Two <div data-sub> rows, each starting with <span class=\"sub-bullet\">, with the same formulas and no letter labels. Page-scoped CSS adds a separator line.",
+   "reason": "RULES §4: sub-parts use bullets, not letter labels.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c28",
+   "finalPage": 33,
+   "type": "dedupe-remove",
+   "qid": "c28.4",
+   "before": "אם גם r וגם d נתונים באופן עקבי, בחרו מה נכון. (שתי הנוסחאות תקינות / רק נוסחת הקוטר תקינה / אי אפשר לחשב)",
+   "after": "(removed)",
+   "reason": "dedupe_judgements: near-duplicate of c30.3 on p31, which is kept.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c28",
+   "finalPage": 33,
+   "type": "fix-wording",
+   "qid": "c28.3",
+   "before": "התאימו בין שלושה נתונים שמתארים אותו מעגל. [pills: r = 6 ס״מ | d = 12 ס״מ | C = 12π ס״מ]",
+   "after": "הראו ששלושת הנתונים מתארים אותו מעגל. [data row: r = 6 ס״מ | d = 12 ס״מ | C = 12π ס״מ] + 2 answer lines",
+   "reason": "There was nothing to do: all three values already matched and there was no distractor. It is now a verification task (d = 2·6, C = π·12).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c28",
+   "finalPage": 33,
+   "type": "overflow",
+   "qid": "",
+   "before": "About 55mm empty after the removal.",
+   "after": "page <style>: taller table cells (padding-block 3.3mm), task margin 5mm, answer lines 11mm",
+   "reason": "Rebalanced the space left by the removal without adding content.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c29",
+   "finalPage": 34,
+   "type": "fix-wording",
+   "qid": "c29.1",
+   "before": "<td>r = 1½ ס״מ</td>, <td>d = 2½ ס״מ</td> (rendered 'ס״מ ½r = 1')",
+   "after": "<td><span class=\"math-ltr\">r = 1½</span> ס״מ</td>, <td><span class=\"math-ltr\">d = 2½</span> ס״מ</td>",
+   "reason": "Bidi display bug with the fraction character ½.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c29",
+   "finalPage": 34,
+   "type": "fix-table",
+   "qid": "c29.2",
+   "before": "<td class=\"math-ltr\">3π</td> … (4 cells)",
+   "after": "<td><span class=\"math-ltr\">3π</span></td> …",
+   "reason": "The inline-block td broke the table layout.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c29",
+   "finalPage": 34,
+   "type": "other",
+   "qid": "c29.3",
+   "before": "4 pills in the shared 3-column grid (70 wrapped alone)",
+   "after": "page <style>: 4 equal columns for this row",
+   "reason": "Layout.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c30",
+   "finalPage": 32,
+   "type": "internal-text",
+   "qid": "",
+   "before": "בכל כרטיס: 1. סמנו מה נתון — r או d. 2. בחרו נוסחה. רק כשנדרש, השלימו גם את החישוב.",
+   "after": "בכל שורה ובכל כרטיס: סמנו תחילה מה נתון — r או d — ורק אחר כך בחרו נוסחה.",
+   "reason": "Removed the visible 1./2. numbering and the vague 'רק כשנדרש'.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c30",
+   "finalPage": 32,
+   "type": "fix-wording",
+   "qid": "c30.1",
+   "before": "(no instruction; table only)",
+   "after": "<p class=\"instruction\">בכל שורה סמנו מה נתון, הקיפו את הנוסחה המתאימה וכתבו את C בתשובה מדויקת.</p>",
+   "reason": "It was unclear whether the C column had to be filled.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c30",
+   "finalPage": 32,
+   "type": "fix-math",
+   "qid": "c30.1/c30.2",
+   "before": "<span class=\"math-ltr\">π·d / 2·π·r</span> ×10",
+   "after": "two separate pills: <span class=\"choice-pill math-ltr\">π·d</span><span class=\"choice-pill math-ltr\">2·π·r</span>",
+   "reason": "The slash reads as division, (π·d)/(2·π·r).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c30",
+   "finalPage": 32,
+   "type": "overflow",
+   "qid": "",
+   "before": "44px overflow after the additions",
+   "after": "page <style>: cell padding-block 1.7mm, compact pills, C column 24%",
+   "reason": "The page must fit on A4.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c31",
+   "finalPage": 35,
+   "type": "fix-math",
+   "qid": "c31.1",
+   "before": "<td>r = 3 ס״מ; נתון נוסף 40 מ״מ</td>",
+   "after": "<td>r = 3 ס״מ; d = 60 מ״מ</td>",
+   "reason": "The 'extra 40 mm' was not identified, and as a diameter it would contradict r = 3 cm. Both values are now consistent, and the useful one gives C = 6π ס״מ.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c31",
+   "finalPage": 35,
+   "type": "fix-wording",
+   "qid": "c31.2",
+   "before": "תקנו את החיבור: 2 מ׳ + 30 ס״מ. [30 ס״מ = ____ מ׳ in math-ltr, rendered '30 מ׳ ____ = ס״מ']",
+   "after": "תלמיד כתב: „2 מ׳ + 30 ס״מ = 32 מ׳”. תקנו את החיבור. [30 ס״מ = ____ מ׳ ולכן <span class=\"math-ltr\">2 + ____ = ____</span> מ׳]",
+   "reason": "There was no wrong sum to correct (known item), and the first equation had a bidi bug. Answer: 0.3 מ׳, so 2.3 מ׳.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c31",
+   "finalPage": 35,
+   "type": "other",
+   "qid": "c31.4",
+   "before": "4 pills in the 3-column grid (ס״מ² wrapped)",
+   "after": "4 equal columns (page CSS)",
+   "reason": "Layout.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c32",
+   "finalPage": 38,
+   "type": "fix-table",
+   "qid": "c32.1",
+   "before": "<td class=\"math-ltr\">10π ס״מ</td> … (4 cells)",
+   "after": "<td><span class=\"math-ltr\">10π</span> ס״מ</td> …",
+   "reason": "Broken table cells.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c32",
+   "finalPage": 38,
+   "type": "other",
+   "qid": "c32.2",
+   "before": "C = 25.12 ס״מ → d ≈ … ס״מ → r ≈ … (arrows in RTL flow pointed backwards)",
+   "after": "… ← … ←",
+   "reason": "RTL arrow direction.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c32",
+   "finalPage": 38,
+   "type": "fix-wording",
+   "qid": "c32.3",
+   "before": "הנתון כבר מקורב: C ≈ 31.42 ס״מ. השלימו.",
+   "after": "הנתון כבר מקורב: C ≈ 31.42 ס״מ. השתמשו במקש π, עגלו למאיות והשלימו.",
+   "reason": "Which π to use was not stated, and the rounded answer changes with it (π key gives d ≈ 10.00, 3.14 gives 10.01).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c34",
+   "finalPage": 39,
+   "type": "dedupe-vary",
+   "qid": "c34.3",
+   "before": "מעגל א: r = 7. מעגל ב: d = 13.",
+   "after": "מעגל א: r = 8 ס״מ. מעגל ב: d = 15 ס״מ.",
+   "reason": "The same deciding comparison (14 > 13) as p18. Also added the missing units. Answer: א (16π > 15π).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c34",
+   "finalPage": 39,
+   "type": "fix-wording",
+   "qid": "c34.4",
+   "before": "<span class=\"math-ltr\">30π</span> מ׳ ≈ ____ מ׳",
+   "after": "אורך הגדר: <span class=\"math-ltr\">____π</span> מ׳ ≈ ____ מ׳",
+   "reason": "The printed 30π gave away the main step on a page meant to be solved without hints. Answer: 30π ≈ 94.25 מ׳.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c35",
+   "finalPage": 40,
+   "type": "other",
+   "qid": "",
+   "before": "אורך הגבול → היקף C; כיסוי התחום הפנימי → שטח A",
+   "after": "אורך הגבול ← היקף C; כיסוי התחום הפנימי ← שטח A",
+   "reason": "RTL arrow direction.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c35",
+   "finalPage": 40,
+   "type": "fix-wording",
+   "qid": "c35.1",
+   "before": "מסגרת סביב חלון עגול / מסלול סביב בריכה עגולה",
+   "after": "פס גומי סביב חלון עגול / סיבוב הליכה סביב בריכה עגולה",
+   "reason": "Both were ambiguous, since a frame or a path has an area of its own. Both answers are now clearly היקף.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c35",
+   "finalPage": 40,
+   "type": "fix-table",
+   "qid": "c35.2",
+   "before": "התאימו יחידה לסוג הגודל. [היקף | ס״מ / מ׳ | שטח | ס״מ² / מ׳²] (already paired, nothing to match)",
+   "after": "סמנו לכל יחידה אם היא יחידה של היקף או של שטח. [table: ס״מ, ס״מ², מ׳, מ׳² × היקף/שטח with ○]",
+   "reason": "The original gave nothing to do. It uses the same four units.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c36",
+   "finalPage": 41,
+   "type": "fix-figure",
+   "qid": "c36.1",
+   "before": "Right SVG: 8 lens shapes (Q-curves), an r marker 100u tall beside a shape about 50u tall, and an 'π·r ≈' label flipped by bidi. Left circle without halves.",
+   "after": "Right SVG (viewBox 300×140): 16 true sectors of radius 62 in alternating order, with the end sector split in half. Height marker = r (62u). Base 8 chords = 193.5u ≈ π·62 = 194.8. Label '≈ π·r' set to direction=ltr. Left circle: 16 sectors, upper half blue and lower half gray, matching the rearrangement.",
+   "reason": "The figure did not match the text (shape, height marker, label).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c36",
+   "finalPage": 41,
+   "type": "fix-wording",
+   "qid": "c36.1",
+   "before": "(figure only, no instruction)",
+   "after": "התבוננו באיורים: עיגול שחולק ל־16 גזרות שוות, ואותן גזרות מסודרות לסירוגין.",
+   "reason": "The question had no instruction.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c36",
+   "finalPage": 41,
+   "type": "fix-math",
+   "qid": "c36.2",
+   "before": "<div class=\"word-bank\">r · π·r · π·r²</div>",
+   "after": "three separate word-bank pills: r | π·r | π·r²",
+   "reason": "The separator '·' is also the multiplication sign, so the bank read as r·π·r·π·r².",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c36",
+   "finalPage": 41,
+   "type": "dedupe-vary",
+   "qid": "c36.3",
+   "before": "בחרו את בסיס הצורה המסודרת. (π·r / 2·π·r / r²)",
+   "after": "בסיס הצורה המסודרת בנוי מהקשתות של חלק מהגזרות. בחרו איזה חלק מהיקף המעגל יוצרות הקשתות האלה. (חצי מההיקף / כל ההיקף / רבע מההיקף)",
+   "reason": "It repeated the first blank of c36.2. It now targets why the base is π·r (half of 2πr).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c36",
+   "finalPage": 41,
+   "type": "other",
+   "qid": "",
+   "before": "<style>.a4-page .visual-card{min-height:73mm!important}.a4-page .visual-card svg{height:30mm!important}…</style> (unscoped; SVGs 30mm in 73mm cards)",
+   "after": "a single scoped style under main[data-layout=\"c36\"]: SVG height 58mm, cards laid out as flex",
+   "reason": "The contract requires page CSS scoped to the layout. Also fixes the tiny, unreadable figures.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c37",
+   "finalPage": 42,
+   "type": "dedupe-vary",
+   "qid": "c37.3",
+   "before": "השתמשו במקש π ועגלו למאיות. r = 2, 4, 5, 7 ס״מ",
+   "after": "חשבו את שטח העיגול. השתמשו במקש π ועגלו למאיות. r = 9, 10, 11, 13 ס״מ",
+   "reason": "The exact values repeated c37.2 (r = 1..8), and the gate flagged c27.2 ~ c37.3 (0.96). Answers: 81π≈254.47, 100π≈314.16, 121π≈380.13, 169π≈530.93 ס״מ². The gate now passes.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c38",
+   "finalPage": 43,
+   "type": "fix-wording",
+   "qid": "c38.2",
+   "before": "d=3 → A=2.25π ≈ ____ | d=5 → A=6.25π ≈ ____",
+   "after": "d = 3 → A = ____π ≈ ____ | d = 5 → A = ____π ≈ ____",
+   "reason": "It printed the answers to rows 7–8 of c38.1. Answers: 2.25π≈7.07, 6.25π≈19.63 ס״מ².",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c39",
+   "finalPage": 44,
+   "type": "fix-table",
+   "qid": "c39.1",
+   "before": "<td class=\"math-ltr\">9π ס״מ²</td> … (5 cells)",
+   "after": "<td><span class=\"math-ltr\">9π</span> ס״מ²</td> …",
+   "reason": "Broken table cells.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c39",
+   "finalPage": 44,
+   "type": "dedupe-vary",
+   "qid": "c39.4",
+   "before": "25π ___ 78.54 [= / ≈]",
+   "after": "49π ___ 153.94 [= / ≈]",
+   "reason": "c39.2–c39.4 asked the same fact (25π against 78.54) three times. 49π = 153.938…, so the answer is ≈.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c40",
+   "finalPage": 45,
+   "type": "fix-wording",
+   "qid": "c40.1",
+   "before": "<td>1½ ס״מ</td>, <td>2½ ס״מ</td> (rendered '½1')",
+   "after": "<td><span class=\"math-ltr\">1½</span> ס״מ</td>, <td><span class=\"math-ltr\">2½</span> ס״מ</td>",
+   "reason": "Bidi bug with ½.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c40",
+   "finalPage": 45,
+   "type": "fix-wording",
+   "qid": "c40.3",
+   "before": "<span class=\"choice-pill\">1.5 ו־1½</span> … (rendered '½1־ו 1.5')",
+   "after": "pills with math-ltr isolates around each number",
+   "reason": "Bidi bug.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-05",
+   "finalPage": 68,
+   "type": "internal-text",
+   "qid": "",
+   "before": "משפחת G8-05: ברדיוס 6 ס״מ מקשרים בין זווית מרכזית, חלק מן העיגול, שטח גזרה ואורך קשת.",
+   "after": "בכל איור עיגול שרדיוסו 6 ס״מ. החלק הצבוע הוא גזרה, והזווית שלה במרכז העיגול היא זווית מרכזית. הקשת היא החלק של המעגל שתוחם את הגזרה.",
+   "reason": "Generator text was visible (RULES §3). Also defines the terms גזרה and קשת.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-05",
+   "finalPage": 68,
+   "type": "internal-text",
+   "qid": "g8-05.1",
+   "before": "לכל אחד מארבעת מקרי המקור השלימו את החלק מן העיגול, את שטח הגזרה בקירוב ואת אורך הקשת בקירוב.",
+   "after": "בכל אחד מארבעת האיורים השלימו את החלק מן העיגול, את שטח הגזרה ואת אורך הקשת. השתמשו במקש π ועגלו למאיות.",
+   "reason": "Removed the internal wording and stated which π to use.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-05",
+   "finalPage": 68,
+   "type": "fix-wording",
+   "qid": "g8-05.1",
+   "before": "<b>רבע עיגול</b> · 90/360 = ____ / שטח גזרה ≈ ____ סמ״ר · קשת ≈ ____ ס״מ (×4)",
+   "after": "החלק מן העיגול: 90/360 = ______ / שטח הגזרה ≈ ______ ס״מ² / אורך הקשת ≈ ______ ס״מ (three lines, ×4)",
+   "reason": "The names רבע/שליש/חצי/שלושה רבעים revealed the fractions. Units changed to ס״מ² as in the rest of the workbook, and I removed the ambiguous '·' separator.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-05",
+   "finalPage": 68,
+   "type": "fix-figure",
+   "qid": "g8-05.1",
+   "before": "Angle labels at x=118 grew leftwards (RTL), so 90° and 120° fell in the unshaded part and 180° crossed the edge. No angle arc. 'r=6' sat inside the 90° sector.",
+   "after": "svg style=direction:ltr. A 16u angle arc at the center, correctly swept for 90/120/180/270 (large-arc for 270). Each angle label is centered on the sector bisector inside the shaded part. 'r = 6' sits beside the common vertical radius in the unshaded quadrant. Sector paths unchanged (verified).",
+   "reason": "The figure and text were inconsistent: the angle labels could be read as the complementary angle.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-05",
+   "finalPage": 68,
+   "type": "other",
+   "qid": "",
+   "before": "<style>.cases{…}.case{…}.case svg{height:46mm}.case p{font-size:13px}</style> (unscoped)",
+   "after": "scoped to main[data-layout=\"g8-05\"]; svg 54mm, caption lines 15.5px with more space",
+   "reason": "CSS contract, and uses the space that was empty.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-01",
+   "finalPage": 47,
+   "type": "internal-text",
+   "qid": "",
+   "before": "<h1>עיגול — היקף ושטח: כל מקרי המקור</h1>",
+   "after": "<h1>עיגול — היקף ושטח</h1>",
+   "reason": "Generator text in the title. workbook.json needs the same title.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-01",
+   "finalPage": 47,
+   "type": "internal-text",
+   "qid": "",
+   "before": "משפחת G8-01 בוחרת רדיוס מתוך 3, 4, 5, 6, 7, 8 ס״מ ומבקשת היקף ושטח. כאן מופיעים כל מקרי המשפחה במקום בחירה אקראית.",
+   "after": "בטבלה שישה עיגולים שרדיוסיהם 3, 4, 5, 6, 7 ו־8 ס״מ. לכל עיגול מחשבים את ההיקף ואת השטח.",
+   "reason": "Generator text (RULES §3). The task is unchanged.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-01",
+   "finalPage": 47,
+   "type": "fix-wording",
+   "qid": "g8-01.2",
+   "before": "בדקו בכל שורה שהיחידות מתאימות: היקף ביחידות אורך, שטח ביחידות שטח.",
+   "after": "כתבו כל תשובה בטבלה עם יחידה, ובדקו בכל שורה: היקף ביחידות אורך, שטח ביחידות שטח.",
+   "reason": "The table had no units to check, so the item could not be done as written.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "g8-01",
+   "finalPage": 47,
+   "type": "other",
+   "qid": "",
+   "before": "unscoped .source-table style; about 45% of the page empty",
+   "after": "scoped to main[data-layout=\"g8-01\"]; answer cells 24mm tall; 'π≈3.14' → 'π ≈ 3.14'",
+   "reason": "CSS contract, and more room to write answers with units.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c41",
+   "finalPage": 46,
+   "type": "fix-wording",
+   "qid": "",
+   "before": "עובדות שימושיות: <span class=\"math-ltr\">1 ס״מ² = 100 מ״מ²</span>, <span class=\"math-ltr\">1 מ׳² = 10,000 ס״מ²</span> (rendered '1 מ״מ² 100 = ס״מ²')",
+   "after": "שטח נמדד ביחידות ריבועיות. למשל: 1 מ׳ = 100 ס״מ, ולכן 1 מ׳² = 100·100 ס״מ² = 10,000 ס״מ².",
+   "reason": "Bidi bug, and the anchor printed the answer to c41.5. It now shows the method on m² instead.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c41",
+   "finalPage": 46,
+   "type": "fix-wording",
+   "qid": "c41.3",
+   "before": "<span class=\"math-ltr\">r = 20 מ״מ = 2 ס״מ</span> (rendered 'r = 20 ס״מ 2 = מ״מ') / <span class=\"math-ltr\">A = 400π מ״מ² = ____π ס״מ²</span>",
+   "after": "<span class=\"math-ltr\">r = 20</span> מ״מ = 2 ס״מ / <span class=\"math-ltr\">A = 400π</span> מ״מ² = <span class=\"math-ltr\">____π</span> ס״מ²",
+   "reason": "Known bidi bug.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c41",
+   "finalPage": 46,
+   "type": "fix-wording",
+   "qid": "c41.5",
+   "before": "<div class=\"word-bank\">10 · 10 · 100</div> + math-ltr '1 ס״מ = 10 מ״מ' (rendered '1 מ״מ 10 = ס״מ')",
+   "after": "three separate number pills + plain RTL line: 1 ס״מ = 10 מ״מ, ולכן 1 ס״מ² = ____·____ מ״מ² = ____ מ״מ²",
+   "reason": "Bidi bug, and '·' was used both as a separator and as multiplication.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c41",
+   "finalPage": 46,
+   "type": "other",
+   "qid": "c41.5",
+   "before": "order c41.1, c41.2, c41.3, c41.4, c41.5",
+   "after": "order c41.1, c41.2, c41.5, c41.3, c41.4",
+   "reason": "c41.3 (400π mm² = 4π cm²) needs 1 cm² = 100 mm², which c41.5 builds.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c42",
+   "finalPage": 50,
+   "type": "fix-math",
+   "qid": "",
+   "before": "A = π·r² → A ÷ π = r² → r = √(r²)",
+   "after": "A = π·r² → A ÷ π = r² → r = √(A ÷ π)",
+   "reason": "The original last step was a tautology.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c42",
+   "finalPage": 50,
+   "type": "fix-table",
+   "qid": "c42.1",
+   "before": "<td class=\"math-ltr\">36π ס״מ²</td> … (5 cells)",
+   "after": "<td><span class=\"math-ltr\">36π</span> ס״מ²</td> …",
+   "reason": "Broken table cells.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c43",
+   "finalPage": 51,
+   "type": "fix-table",
+   "qid": "c43.1",
+   "before": "<td class=\"math-ltr\">25π ס״מ²</td> … (4 cells)",
+   "after": "<td><span class=\"math-ltr\">25π</span> ס״מ²</td> …",
+   "reason": "Broken table cells.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c43",
+   "finalPage": 51,
+   "type": "sub-bullets",
+   "qid": "c43.3",
+   "before": "1. ______ &nbsp; 2. ______ &nbsp; 3. ______",
+   "after": "______ ← ______ ← ______",
+   "reason": "Visible numbering. The order is now shown by RTL arrows.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c43",
+   "finalPage": 51,
+   "type": "overflow",
+   "qid": "",
+   "before": "About 45mm empty (the old misapplied 28mm box is now keyed to c46)",
+   "after": "page <style>: task margin 5.5mm, table padding 3.6mm, thinking padding 4mm",
+   "reason": "Rebalanced the spacing.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c44",
+   "finalPage": 48,
+   "type": "fix-table",
+   "qid": "c44.1",
+   "before": "<td class=\"math-ltr\">A = 36π</td>",
+   "after": "<td><span class=\"math-ltr\">A = 36π</span></td>",
+   "reason": "Broken table cell.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c44",
+   "finalPage": 48,
+   "type": "dedupe-vary",
+   "qid": "c44.1",
+   "before": "row: r = 2.5 | d = 6",
+   "after": "row: r = 3.5 | d = 6",
+   "reason": "The row was identical to one on p61 (dedupe_additional). New answer: circle 1 (3.5 > 3).",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c44",
+   "finalPage": 48,
+   "type": "overflow",
+   "qid": "c44.2",
+   "before": "The long third pill stuck out of the thinking box on the left.",
+   "after": "page <style>: flex-wrap for this choice row",
+   "reason": "Visual overflow of an element.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c45",
+   "finalPage": 52,
+   "type": "fix-wording",
+   "qid": "c45.1",
+   "before": "· 2 | · ____ | · ____ (… · ½, · 1.5)",
+   "after": "פי 2 | פי ____ | פי ____ (… פי ½, פי 1.5)",
+   "reason": "A leading '·' looked like a bullet or dangling multiplication sign. 'פי' matches c45.3.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c45",
+   "finalPage": 52,
+   "type": "dedupe-vary",
+   "qid": "c45.4",
+   "before": "„הרדיוס גדל פי 2 ולכן השטח גדל פי 2” (השטח גדל פי 4 / פי 2 / אינו משתנה)",
+   "after": "„הרדיוס קטן פי 2 ולכן השטח קטן פי 2” (השטח קטן פי 4 / השטח קטן פי 2 / השטח אינו משתנה)",
+   "reason": "Same error as p49 card 8 (and p47 c44.3). Correct answer: קטן פי 4.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c46",
+   "finalPage": 53,
+   "type": "sub-bullets",
+   "qid": "c46.n1",
+   "before": "<section class=\"choice-grid\"> with 8 cards <div class=\"choice-box\"><b>1.</b> …<b>8.</b> (visible numbers; not a question block, no id)",
+   "after": "<section class=\"task\"><div class=\"task-row\" data-q=\"c46.n1\"> with q-bullet and the instruction 'בכל כרטיס יש שגיאה אחת בלבד. סמנו את התיקון הנכון.'; each card is <div class=\"choice-box\" data-sub> starting with .sub-bullet and no number",
+   "reason": "RULES §4: no visible numbering, and every question has a bullet.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c46",
+   "finalPage": 53,
+   "type": "other",
+   "qid": "c46.9",
+   "before": "The level-1 formula identification came last.",
+   "after": "Moved to be the first question; the anchor is now 'בדף זה מתקנים טעויות נפוצות בחישוב שטח עיגול.'",
+   "reason": "RULES §6: levels rise within a page.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c46",
+   "finalPage": 53,
+   "type": "other",
+   "qid": "c46.n1",
+   "before": "רדיוס הוכפל פי 2 ולכן השטח הוכפל פי 2",
+   "after": "פי&nbsp;2 (twice)",
+   "reason": "The line broke between 'פי' and '2'.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c47",
+   "finalPage": 49,
+   "type": "fix-math",
+   "qid": "c47.2",
+   "before": "<span class=\"math-ltr\">A = ____π</span> מ׳²",
+   "after": "<span class=\"math-ltr\">A = ______</span> מ׳²",
+   "reason": "The template forced the non-standard '1π'. Answer: A = π ≈ 3.14 מ׳².",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c47",
+   "finalPage": 49,
+   "type": "dedupe-vary",
+   "qid": "c47.4",
+   "before": "מכסה עגול בקוטר 30 ס״מ",
+   "after": "מכסה עגול בקוטר 24 ס״מ",
+   "reason": "The same computation as pizza א in c47.5 (d = 30, r = 15, 225π). Answer: r = 12, 144π ≈ 452.39 ס״מ².",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": "c47",
+   "finalPage": 49,
+   "type": "other",
+   "qid": "",
+   "before": "<style>.a4-page{…!important}.a4-page .task{…}… (unscoped)",
+   "after": "the same rules scoped to main[data-layout=\"c47\"]",
+   "reason": "CSS contract.",
+   "by": "fix:maagal-B"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p3-q2",
+   "type": "official-presentation",
+   "before": "",
+   "after": "hyphen-minus in F(-3,4) G(-4,3) H(-5,0) written as the minus sign − (RULES §8)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p4-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "dropped the stray fragment 'תו' before 'תומר זכר' (unambiguous leftover)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p4-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "ASCII quote in ס\"מ written as gershayim ס״מ (maagal typography)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p5-q2",
+   "type": "official-presentation",
+   "before": "",
+   "after": "part א ended with '.' although it is a question; changed to '?'",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p8-q5",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'בזווית בנות 40°' → 'בזוויות בנות 40°' (agreement, one missing letter)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p8-q5",
+   "type": "official-presentation",
+   "before": "",
+   "after": "space before comma removed: '40° ,' → '40°,'",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p8-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'150 מ' X 200 מ'' → '150 מ׳ · 200 מ׳' (multiplication sign, RULES §8)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p8-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'612 .5π' → '612.5π' (stray space)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p8-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'(בשרטוט - השטח' → '(בשרטוט – השטח' (dash, not minus)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p8-q6",
+   "type": "official-presentation",
+   "before": "",
+   "after": "choice options kept in the source's 2×2 layout: i/ii in the right column, iii/iv in the left",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p9-q8",
+   "type": "official-presentation",
+   "before": "",
+   "after": "the tiny subscript indices 1–3 / 1–4 on the Word checkboxes dropped (list numbering, RULES §4); checkboxes kept",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "RTL-garbled '5 = מטרים' / '2 = מטרים' → '= 5 מטרים' / '= 2 מטרים'",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "misplaced punctuation spacing fixed: 'העיר .הפארק' → 'העיר. הפארק', 'הפנימי :בריכת' / 'החיצונית :טיילת' / 'בטיחות :תוצב' / 'גדרות :מהו' / 'הפרויקט :חשבו' / 'הקפוא\" :\"' → colon after the word",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "3 decorative emoji before the price items dropped (💧 plus 2 glyphs that do not render)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "part 9: missing opening quote added: 'ואמר: \"תקציב שלנו…בתקציב.\"'",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "part 10: the unclosed city quote closed after 'שטחי הציבור', with a period: '…שטחי הציבור\". כלומר,' ('לכם' in the next clause addresses the students, so the quote must end there)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'(שטח הטבעת - ההפרש' → '(שטח הטבעת – ההפרש' (dash)",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "'חלק א'/ב'/ג'/ד' –' prefixes removed from the 4 section headings (RULES §4 labels). The section names are kept as sub-headings, and 'האדריכלית הראשית הגישה תוכנית ראשונית:' is split into its own sentence.",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "the park-components list 1.–3. is shown as a bulleted list (it is not a set of questions), so it cannot be confused with the part reference '1ב'",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": null,
+   "qid": "moe8-p11-q1",
+   "type": "official-presentation",
+   "before": "",
+   "after": "part numbers 6–10 removed (RULES §4) except the part that part 10 refers to ('בסעיף 1ב'). '6. חישוב שטחים' with 'a./b.' is shown as '1.' with 'א.'/'ב.' plus data-keep-label, so it matches the source's own cross-reference. The 6–10 numbering is a Word auto-numbering continuation of the 1–3 list; nothing is missing.",
+   "reason": "RULES §5 allowed presentation change",
+   "by": "cur:maagal"
+  },
+  {
+   "layout": "c1",
+   "finalPage": 1,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@df5abb7dc74e6c0eeb40a2d5e84660073bb78ebf:circle/page-1.html (origin/chore/world-class-architecture-chatgpt-20260826-2324)",
+   "after": "Removed the invented 'קו הגבול' wording and used the official p.3 definition instead. In the anchor, 'המעגל הוא קו הגבול.' became 'המעגל הוא אוסף של כל הנקודות שנמצאות באותו מרחק מנקודה קבועה.' ('העיגול הוא התחום שבתוך המעגל.' is kept). In c1.2 row 1, the pills 'המעגל/העיגול הוא קו הגבול' became 'המעגל/העיגול הוא אוסף של כל הנקודות שנמצאות באותו מרחק מנקודה קבועה'. In c1.2 row 2, 'המעגל/העיגול הוא התחום שבתוך הגבול' became 'המעגל הוא התחום שבתוך העיגול' / 'העיגול הוא התחום שבתוך המעגל'. This swaps the roles, so the distractor no longer defines the circle in terms of itself as the branch's 'המעגל הוא השטח שבתוך המעגל' did. In c1.3, 'צבע את כל התחום שבתוך הגבול' became 'צבע את כל התחום שבתוך המעגל'. Row 3 ('שטח המעגל/העיגול הוא 20 יחידות שטח') is unchanged. The long definition pills now wrap, through one scoped head rule: main[data-layout=\"c1\"] [data-q=\"c1.2\"] .choice-pill{white-space:normal;border-radius:5mm}. The branch's own paraphrase 'אוסף כל הנקודות במרחק שווה (רדיוס) מהמרכז' and its disc definition 'העיגול הוא המעגל והשטח שבתוכו' were not applied, because neither is official text.",
+   "reason": "existing page, order unchanged",
+   "by": "port:maagal"
+  },
+  {
+   "layout": "c10",
+   "finalPage": 13,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@df5abb7dc74e6c0eeb40a2d5e84660073bb78ebf:circle/page-10.html",
+   "after": "c10.1 row 1: 'הגבול של העיגול נקרא ________.' became 'אוסף של כל הנקודות שנמצאות באותו מרחק מנקודה קבועה נקרא ________.' Row 2 ('התחום שבתוך המעגל נקרא') has no 'גבול' and is unchanged; the branch's 'השטח שבתוך המעגל' was not applied.",
+   "reason": "existing page, order unchanged",
+   "by": "port:maagal"
+  },
+  {
+   "layout": "c35",
+   "finalPage": 40,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@df5abb7dc74e6c0eeb40a2d5e84660073bb78ebf:circle/page-35.html",
+   "after": "In the anchor, 'אורך הגבול ← היקף C' became 'אורך המעגל ← היקף C'. 'כיסוי התחום הפנימי ← שטח A' is kept, because it has no invented term and the branch's 'שטח העיגול ← שטח A' would be circular.",
+   "reason": "existing page, order unchanged",
+   "by": "port:maagal"
+  },
+  {
+   "layout": "c64",
+   "finalPage": 70,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@df5abb7dc74e6c0eeb40a2d5e84660073bb78ebf:circle/page-64.html",
+   "after": "Changed the figure caption 'שני הרדיוסים הם חלק מהגבול' to 'שני הרדיוסים הם חלק מהיקף הצורה', which is the branch wording and the page's own anchor term. Changed the c64.4 pill 'לספור כל קטע גבול פעם אחת' to 'לספור כל חלק בהיקף פעם אחת'. The branch has 'כל קטע בהיקף', but an arc is not a קטע, and a longer variant pushed the pill row into the left margin.",
+   "reason": "existing page, order unchanged",
+   "by": "port:maagal"
+  },
+  {
+   "layout": "c76",
+   "finalPage": 86,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@df5abb7dc74e6c0eeb40a2d5e84660073bb78ebf:circle/page-76.html",
+   "after": "c76.5: 'השלימו בדיקת גבול אחת שמכריעה.' became 'השלימו בדיקת קצה אחת שמכריעה.' This is the branch wording, and it matches the page intro 'בדקו את הקצה השמאלי ואת הקצה התחתון'.",
+   "reason": "existing page, order unchanged",
+   "by": "port:maagal"
+  },
+  {
+   "layout": "br-c90",
+   "finalPage": 71,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@18f7c1115c0b810726c77bea9a05f5426b8a8132:circle/page-90.html (tasks 1-4) + @d651f7f85248305b7d8e59451e171245e14df311:circle/page-89.html (task 2), branch origin/chore/world-class-architecture-chatgpt-20260826-2324",
+   "after": "New page 'גזרה — קשת, שטח ויישום' in maagal's own markup: page-header, anchor, task-row with q-bullet, work-table, choice-grid/choice-box, and a thinking box; page CSS is scoped to main[data-layout=\"br-c90\"]. Question order: br-c90.1 (part of the disc for 180°/72°/45°/30°), br-c89.2 (number of equal sectors, 360 ÷ θ, for 40°/60°/90°/120°, plus a clock sub-part), br-c90.2 (arc and area for r=10), br-c90.3 (two sub-parts: a 720 g cake cut into 6, and a 120° irrigated sector of r=9 m), br-c90.4 (inverse: ¼, ⅓, ⅕ to the angle). Changes from the branch: (a) br-c90.2's 90° row became 72°, because c64.1 (page 69) already asks for the arc and area of a quarter of an r=10 disc (5π, 25π); (b) the unit 'מ²' became 'מ׳²', maagal's convention; (c) page-89's garbled clock sentence 'הזווית בין שני מחוגים ל־3 ו־12' was rewritten as 'בשעון, כשמחוג אחד מצביע על 12 והשני על 3, הזווית בין המחוגים היא __, כלומר __ מהעיגול'; (d) the underscore blanks in the Q4 pills became .blank spans so they fit. All other text and numbers are the branch's verbatim. Proposed registry entries: title 'גזרה — קשת, שטח ויישום', kind worksheet; question sources …@18f7c11…:circle/page-90.html#task-1..4 and …@d651f7f…:circle/page-89.html#task-2. Both commits need a PROVENANCE.md line.",
+   "reason": "Stage 'זווית מרכזית וחלקי עיגול'. Place after c64 (page 69, 'רבע מעגל') and before moe8-p7-1 (page 70). The sweep said 'after p70', but I recommend just before it, for three reasons. First, g8-05 (p67) already introduces the central angle, sector, arc and part = θ/360, and c63/c64 (p68–69) already practise half- and quarter-circle arcs and areas in π form; that is everything this page needs, together with the C and A formulas from stages 4–5. Second, the page's levels (3–6) sit below moe8-p7-1, which is level 8, so it belongs before it (RULES §6: rising levels within a subtopic). Third, br-c89.2's 360 ÷ 40 = 9 and the cake's 'part × whole' are the in-between skills the official earrings question moe8-p8-q5 needs on page 70 (2.7 ÷ 9 = 0.3 g), and RULES §6 says those skills come first. If the orchestrator keeps the sweep's 'after p70', nothing breaks, but levels would then fall from 8 back to 3.",
+   "by": "port:maagal"
+  },
+  {
+   "layout": "br-c91",
+   "finalPage": 12,
+   "type": "ported-from-branch",
+   "before": "yanivmizrachiy/smartschool-hebrew-voice-notes@1b771781dc283c83c7b21a598c80e8729b5ff83a:circle/page-91.html (branch origin/chore/world-class-architecture-chatgpt-20260826-2324)",
+   "after": "New page 'סימטריה וחפיפה של מעגלים' in maagal's markup (anchor, visual-grid/visual-card, word-bank, work-table, thinking; page CSS scoped to main[data-layout=\"br-c91\"]). br-c91.1: rotation about the centre for a circle, a square and an arrow. br-c91.2: reflection in a diameter (P→P′), with word bank ציר סימטריה · P′ · אינסוף. br-c91.3: congruent pairs (r=4/r=4, r=3/r=5, d=10/r=5), then the conclusion 'מעגלים בעלי רדיוס שווה – חופפים'. Changes from the branch: (a) Q1 'בזווית כלשהי' became 'בכל זווית', as the sweep asked, since a square is unchanged by a 90° turn; (b) Q1's thinking box gave away the circle's answer ('לכן למעגל התשובה היא „כן, בכל זווית”'), so it became the fill-in 'השלימו: סיבוב של הריבוע סביב מרכזו משאיר אותו ללא שינוי רק כשזווית הסיבוב היא __° או כפולה שלה.', which spells out the contrast between 'every angle' and the square's 90°; (c) the circle in Q1 was drawn filled (#eef4ff) but labelled 'מעגל', so it is now fill='none', in line with RULES §8 and page 1, where filled means עיגול; (d) the numbered 'זוג 1/2/3' column in Q3 was removed (RULES §4, no numbering); (e) the P and P′ labels were moved off the circle stroke (svg direction:ltr, text-anchor end at x=102). Everything else is the branch's verbatim. Proposed question source: …@1b77178…:circle/page-91.html#task-1..3.",
+   "reason": "Stage 'המעגל וחלקיו'. Place after c7 (page 11, 'שרטוט מעגל במחוגה') and before c10 (page 12, 'בדיקת בסיס מסכמת'). Prerequisites, all earlier in the stage: centre c2 (p2), radius c3 (p3), diameter c4 (p4; each diameter is the axis in Q2), the r–d relation c5 (p5; Q3's d=10 → r=5), the definition as points at a fixed distance, bbbsupp-a1 (p9; this is why a turn about the centre maps the circle to itself), and compass drawing c7 (p11; the same compass opening gives congruent circles). It uses nothing from later stages. Putting it before c10 keeps the stage summary last.",
+   "by": "port:maagal"
+  }
+ ]
+}

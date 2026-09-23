@@ -1,0 +1,973 @@
+{
+ "summary": {
+  "phase1Commit": "yanivmizrachiy/maagal@10e2aaa",
+  "phase1Pages": 101,
+  "finalPages": 103,
+  "statusCounts": {
+   "preserved": 7,
+   "moved": 84,
+   "replaced": 7,
+   "merged": 3
+  },
+  "addedPages": 12,
+  "equation": "101 phase-1 pages − 10 replaced/merged/retired + 12 added = 103 final pages"
+ },
+ "phase1Pages": [
+  {
+   "phase1Page": 1,
+   "layout": "c1",
+   "finalPage": 1,
+   "status": "preserved",
+   "stage": "המעגל וחלקיו",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 2,
+   "layout": "c2",
+   "finalPage": 2,
+   "status": "preserved",
+   "stage": "המעגל וחלקיו",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 3,
+   "layout": "c3",
+   "finalPage": 3,
+   "status": "preserved",
+   "stage": "המעגל וחלקיו",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 4,
+   "layout": "c4",
+   "finalPage": 4,
+   "status": "preserved",
+   "stage": "המעגל וחלקיו",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 5,
+   "layout": "c5",
+   "finalPage": 5,
+   "status": "preserved",
+   "stage": "המעגל וחלקיו",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 6,
+   "layout": "c6",
+   "finalPage": 10,
+   "status": "moved",
+   "stage": "המעגל וחלקיו",
+   "reason": "pedagogical order (RULES §6): stage 'המעגל וחלקיו'"
+  },
+  {
+   "phase1Page": 7,
+   "layout": "c7",
+   "finalPage": 11,
+   "status": "moved",
+   "stage": "המעגל וחלקיו",
+   "reason": "pedagogical order (RULES §6): stage 'המעגל וחלקיו'"
+  },
+  {
+   "phase1Page": 8,
+   "layout": "c8",
+   "finalPage": 7,
+   "status": "moved",
+   "stage": "המעגל וחלקיו",
+   "reason": "pedagogical order (RULES §6): stage 'המעגל וחלקיו'"
+  },
+  {
+   "phase1Page": 9,
+   "layout": "c9",
+   "finalPage": 8,
+   "status": "moved",
+   "stage": "המעגל וחלקיו",
+   "reason": "pedagogical order (RULES §6): stage 'המעגל וחלקיו'"
+  },
+  {
+   "phase1Page": 10,
+   "layout": "c10",
+   "finalPage": 13,
+   "status": "moved",
+   "stage": "המעגל וחלקיו",
+   "reason": "pedagogical order (RULES §6): stage 'המעגל וחלקיו'"
+  },
+  {
+   "phase1Page": 11,
+   "layout": "c11",
+   "finalPage": 18,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 12,
+   "layout": "c12",
+   "finalPage": 19,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 13,
+   "layout": "c13",
+   "finalPage": 14,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 14,
+   "layout": "c14",
+   "finalPage": 15,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 15,
+   "layout": "c15",
+   "finalPage": 16,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 16,
+   "layout": "c16",
+   "finalPage": 20,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 17,
+   "layout": "c17",
+   "finalPage": 17,
+   "status": "preserved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 18,
+   "layout": "c18",
+   "finalPage": 23,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 19,
+   "layout": "c19",
+   "finalPage": 21,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 20,
+   "layout": "c20",
+   "finalPage": 24,
+   "status": "moved",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "reason": "pedagogical order (RULES §6): stage 'רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות'"
+  },
+  {
+   "phase1Page": 21,
+   "layout": "g8-06",
+   "finalPage": 6,
+   "status": "moved",
+   "stage": "המעגל וחלקיו",
+   "reason": "pedagogical order (RULES §6): stage 'המעגל וחלקיו'"
+  },
+  {
+   "phase1Page": 22,
+   "layout": "c21",
+   "finalPage": 25,
+   "status": "moved",
+   "stage": "המספר π",
+   "reason": "pedagogical order (RULES §6): stage 'המספר π'"
+  },
+  {
+   "phase1Page": 23,
+   "layout": "c22",
+   "finalPage": 26,
+   "status": "moved",
+   "stage": "המספר π",
+   "reason": "pedagogical order (RULES §6): stage 'המספר π'"
+  },
+  {
+   "phase1Page": 24,
+   "layout": "c23",
+   "finalPage": 27,
+   "status": "moved",
+   "stage": "המספר π",
+   "reason": "pedagogical order (RULES §6): stage 'המספר π'"
+  },
+  {
+   "phase1Page": 25,
+   "layout": "c24",
+   "finalPage": 28,
+   "status": "moved",
+   "stage": "המספר π",
+   "reason": "pedagogical order (RULES §6): stage 'המספר π'"
+  },
+  {
+   "phase1Page": 26,
+   "layout": "c25",
+   "finalPage": 29,
+   "status": "moved",
+   "stage": "המספר π",
+   "reason": "pedagogical order (RULES §6): stage 'המספר π'"
+  },
+  {
+   "phase1Page": 27,
+   "layout": "c26",
+   "finalPage": 30,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 28,
+   "layout": "c27",
+   "finalPage": 31,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 29,
+   "layout": "c28",
+   "finalPage": 33,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 30,
+   "layout": "c29",
+   "finalPage": 34,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 31,
+   "layout": "c30",
+   "finalPage": 32,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 32,
+   "layout": "c31",
+   "finalPage": 35,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 33,
+   "layout": "c32",
+   "finalPage": 38,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 34,
+   "layout": "c33",
+   "finalPage": 36,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 35,
+   "layout": "c34",
+   "finalPage": 39,
+   "status": "moved",
+   "stage": "היקף המעגל",
+   "reason": "pedagogical order (RULES §6): stage 'היקף המעגל'"
+  },
+  {
+   "phase1Page": 36,
+   "layout": "c35",
+   "finalPage": 40,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 37,
+   "layout": "c36",
+   "finalPage": 41,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 38,
+   "layout": "c37",
+   "finalPage": 42,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 39,
+   "layout": "c38",
+   "finalPage": 43,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 40,
+   "layout": "c39",
+   "finalPage": 44,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 41,
+   "layout": "c40",
+   "finalPage": 45,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 42,
+   "layout": "g8-05",
+   "finalPage": 68,
+   "status": "moved",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "reason": "pedagogical order (RULES §6): stage 'זווית מרכזית וחלקי עיגול'"
+  },
+  {
+   "phase1Page": 43,
+   "layout": "g8-01",
+   "finalPage": 47,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 44,
+   "layout": "c41",
+   "finalPage": 46,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 45,
+   "layout": "c42",
+   "finalPage": 50,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 46,
+   "layout": "c43",
+   "finalPage": 51,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 47,
+   "layout": "c44",
+   "finalPage": 48,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 48,
+   "layout": "c45",
+   "finalPage": 52,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 49,
+   "layout": "c46",
+   "finalPage": 53,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 50,
+   "layout": "c47",
+   "finalPage": 49,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 51,
+   "layout": "c48",
+   "finalPage": 54,
+   "status": "moved",
+   "stage": "שטח העיגול",
+   "reason": "pedagogical order (RULES §6): stage 'שטח העיגול'"
+  },
+  {
+   "phase1Page": 52,
+   "layout": "c49",
+   "finalPage": 57,
+   "status": "moved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "pedagogical order (RULES §6): stage 'היקף ושטח: ביטויים, תכנון ושרשראות'"
+  },
+  {
+   "phase1Page": 53,
+   "layout": "c50",
+   "finalPage": 55,
+   "status": "moved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "pedagogical order (RULES §6): stage 'היקף ושטח: ביטויים, תכנון ושרשראות'"
+  },
+  {
+   "phase1Page": 54,
+   "layout": "c51",
+   "finalPage": 56,
+   "status": "moved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "pedagogical order (RULES §6): stage 'היקף ושטח: ביטויים, תכנון ושרשראות'"
+  },
+  {
+   "phase1Page": 55,
+   "layout": "c52",
+   "finalPage": 59,
+   "status": "moved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "pedagogical order (RULES §6): stage 'היקף ושטח: ביטויים, תכנון ושרשראות'"
+  },
+  {
+   "phase1Page": 56,
+   "layout": "c53",
+   "finalPage": 60,
+   "status": "moved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "pedagogical order (RULES §6): stage 'היקף ושטח: ביטויים, תכנון ושרשראות'"
+  },
+  {
+   "phase1Page": 57,
+   "layout": "c54",
+   "finalPage": 61,
+   "status": "moved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "pedagogical order (RULES §6): stage 'היקף ושטח: ביטויים, תכנון ושרשראות'"
+  },
+  {
+   "phase1Page": 58,
+   "layout": "c55",
+   "finalPage": 58,
+   "status": "preserved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "same page"
+  },
+  {
+   "phase1Page": 59,
+   "layout": "c56",
+   "finalPage": 62,
+   "status": "moved",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "reason": "pedagogical order (RULES §6): stage 'היקף ושטח: ביטויים, תכנון ושרשראות'"
+  },
+  {
+   "phase1Page": 60,
+   "layout": "c57",
+   "finalPage": 63,
+   "status": "moved",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "reason": "pedagogical order (RULES §6): stage 'יישומים: השוואה, מחיר ומידול'"
+  },
+  {
+   "phase1Page": 61,
+   "layout": "c58",
+   "finalPage": 64,
+   "status": "moved",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "reason": "pedagogical order (RULES §6): stage 'יישומים: השוואה, מחיר ומידול'"
+  },
+  {
+   "phase1Page": 62,
+   "layout": "c59",
+   "finalPage": 65,
+   "status": "moved",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "reason": "pedagogical order (RULES §6): stage 'יישומים: השוואה, מחיר ומידול'"
+  },
+  {
+   "phase1Page": 63,
+   "layout": "c60",
+   "finalPage": 66,
+   "status": "moved",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "reason": "pedagogical order (RULES §6): stage 'יישומים: השוואה, מחיר ומידול'"
+  },
+  {
+   "phase1Page": 64,
+   "layout": "c61",
+   "finalPage": 73,
+   "status": "moved",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "reason": "pedagogical order (RULES §6): stage 'צורות מורכבות ומשפט פיתגורס'"
+  },
+  {
+   "phase1Page": 65,
+   "layout": "c62",
+   "finalPage": 100,
+   "status": "moved",
+   "stage": "העשרה: ריבוע חסום במעגל",
+   "reason": "pedagogical order (RULES §6): stage 'העשרה: ריבוע חסום במעגל'"
+  },
+  {
+   "phase1Page": 66,
+   "layout": "c63",
+   "finalPage": 69,
+   "status": "moved",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "reason": "pedagogical order (RULES §6): stage 'זווית מרכזית וחלקי עיגול'"
+  },
+  {
+   "phase1Page": 67,
+   "layout": "c64",
+   "finalPage": 70,
+   "status": "moved",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "reason": "pedagogical order (RULES §6): stage 'זווית מרכזית וחלקי עיגול'"
+  },
+  {
+   "phase1Page": 68,
+   "layout": "c65",
+   "finalPage": 75,
+   "status": "moved",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "reason": "pedagogical order (RULES §6): stage 'צורות מורכבות ומשפט פיתגורס'"
+  },
+  {
+   "phase1Page": 69,
+   "layout": "c66",
+   "finalPage": 77,
+   "status": "moved",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "reason": "pedagogical order (RULES §6): stage 'צורות מורכבות ומשפט פיתגורס'"
+  },
+  {
+   "phase1Page": 70,
+   "layout": "c67",
+   "finalPage": 78,
+   "status": "moved",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "reason": "pedagogical order (RULES §6): stage 'צורות מורכבות ומשפט פיתגורס'"
+  },
+  {
+   "phase1Page": 71,
+   "layout": "c68",
+   "finalPage": 80,
+   "status": "moved",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "reason": "pedagogical order (RULES §6): stage 'צורות מורכבות ומשפט פיתגורס'"
+  },
+  {
+   "phase1Page": 72,
+   "layout": "c69",
+   "finalPage": 67,
+   "status": "moved",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "reason": "pedagogical order (RULES §6): stage 'יישומים: השוואה, מחיר ומידול'"
+  },
+  {
+   "phase1Page": 73,
+   "layout": "c70",
+   "finalPage": 101,
+   "status": "moved",
+   "stage": "משימות מסכמות",
+   "reason": "pedagogical order (RULES §6): stage 'משימות מסכמות'"
+  },
+  {
+   "phase1Page": 74,
+   "layout": "bbb196",
+   "finalPage": null,
+   "status": "replaced",
+   "replacedBy": [
+    {
+     "layout": "bbbsupp-a1",
+     "finalPage": 9
+    },
+    {
+     "layout": "moe8-p3-1",
+     "finalPage": 96
+    }
+   ],
+   "reason": "BBB paraphrase split: A.Q1 (BBB-written around the official activity label) -> supplementary page; A.Q2 -> official wording on the curriculum page; BBB-added drawing part dropped as duplicate"
+  },
+  {
+   "phase1Page": 75,
+   "layout": "bbb197",
+   "finalPage": null,
+   "status": "merged",
+   "replacedBy": [
+    {
+     "layout": "moe8-p3-1",
+     "finalPage": 96
+    }
+   ],
+   "reason": "BBB A.Q3 -> official wording, on one curriculum page together with A.Q2"
+  },
+  {
+   "phase1Page": 76,
+   "layout": "bbb198",
+   "finalPage": null,
+   "status": "merged",
+   "replacedBy": [
+    {
+     "layout": "moe8-p4-1",
+     "finalPage": 37
+    }
+   ],
+   "reason": "BBB B.Q1 (bicycle) -> official wording, curriculum page for circumference (with hexagon + recovered toy-car track)"
+  },
+  {
+   "phase1Page": 77,
+   "layout": "bbb199",
+   "finalPage": null,
+   "status": "merged",
+   "replacedBy": [
+    {
+     "layout": "moe8-p4-1",
+     "finalPage": 37
+    }
+   ],
+   "reason": "BBB B.Q2 (hexagon) -> official wording, same curriculum page as the bicycle"
+  },
+  {
+   "phase1Page": 78,
+   "layout": "bbb200",
+   "finalPage": null,
+   "status": "replaced",
+   "replacedBy": [
+    {
+     "layout": "moe8-p6-1",
+     "finalPage": 79
+    },
+    {
+     "layout": "moe8-p6-2",
+     "finalPage": 74
+    }
+   ],
+   "reason": "BBB B.Q3 stadium -> official wording (with recovered lawn-field item); B.Q4 three squares -> official wording"
+  },
+  {
+   "phase1Page": 79,
+   "layout": "bbb201",
+   "finalPage": null,
+   "status": "replaced",
+   "replacedBy": [
+    {
+     "layout": "moe8-p6-2",
+     "finalPage": 74
+    },
+    {
+     "layout": "moe8-p7-1",
+     "finalPage": 72
+    }
+   ],
+   "reason": "BBB B.Q5a circle in square / B.Q5b yin-yang -> official wording (with recovered earrings sector)"
+  },
+  {
+   "phase1Page": 80,
+   "layout": "bbb202",
+   "finalPage": null,
+   "status": "replaced",
+   "replacedBy": [
+    {
+     "layout": "moe8-p9-1",
+     "finalPage": 76
+    }
+   ],
+   "reason": "BBB B.Q6 two circles in rectangle + B.Q7 shapes -> official wording"
+  },
+  {
+   "phase1Page": 81,
+   "layout": "bbb203",
+   "finalPage": null,
+   "status": "replaced",
+   "replacedBy": [
+    {
+     "layout": "moe8-p10-1",
+     "finalPage": 22
+    }
+   ],
+   "reason": "BBB B.Q8 London Eye -> official wording and official photo; BBB-added circumference part dropped as duplicate"
+  },
+  {
+   "phase1Page": 82,
+   "layout": "bbb204",
+   "finalPage": null,
+   "status": "replaced",
+   "replacedBy": [
+    {
+     "layout": "moe8-p11-1",
+     "finalPage": 102
+    }
+   ],
+   "reason": "BBB fountain park (condensed) -> full official text, first page"
+  },
+  {
+   "phase1Page": 83,
+   "layout": "bbb205",
+   "finalPage": null,
+   "status": "replaced",
+   "replacedBy": [
+    {
+     "layout": "moe8-p11-2",
+     "finalPage": 103
+    }
+   ],
+   "reason": "BBB fountain park parts 9-10 (continuation, nearly empty page) -> full official text, second page"
+  },
+  {
+   "phase1Page": 84,
+   "layout": "c71",
+   "finalPage": 81,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 85,
+   "layout": "c72",
+   "finalPage": 82,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 86,
+   "layout": "c73",
+   "finalPage": 83,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 87,
+   "layout": "c74",
+   "finalPage": 84,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 88,
+   "layout": "c75",
+   "finalPage": 85,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 89,
+   "layout": "c76",
+   "finalPage": 86,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 90,
+   "layout": "c77",
+   "finalPage": 87,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 91,
+   "layout": "c78",
+   "finalPage": 88,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 92,
+   "layout": "c79",
+   "finalPage": 89,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: הרביע הראשון'"
+  },
+  {
+   "phase1Page": 93,
+   "layout": "c80",
+   "finalPage": 90,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 94,
+   "layout": "c81",
+   "finalPage": 91,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 95,
+   "layout": "c82",
+   "finalPage": 92,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 96,
+   "layout": "c83",
+   "finalPage": 93,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 97,
+   "layout": "c84",
+   "finalPage": 94,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 98,
+   "layout": "c85",
+   "finalPage": 95,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 99,
+   "layout": "c86",
+   "finalPage": 97,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 100,
+   "layout": "c87",
+   "finalPage": 98,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  },
+  {
+   "phase1Page": 101,
+   "layout": "c88",
+   "finalPage": 99,
+   "status": "moved",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "reason": "pedagogical order (RULES §6): stage 'מעגל במערכת צירים: המישור כולו'"
+  }
+ ],
+ "addedPages": [
+  {
+   "finalPage": 9,
+   "layout": "bbbsupp-a1",
+   "title": "חוט, נעץ ועיפרון",
+   "stage": "המעגל וחלקיו",
+   "source": "yanivmizrachiy/bbb@e365c0f3c92d98a379b511aec6aeca032e4a8391:geometry8/topics/t01_circle.py#g8.t01.A.Q1"
+  },
+  {
+   "finalPage": 12,
+   "layout": "br-c91",
+   "title": "סימטריה וחפיפה של מעגלים",
+   "stage": "המעגל וחלקיו",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@1b771781dc283c83c7b21a598c80e8729b5ff83a:circle/page-91.html"
+  },
+  {
+   "finalPage": 22,
+   "layout": "moe8-p10-1",
+   "title": "גלגל ענק: קוטר ומרכז",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-010.webp"
+  },
+  {
+   "finalPage": 37,
+   "layout": "moe8-p4-1",
+   "title": "היקף מעגל",
+   "stage": "היקף המעגל",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-004.webp"
+  },
+  {
+   "finalPage": 71,
+   "layout": "br-c90",
+   "title": "גזרה — קשת, שטח ויישום",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@d651f7f85248305b7d8e59451e171245e14df311:circle/page-90.html"
+  },
+  {
+   "finalPage": 72,
+   "layout": "moe8-p7-1",
+   "title": "חלק מעיגול",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-007.webp"
+  },
+  {
+   "finalPage": 74,
+   "layout": "moe8-p6-2",
+   "title": "עיגולים בתוך ריבועים",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp"
+  },
+  {
+   "finalPage": 76,
+   "layout": "moe8-p9-1",
+   "title": "מלבן ועיגולים",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-009.webp"
+  },
+  {
+   "finalPage": 79,
+   "layout": "moe8-p6-1",
+   "title": "ריבוע או מלבן ושני חצאי עיגול",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp"
+  },
+  {
+   "finalPage": 96,
+   "layout": "moe8-p3-1",
+   "title": "מעגל במערכת צירים",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-003.webp"
+  },
+  {
+   "finalPage": 102,
+   "layout": "moe8-p11-1",
+   "title": "פארק המזרקה",
+   "stage": "משימות מסכמות",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp"
+  },
+  {
+   "finalPage": 103,
+   "layout": "moe8-p11-2",
+   "title": "פארק המזרקה (המשך)",
+   "stage": "משימות מסכמות",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp"
+  }
+ ]
+}

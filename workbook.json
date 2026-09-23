@@ -6,38 +6,68 @@
  "pageCount": 101,
  "stages": [
   {
-   "title": "יסודות — מעגל ועיגול",
+   "title": "המעגל וחלקיו",
    "from": 1,
-   "to": 10
+   "to": 12
   },
   {
-   "title": "מרכז, רדיוס, קוטר ומיתר",
-   "from": 11,
-   "to": 21
+   "title": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "from": 13,
+   "to": 23
   },
   {
-   "title": "π, היקף, שטח וזווית מרכזית",
-   "from": 22,
-   "to": 43
+   "title": "המספר π",
+   "from": 24,
+   "to": 28
   },
   {
-   "title": "נוסחאות ותרגול מתקדם",
-   "from": 44,
-   "to": 60
+   "title": "היקף המעגל",
+   "from": 29,
+   "to": 38
   },
   {
-   "title": "יישומים, אוריינות ומידול",
-   "from": 61,
-   "to": 73
+   "title": "שטח העיגול",
+   "from": 39,
+   "to": 53
   },
   {
-   "title": "יחידת העשרה וסיכום",
-   "from": 74,
-   "to": 83
+   "title": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "from": 54,
+   "to": 61
   },
   {
-   "title": "מעגל במערכת צירים",
-   "from": 84,
+   "title": "יישומים: השוואה, מחיר ומידול",
+   "from": 62,
+   "to": 66
+  },
+  {
+   "title": "זווית מרכזית וחלקי עיגול",
+   "from": 67,
+   "to": 70
+  },
+  {
+   "title": "צורות מורכבות ומשפט פיתגורס",
+   "from": 71,
+   "to": 78
+  },
+  {
+   "title": "מעגל במערכת צירים: הרביע הראשון",
+   "from": 79,
+   "to": 87
+  },
+  {
+   "title": "מעגל במערכת צירים: המישור כולו",
+   "from": 88,
+   "to": 97
+  },
+  {
+   "title": "העשרה: ריבוע חסום במעגל",
+   "from": 98,
+   "to": 98
+  },
+  {
+   "title": "משימות מסכמות",
+   "from": 99,
    "to": 101
   }
  ],
@@ -49,6 +79,10 @@
    "file": "page-1.html",
    "title": "מושגים בסיסיים",
    "layout": "c1",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "מעגל ועיגול",
+   "level": 1,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-1.html"
   },
   {
@@ -56,6 +90,10 @@
    "file": "page-2.html",
    "title": "מרכז המעגל",
    "layout": "c2",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "חלקי המעגל: מרכז",
+   "level": 1,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-2.html"
   },
   {
@@ -63,6 +101,10 @@
    "file": "page-3.html",
    "title": "רדיוס",
    "layout": "c3",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "חלקי המעגל: רדיוס",
+   "level": 1,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-3.html"
   },
   {
@@ -70,6 +112,10 @@
    "file": "page-4.html",
    "title": "קוטר",
    "layout": "c4",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "חלקי המעגל: קוטר",
+   "level": 1,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-4.html"
   },
   {
@@ -77,62 +123,98 @@
    "file": "page-5.html",
    "title": "רדיוס וקוטר",
    "layout": "c5",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "הקשר בין רדיוס לקוטר",
+   "level": 3,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-5.html"
   },
   {
    "n": 6,
    "file": "page-6.html",
-   "title": "על המעגל, בתוך העיגול ומחוץ לעיגול",
-   "layout": "c6",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html"
+   "title": "קוטר, רדיוס ומיתר",
+   "layout": "g8-06",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "קוטר ומיתר",
+   "level": 2,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-06.html"
   },
   {
    "n": 7,
    "file": "page-7.html",
-   "title": "שרטוט מעגל במחוגה",
-   "layout": "c7",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html"
+   "title": "קריאת רדיוס משרטוט",
+   "layout": "c8",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "קריאת רדיוס וקוטר משרטוט",
+   "level": 2,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-8.html"
   },
   {
    "n": 8,
    "file": "page-8.html",
-   "title": "קריאת רדיוס משרטוט",
-   "layout": "c8",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-8.html"
+   "title": "קריאת קוטר משרטוט",
+   "layout": "c9",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "קריאת רדיוס וקוטר משרטוט",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-9.html"
   },
   {
    "n": 9,
    "file": "page-9.html",
-   "title": "קריאת קוטר משרטוט",
-   "layout": "c9",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-9.html"
+   "title": "חוט, נעץ ועיפרון",
+   "layout": "bbbsupp-a1",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "הגדרת המעגל ומיקום נקודה",
+   "level": 2,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/bbb@e365c0f3c92d98a379b511aec6aeca032e4a8391:geometry8/topics/t01_circle.py#g8.t01.A.Q1"
   },
   {
    "n": 10,
    "file": "page-10.html",
-   "title": "בדיקת בסיס מסכמת",
-   "layout": "c10",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-10.html"
+   "title": "על המעגל, בתוך העיגול ומחוץ לעיגול",
+   "layout": "c6",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "הגדרת המעגל ומיקום נקודה",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html"
   },
   {
    "n": 11,
    "file": "page-11.html",
-   "title": "מדידת רדיוס בסרגל",
-   "layout": "c11",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html"
+   "title": "שרטוט מעגל במחוגה",
+   "layout": "c7",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "שרטוט מעגל במחוגה",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html"
   },
   {
    "n": 12,
    "file": "page-12.html",
-   "title": "מדידת קוטר",
-   "layout": "c12",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html"
+   "title": "בדיקת בסיס מסכמת",
+   "layout": "c10",
+   "stage": "המעגל וחלקיו",
+   "subtopic": "סיכום: מושגי יסוד",
+   "level": 3,
+   "kind": "summary",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-10.html"
   },
   {
    "n": 13,
    "file": "page-13.html",
    "title": "מרדיוס לקוטר: מספרים שלמים",
    "layout": "c13",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "חישוב רדיוס וקוטר",
+   "level": 3,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-13.html"
   },
   {
@@ -140,6 +222,10 @@
    "file": "page-14.html",
    "title": "מקוטר לרדיוס: מספרים שלמים",
    "layout": "c14",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "חישוב רדיוס וקוטר",
+   "level": 3,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-14.html"
   },
   {
@@ -147,609 +233,957 @@
    "file": "page-15.html",
    "title": "רדיוס וקוטר עם שברים ועשרוניים",
    "layout": "c15",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "חישוב רדיוס וקוטר",
+   "level": 3,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-15.html"
   },
   {
    "n": 16,
    "file": "page-16.html",
-   "title": "יחידות מידה והמרות",
-   "layout": "c16",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html"
+   "title": "טבלת r ו־d",
+   "layout": "c17",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "חישוב רדיוס וקוטר",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-17.html"
   },
   {
    "n": 17,
    "file": "page-17.html",
-   "title": "טבלת r ו־d",
-   "layout": "c17",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-17.html"
+   "title": "מדידת רדיוס בסרגל",
+   "layout": "c11",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "מדידת רדיוס וקוטר",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html"
   },
   {
    "n": 18,
    "file": "page-18.html",
-   "title": "השוואת מעגלים",
-   "layout": "c18",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html"
+   "title": "מדידת קוטר",
+   "layout": "c12",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "מדידת רדיוס וקוטר",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html"
   },
   {
    "n": 19,
    "file": "page-19.html",
-   "title": "בעיות מילוליות: רדיוס וקוטר",
-   "layout": "c19",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-19.html"
+   "title": "יחידות מידה והמרות",
+   "layout": "c16",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "רדיוס וקוטר: המרת יחידות",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html"
   },
   {
    "n": 20,
    "file": "page-20.html",
-   "title": "נתון חסר וסיכום רדיוס–קוטר",
-   "layout": "c20",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-20.html"
+   "title": "בעיות מילוליות: רדיוס וקוטר",
+   "layout": "c19",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "בעיות והשוואות: רדיוס וקוטר",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-19.html"
   },
   {
    "n": 21,
    "file": "page-21.html",
-   "title": "קוטר, רדיוס ומיתר",
-   "layout": "g8-06",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-06.html"
+   "title": "גלגל ענק: קוטר ומרכז",
+   "layout": "moe8-p10-1",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "בעיות והשוואות: רדיוס וקוטר",
+   "level": 4,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-010.webp"
   },
   {
    "n": 22,
    "file": "page-22.html",
-   "title": "מודדים היקף וקוטר",
-   "layout": "c21",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-21.html"
+   "title": "השוואת מעגלים",
+   "layout": "c18",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "בעיות והשוואות: רדיוס וקוטר",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html"
   },
   {
    "n": 23,
    "file": "page-23.html",
-   "title": "מחשבים את היחס C ÷ d",
-   "layout": "c22",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-22.html"
+   "title": "נתון חסר וסיכום רדיוס–קוטר",
+   "layout": "c20",
+   "stage": "רדיוס וקוטר: חישוב, מדידה, יחידות ובעיות",
+   "subtopic": "סיכום: רדיוס וקוטר",
+   "level": 5,
+   "kind": "summary",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-20.html"
   },
   {
    "n": 24,
    "file": "page-24.html",
-   "title": "מגלים את הקבוע",
-   "layout": "c23",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-23.html"
+   "title": "מודדים היקף וקוטר",
+   "layout": "c21",
+   "stage": "המספר π",
+   "subtopic": "גילוי π: מדידת היקף וקוטר",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-21.html"
   },
   {
    "n": 25,
    "file": "page-25.html",
-   "title": "מהו π?",
-   "layout": "c24",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-24.html"
+   "title": "מחשבים את היחס C ÷ d",
+   "layout": "c22",
+   "stage": "המספר π",
+   "subtopic": "גילוי π: היחס בין היקף לקוטר",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-22.html"
   },
   {
    "n": 26,
    "file": "page-26.html",
-   "title": "תשובה מדויקת ותשובה מקורבת",
-   "layout": "c25",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-25.html"
+   "title": "מגלים את הקבוע",
+   "layout": "c23",
+   "stage": "המספר π",
+   "subtopic": "גילוי π: היחס בין היקף לקוטר",
+   "level": 8,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-23.html"
   },
   {
    "n": 27,
    "file": "page-27.html",
-   "title": "היקף לפי קוטר",
-   "layout": "c26",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-26.html"
+   "title": "מהו π?",
+   "layout": "c24",
+   "stage": "המספר π",
+   "subtopic": "המספר π",
+   "level": 2,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-24.html"
   },
   {
    "n": 28,
    "file": "page-28.html",
-   "title": "היקף לפי רדיוס",
-   "layout": "c27",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-27.html"
+   "title": "תשובה מדויקת ותשובה מקורבת",
+   "layout": "c25",
+   "stage": "המספר π",
+   "subtopic": "המספר π: ערך מדויק וקירוב",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-25.html"
   },
   {
    "n": 29,
    "file": "page-29.html",
-   "title": "היקף: מספרים שלמים",
-   "layout": "c28",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html"
+   "title": "היקף לפי קוטר",
+   "layout": "c26",
+   "stage": "היקף המעגל",
+   "subtopic": "נוסחת ההיקף",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-26.html"
   },
   {
    "n": 30,
    "file": "page-30.html",
-   "title": "היקף עם עשרוניים ושברים",
-   "layout": "c29",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html"
+   "title": "היקף לפי רדיוס",
+   "layout": "c27",
+   "stage": "היקף המעגל",
+   "subtopic": "נוסחת ההיקף",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-27.html"
   },
   {
    "n": 31,
    "file": "page-31.html",
    "title": "בחירת הנוסחה הנכונה",
    "layout": "c30",
+   "stage": "היקף המעגל",
+   "subtopic": "נוסחת ההיקף",
+   "level": 3,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-30.html"
   },
   {
    "n": 32,
    "file": "page-32.html",
-   "title": "היקף ויחידות",
-   "layout": "c31",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-31.html"
+   "title": "היקף: מספרים שלמים",
+   "layout": "c28",
+   "stage": "היקף המעגל",
+   "subtopic": "חישוב היקף",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html"
   },
   {
    "n": 33,
    "file": "page-33.html",
-   "title": "מן ההיקף אל הקוטר והרדיוס",
-   "layout": "c32",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html"
+   "title": "היקף עם עשרוניים ושברים",
+   "layout": "c29",
+   "stage": "היקף המעגל",
+   "subtopic": "חישוב היקף",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html"
   },
   {
    "n": 34,
    "file": "page-34.html",
-   "title": "בעיות מילוליות בהיקף",
-   "layout": "c33",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html"
+   "title": "היקף ויחידות",
+   "layout": "c31",
+   "stage": "היקף המעגל",
+   "subtopic": "היקף ויחידות",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-31.html"
   },
   {
    "n": 35,
    "file": "page-35.html",
-   "title": "סיכום היקף",
-   "layout": "c34",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html"
+   "title": "בעיות מילוליות בהיקף",
+   "layout": "c33",
+   "stage": "היקף המעגל",
+   "subtopic": "בעיות היקף",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html"
   },
   {
    "n": 36,
    "file": "page-36.html",
-   "title": "היקף או שטח?",
-   "layout": "c35",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-35.html"
+   "title": "היקף מעגל",
+   "layout": "moe8-p4-1",
+   "stage": "היקף המעגל",
+   "subtopic": "בעיות היקף",
+   "level": 5,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-004.webp"
   },
   {
    "n": 37,
    "file": "page-37.html",
-   "title": "למה A = π·r²?",
-   "layout": "c36",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-36.html"
+   "title": "מן ההיקף אל הקוטר והרדיוס",
+   "layout": "c32",
+   "stage": "היקף המעגל",
+   "subtopic": "בעיה הפוכה: מהיקף לקוטר ולרדיוס",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html"
   },
   {
    "n": 38,
    "file": "page-38.html",
-   "title": "שטח מנתון רדיוס",
-   "layout": "c37",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-37.html"
+   "title": "סיכום היקף",
+   "layout": "c34",
+   "stage": "היקף המעגל",
+   "subtopic": "סיכום: היקף",
+   "level": 5,
+   "kind": "summary",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html"
   },
   {
    "n": 39,
    "file": "page-39.html",
-   "title": "שטח מנתון קוטר",
-   "layout": "c38",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-38.html"
+   "title": "היקף או שטח?",
+   "layout": "c35",
+   "stage": "שטח העיגול",
+   "subtopic": "היקף או שטח",
+   "level": 2,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-35.html"
   },
   {
    "n": 40,
    "file": "page-40.html",
-   "title": "שטח מדויק ומקורב",
-   "layout": "c39",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-39.html"
+   "title": "למה A = π·r²?",
+   "layout": "c36",
+   "stage": "שטח העיגול",
+   "subtopic": "נוסחת השטח: הצדקה",
+   "level": 8,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-36.html"
   },
   {
    "n": 41,
    "file": "page-41.html",
-   "title": "שטח עם שברים ועשרוניים",
-   "layout": "c40",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-40.html"
+   "title": "שטח מנתון רדיוס",
+   "layout": "c37",
+   "stage": "שטח העיגול",
+   "subtopic": "חישוב שטח",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-37.html"
   },
   {
    "n": 42,
    "file": "page-42.html",
-   "title": "זווית מרכזית וחלק מעיגול",
-   "layout": "g8-05",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-05.html"
+   "title": "שטח מנתון קוטר",
+   "layout": "c38",
+   "stage": "שטח העיגול",
+   "subtopic": "חישוב שטח",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-38.html"
   },
   {
    "n": 43,
    "file": "page-43.html",
-   "title": "עיגול — היקף ושטח: כל מקרי המקור",
-   "layout": "g8-01",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-01.html"
+   "title": "שטח מדויק ומקורב",
+   "layout": "c39",
+   "stage": "שטח העיגול",
+   "subtopic": "חישוב שטח",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-39.html"
   },
   {
    "n": 44,
    "file": "page-44.html",
-   "title": "יחידות שטח",
-   "layout": "c41",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html"
+   "title": "שטח עם שברים ועשרוניים",
+   "layout": "c40",
+   "stage": "שטח העיגול",
+   "subtopic": "חישוב שטח",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-40.html"
   },
   {
    "n": 45,
    "file": "page-45.html",
-   "title": "משטח לרדיוס",
-   "layout": "c42",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html"
+   "title": "יחידות שטח",
+   "layout": "c41",
+   "stage": "שטח העיגול",
+   "subtopic": "יחידות שטח",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html"
   },
   {
    "n": 46,
    "file": "page-46.html",
-   "title": "משטח לקוטר",
-   "layout": "c43",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html"
+   "title": "עיגול — היקף ושטח",
+   "layout": "g8-01",
+   "stage": "שטח העיגול",
+   "subtopic": "היקף ושטח: תרגול משולב",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-01.html"
   },
   {
    "n": 47,
    "file": "page-47.html",
    "title": "השוואת שטחי עיגולים",
    "layout": "c44",
+   "stage": "שטח העיגול",
+   "subtopic": "השוואת שטחים ובעיות",
+   "level": 5,
+   "kind": "worksheet",
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-44.html"
   },
   {
    "n": 48,
    "file": "page-48.html",
-   "title": "שינוי קנה מידה: מה קורה לשטח?",
-   "layout": "c45",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html"
+   "title": "בעיות מילוליות בשטח",
+   "layout": "c47",
+   "stage": "שטח העיגול",
+   "subtopic": "השוואת שטחים ובעיות",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html"
   },
   {
    "n": 49,
    "file": "page-49.html",
-   "title": "טעויות נפוצות בשטח",
-   "layout": "c46",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-46.html"
+   "title": "משטח לרדיוס",
+   "layout": "c42",
+   "stage": "שטח העיגול",
+   "subtopic": "בעיה הפוכה: משטח לרדיוס ולקוטר",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html"
   },
   {
    "n": 50,
    "file": "page-50.html",
-   "title": "בעיות מילוליות בשטח",
-   "layout": "c47",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html"
+   "title": "משטח לקוטר",
+   "layout": "c43",
+   "stage": "שטח העיגול",
+   "subtopic": "בעיה הפוכה: משטח לרדיוס ולקוטר",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html"
   },
   {
    "n": 51,
    "file": "page-51.html",
-   "title": "סיכום שטח והיקף",
-   "layout": "c48",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html"
+   "title": "שינוי קנה מידה: מה קורה לשטח?",
+   "layout": "c45",
+   "stage": "שטח העיגול",
+   "subtopic": "שינוי קנה מידה",
+   "level": 8,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html"
   },
   {
    "n": 52,
    "file": "page-52.html",
-   "title": "מה נתון ומה מבוקש?",
-   "layout": "c49",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-49.html"
+   "title": "טעויות נפוצות בשטח",
+   "layout": "c46",
+   "stage": "שטח העיגול",
+   "subtopic": "ניתוח טעויות בשטח",
+   "level": 7,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-46.html"
   },
   {
    "n": 53,
    "file": "page-53.html",
-   "title": "ביטויים אלגבריים להיקף ולשטח",
-   "layout": "c50",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-50.html"
+   "title": "סיכום שטח והיקף",
+   "layout": "c48",
+   "stage": "שטח העיגול",
+   "subtopic": "סיכום: היקף ושטח",
+   "level": 5,
+   "kind": "summary",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html"
   },
   {
    "n": 54,
    "file": "page-54.html",
-   "title": "הצבה בביטויים",
-   "layout": "c51",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-51.html"
+   "title": "ביטויים אלגבריים להיקף ולשטח",
+   "layout": "c50",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "ביטויים אלגבריים להיקף ולשטח",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-50.html"
   },
   {
    "n": 55,
    "file": "page-55.html",
-   "title": "היקף נתון — מוצאים רדיוס",
-   "layout": "c52",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html"
+   "title": "הצבה בביטויים",
+   "layout": "c51",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "ביטויים אלגבריים להיקף ולשטח",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-51.html"
   },
   {
    "n": 56,
    "file": "page-56.html",
-   "title": "שטח נתון — מוצאים רדיוס",
-   "layout": "c53",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html"
+   "title": "מה נתון ומה מבוקש?",
+   "layout": "c49",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "תכנון פתרון ומידע עודף",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-49.html"
   },
   {
    "n": 57,
    "file": "page-57.html",
-   "title": "מהיקף לשטח ומשטח להיקף",
-   "layout": "c54",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html"
+   "title": "מידע עודף",
+   "layout": "c55",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "תכנון פתרון ומידע עודף",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-55.html"
   },
   {
    "n": 58,
    "file": "page-58.html",
-   "title": "מידע עודף",
-   "layout": "c55",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-55.html"
+   "title": "היקף נתון — מוצאים רדיוס",
+   "layout": "c52",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "שרשראות דרך הרדיוס",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html"
   },
   {
    "n": 59,
    "file": "page-59.html",
-   "title": "מה צריך למצוא קודם?",
-   "layout": "c56",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-56.html"
+   "title": "שטח נתון — מוצאים רדיוס",
+   "layout": "c53",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "שרשראות דרך הרדיוס",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html"
   },
   {
    "n": 60,
    "file": "page-60.html",
-   "title": "השוואת אפשרויות לפי היקף",
-   "layout": "c57",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-57.html"
+   "title": "מהיקף לשטח ומשטח להיקף",
+   "layout": "c54",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "שרשראות דרך הרדיוס",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html"
   },
   {
    "n": 61,
    "file": "page-61.html",
-   "title": "השוואת אפשרויות לפי שטח",
-   "layout": "c58",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-58.html"
+   "title": "מה צריך למצוא קודם?",
+   "layout": "c56",
+   "stage": "היקף ושטח: ביטויים, תכנון ושרשראות",
+   "subtopic": "שרשראות דרך הרדיוס",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-56.html"
   },
   {
    "n": 62,
    "file": "page-62.html",
-   "title": "מחיר, חומר וכמות",
-   "layout": "c59",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html"
+   "title": "השוואת אפשרויות לפי היקף",
+   "layout": "c57",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "subtopic": "השוואה לפי היקף ולפי שטח",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-57.html"
   },
   {
    "n": 63,
    "file": "page-63.html",
-   "title": "בעיות מעגל מחיי היום־יום",
-   "layout": "c60",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html"
+   "title": "השוואת אפשרויות לפי שטח",
+   "layout": "c58",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "subtopic": "השוואה לפי היקף ולפי שטח",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-58.html"
   },
   {
    "n": 64,
    "file": "page-64.html",
-   "title": "עיגול בתוך ריבוע",
-   "layout": "c61",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html"
+   "title": "מחיר, חומר וכמות",
+   "layout": "c59",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "subtopic": "מחיר וכמות",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html"
   },
   {
    "n": 65,
    "file": "page-65.html",
-   "title": "ריבוע בתוך מעגל",
-   "layout": "c62",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html"
+   "title": "בעיות מעגל מחיי היום־יום",
+   "layout": "c60",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "subtopic": "בעיות מחיי היום־יום",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html"
   },
   {
    "n": 66,
    "file": "page-66.html",
-   "title": "חצי מעגל",
-   "layout": "c63",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html"
+   "title": "משימת אוריינות ומידול",
+   "layout": "c69",
+   "stage": "יישומים: השוואה, מחיר ומידול",
+   "subtopic": "אוריינות ומידול",
+   "level": 8,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html"
   },
   {
    "n": 67,
    "file": "page-67.html",
-   "title": "רבע מעגל",
-   "layout": "c64",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html"
+   "title": "זווית מרכזית וחלק מעיגול",
+   "layout": "g8-05",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "subtopic": "חלקי עיגול: גזרה וקשת",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-05.html"
   },
   {
    "n": 68,
    "file": "page-68.html",
-   "title": "שטח מוצל: עיגול בתוך מלבן",
-   "layout": "c65",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html"
+   "title": "חצי מעגל",
+   "layout": "c63",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "subtopic": "חלקי עיגול: גזרה וקשת",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html"
   },
   {
    "n": 69,
    "file": "page-69.html",
-   "title": "טבעת ושני עיגולים בעלי מרכז משותף",
-   "layout": "c66",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html"
+   "title": "רבע מעגל",
+   "layout": "c64",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "subtopic": "חלקי עיגול: גזרה וקשת",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html"
   },
   {
    "n": 70,
    "file": "page-70.html",
-   "title": "מלבן ושני חצאי מעגלים",
-   "layout": "c67",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html"
+   "title": "חלק מעיגול",
+   "layout": "moe8-p7-1",
+   "stage": "זווית מרכזית וחלקי עיגול",
+   "subtopic": "חלקי עיגול: גזרה וקשת",
+   "level": 8,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-007.webp"
   },
   {
    "n": 71,
    "file": "page-71.html",
-   "title": "פיתגורס בדרך לרדיוס",
-   "layout": "c68",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html"
+   "title": "עיגול בתוך ריבוע",
+   "layout": "c61",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "עיגול בתוך ריבוע",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html"
   },
   {
    "n": 72,
    "file": "page-72.html",
-   "title": "משימת אוריינות ומידול",
-   "layout": "c69",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html"
+   "title": "עיגולים בתוך ריבועים",
+   "layout": "moe8-p6-2",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "עיגול בתוך ריבוע",
+   "level": 5,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp"
   },
   {
    "n": 73,
    "file": "page-73.html",
-   "title": "משימת סיום כיתה ט׳",
-   "layout": "c70",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html"
+   "title": "שטח מוצל: עיגול בתוך מלבן",
+   "layout": "c65",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "שטח מוצל: מלבן ועיגולים",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html"
   },
   {
    "n": 74,
    "file": "page-74.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb196",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-196.html"
+   "title": "מלבן ועיגולים",
+   "layout": "moe8-p9-1",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "שטח מוצל: מלבן ועיגולים",
+   "level": 5,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-009.webp"
   },
   {
    "n": 75,
    "file": "page-75.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb197",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-197.html"
+   "title": "טבעת ושני עיגולים בעלי מרכז משותף",
+   "layout": "c66",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "טבעת",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html"
   },
   {
    "n": 76,
    "file": "page-76.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb198",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-198.html"
+   "title": "מלבן ושני חצאי מעגלים",
+   "layout": "c67",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "אצטדיון: מלבן ושני חצאי עיגול",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html"
   },
   {
    "n": 77,
    "file": "page-77.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb199",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-199.html"
+   "title": "ריבוע או מלבן ושני חצאי עיגול",
+   "layout": "moe8-p6-1",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "אצטדיון: מלבן ושני חצאי עיגול",
+   "level": 5,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp"
   },
   {
    "n": 78,
    "file": "page-78.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb200",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-200.html"
+   "title": "פיתגורס בדרך לרדיוס",
+   "layout": "c68",
+   "stage": "צורות מורכבות ומשפט פיתגורס",
+   "subtopic": "פיתגורס בדרך לרדיוס",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html"
   },
   {
    "n": 79,
    "file": "page-79.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb201",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-201.html"
+   "title": "מעגל ברביע הראשון: נקודות הקצה",
+   "layout": "c71",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "נקודות קצה ונקודות על הצירים",
+   "level": 2,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html"
   },
   {
    "n": 80,
    "file": "page-80.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb202",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-202.html"
+   "title": "מעגל ברביע הראשון: נקודות על הצירים",
+   "layout": "c72",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "נקודות קצה ונקודות על הצירים",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html"
   },
   {
    "n": 81,
    "file": "page-81.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb203",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-203.html"
+   "title": "מעגל ברביע הראשון: מקצות קוטר אל המרכז",
+   "layout": "c73",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "נקודות קצה ונקודות על הצירים",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html"
   },
   {
    "n": 82,
    "file": "page-82.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb204",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-204.html"
+   "title": "מעגל ברביע הראשון: משיק לציר אחד",
+   "layout": "c74",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "השקה לצירים",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html"
   },
   {
    "n": 83,
    "file": "page-83.html",
-   "title": "גאומטריה לכיתה ח'",
-   "layout": "bbb205",
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:עמוד-205.html"
+   "title": "מעגל ברביע הראשון: משיק לשני הצירים",
+   "layout": "c75",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "השקה לצירים",
+   "level": 6,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html"
   },
   {
    "n": 84,
    "file": "page-84.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c71",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html"
+   "title": "מעגל ברביע הראשון: הרדיוס המרבי",
+   "layout": "c76",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "רדיוס מרבי והזזת המרכז",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html"
   },
   {
    "n": 85,
    "file": "page-85.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c72",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html"
+   "title": "מעגל ברביע הראשון: הזזת המרכז",
+   "layout": "c77",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "רדיוס מרבי והזזת המרכז",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html"
   },
   {
    "n": 86,
    "file": "page-86.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c73",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html"
+   "title": "מעגל ברביע הראשון: שילוב תנאים ותיקון טעויות",
+   "layout": "c78",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "שילוב תנאים ותיקון טעויות",
+   "level": 7,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html"
   },
   {
    "n": 87,
    "file": "page-87.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c74",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html"
+   "title": "מעגל ברביע הראשון: אתגר מסכם",
+   "layout": "c79",
+   "stage": "מעגל במערכת צירים: הרביע הראשון",
+   "subtopic": "סיכום: הרביע הראשון",
+   "level": 6,
+   "kind": "summary",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html"
   },
   {
    "n": 88,
    "file": "page-88.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c75",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html"
+   "title": "מעגל במערכת צירים מלאה",
+   "layout": "c80",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "נקודות קצה בכל רביע",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-80.html"
   },
   {
    "n": 89,
    "file": "page-89.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c76",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html"
+   "title": "ארבע נקודות קצה מכל מרכז",
+   "layout": "c81",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "נקודות קצה בכל רביע",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-81.html"
   },
   {
    "n": 90,
    "file": "page-90.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c77",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html"
+   "title": "מעגל שמרכזו בראשית הצירים",
+   "layout": "c82",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "מרכז בראשית הצירים או על ציר",
+   "level": 3,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-82.html"
   },
   {
    "n": 91,
    "file": "page-91.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c78",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html"
+   "title": "מרכז על אחד הצירים",
+   "layout": "c83",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "מרכז בראשית הצירים או על ציר",
+   "level": 4,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-83.html"
   },
   {
    "n": 92,
    "file": "page-92.html",
-   "title": "מעגל ברביע הראשון",
-   "layout": "c79",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html"
+   "title": "מרכז ורדיוס מתוך קוטר",
+   "layout": "c84",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "קוטר, מרחק ומיקום נקודה",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-84.html"
   },
   {
    "n": 93,
    "file": "page-93.html",
-   "title": "מעגל במערכת צירים מלאה",
-   "layout": "c80",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-80.html"
+   "title": "על המעגל, בתוך העיגול או מחוץ לעיגול",
+   "layout": "c85",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "קוטר, מרחק ומיקום נקודה",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-85.html"
   },
   {
    "n": 94,
    "file": "page-94.html",
-   "title": "ארבע נקודות קצה מכל מרכז",
-   "layout": "c81",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-81.html"
+   "title": "מעגל במערכת צירים",
+   "layout": "moe8-p3-1",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "קוטר, מרחק ומיקום נקודה",
+   "level": 5,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-003.webp"
   },
   {
    "n": 95,
    "file": "page-95.html",
-   "title": "מעגל שמרכזו בראשית הצירים",
-   "layout": "c82",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-82.html"
+   "title": "חיתוך מעגל עם ציר בעזרת פיתגורס",
+   "layout": "c86",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "חיתוך מעגל עם הצירים",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-86.html"
   },
   {
    "n": 96,
    "file": "page-96.html",
-   "title": "מרכז על אחד הצירים",
-   "layout": "c83",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-83.html"
+   "title": "מערכת צירים, מלבן ועיגול",
+   "layout": "c87",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "מלבן ועיגול במערכת צירים",
+   "level": 5,
+   "kind": "worksheet",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-87.html"
   },
   {
    "n": 97,
    "file": "page-97.html",
-   "title": "מרכז ורדיוס מתוך קוטר",
-   "layout": "c84",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-84.html"
+   "title": "משימת סיום: מעגל במערכת צירים",
+   "layout": "c88",
+   "stage": "מעגל במערכת צירים: המישור כולו",
+   "subtopic": "משימת סיום: מעגל במערכת צירים",
+   "level": 10,
+   "kind": "summary",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html"
   },
   {
    "n": 98,
    "file": "page-98.html",
-   "title": "על המעגל, בתוך העיגול או מחוץ לעיגול",
-   "layout": "c85",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-85.html"
+   "title": "ריבוע בתוך מעגל",
+   "layout": "c62",
+   "stage": "העשרה: ריבוע חסום במעגל",
+   "subtopic": "ריבוע חסום במעגל (פיתגורס ושורשים)",
+   "level": 5,
+   "kind": "enrichment",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html"
   },
   {
    "n": 99,
    "file": "page-99.html",
-   "title": "חיתוך מעגל עם ציר בעזרת פיתגורס",
-   "layout": "c86",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-86.html"
+   "title": "משימה מסכמת: שתי רחבות",
+   "layout": "c70",
+   "stage": "משימות מסכמות",
+   "subtopic": "משימה מסכמת: היקף, שטח ופיתגורס",
+   "level": 10,
+   "kind": "summary",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html"
   },
   {
    "n": 100,
    "file": "page-100.html",
-   "title": "מערכת צירים, מלבן ועיגול",
-   "layout": "c87",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-87.html"
+   "title": "פארק המזרקה",
+   "layout": "moe8-p11-1",
+   "stage": "משימות מסכמות",
+   "subtopic": "משימה מסכמת: פארק המזרקה",
+   "level": 10,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp"
   },
   {
    "n": 101,
    "file": "page-101.html",
-   "title": "משימת סיום: מעגל במערכת צירים",
-   "layout": "c88",
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html"
+   "title": "פארק המזרקה (המשך)",
+   "layout": "moe8-p11-2",
+   "stage": "משימות מסכמות",
+   "subtopic": "משימה מסכמת: פארק המזרקה",
+   "level": 10,
+   "kind": "curriculum",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp"
   }
  ],
  "questions": [
@@ -850,141 +1284,123 @@
    "curriculum": null
   },
   {
-   "id": "c6.1",
+   "id": "g8-06.1",
    "page": 6,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html#task-1",
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-06.html#task-1",
    "curriculum": null
   },
   {
-   "id": "c6.2",
+   "id": "g8-06.2",
    "page": 6,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c6.3",
-   "page": 6,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c7.1",
-   "page": 7,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c7.2",
-   "page": 7,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c7.3",
-   "page": 7,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c7.4",
-   "page": 7,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-4",
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-06.html#task-2",
    "curriculum": null
   },
   {
    "id": "c8.1",
-   "page": 8,
+   "page": 7,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-8.html#task-1",
    "curriculum": null
   },
   {
    "id": "c8.2",
-   "page": 8,
+   "page": 7,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-8.html#task-2",
    "curriculum": null
   },
   {
    "id": "c8.3",
-   "page": 8,
+   "page": 7,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-8.html#task-3",
    "curriculum": null
   },
   {
    "id": "c9.1",
-   "page": 9,
+   "page": 8,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-9.html#task-1",
    "curriculum": null
   },
   {
    "id": "c9.2",
-   "page": 9,
+   "page": 8,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-9.html#task-2",
    "curriculum": null
   },
   {
    "id": "c9.3",
-   "page": 9,
+   "page": 8,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-9.html#task-3",
    "curriculum": null
   },
   {
-   "id": "c10.1",
+   "id": "bbbsupp.a1",
+   "page": 9,
+   "source": "yanivmizrachiy/bbb@e365c0f3c92d98a379b511aec6aeca032e4a8391:geometry8/topics/t01_circle.py#g8.t01.A.Q1",
+   "curriculum": null
+  },
+  {
+   "id": "c6.1",
    "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c6.2",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c6.3",
+   "page": 10,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-6.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c7.1",
+   "page": 11,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c7.2",
+   "page": 11,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c7.3",
+   "page": 11,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c7.4",
+   "page": 11,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-7.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "c10.1",
+   "page": 12,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-10.html#task-1",
    "curriculum": null
   },
   {
    "id": "c10.2",
-   "page": 10,
+   "page": 12,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-10.html#task-2",
    "curriculum": null
   },
   {
    "id": "c10.3",
-   "page": 10,
+   "page": 12,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-10.html#task-3",
    "curriculum": null
   },
   {
    "id": "c10.4",
-   "page": 10,
+   "page": 12,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-10.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c11.1",
-   "page": 11,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c11.2",
-   "page": 11,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c11.3",
-   "page": 11,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c12.1",
-   "page": 12,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c12.2",
-   "page": 12,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c12.3",
-   "page": 12,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html#task-3",
    "curriculum": null
   },
   {
@@ -1003,12 +1419,6 @@
    "id": "c13.3",
    "page": 13,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-13.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c13.4",
-   "page": 13,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-13.html#task-4",
    "curriculum": null
   },
   {
@@ -1048,309 +1458,301 @@
    "curriculum": null
   },
   {
-   "id": "c16.1",
-   "page": 16,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c16.2",
-   "page": 16,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c16.3",
-   "page": 16,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html#task-3",
-   "curriculum": null
-  },
-  {
    "id": "c17.1",
-   "page": 17,
+   "page": 16,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-17.html#task-1",
    "curriculum": null
   },
   {
    "id": "c17.2",
-   "page": 17,
+   "page": 16,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-17.html#task-2",
    "curriculum": null
   },
   {
-   "id": "c18.1",
-   "page": 18,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html#task-1",
+   "id": "c11.1",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html#task-1",
    "curriculum": null
   },
   {
-   "id": "c18.2",
-   "page": 18,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html#task-2",
+   "id": "c11.2",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html#task-2",
    "curriculum": null
   },
   {
-   "id": "c18.3",
+   "id": "c11.3",
+   "page": 17,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-11.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c12.1",
    "page": 18,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html#task-3",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c12.2",
+   "page": 18,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c12.3",
+   "page": 18,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-12.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c16.1",
+   "page": 19,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c16.2",
+   "page": 19,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c16.3",
+   "page": 19,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-16.html#task-3",
    "curriculum": null
   },
   {
    "id": "c19.1",
-   "page": 19,
+   "page": 20,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-19.html#task-1",
    "curriculum": null
   },
   {
    "id": "c19.2",
-   "page": 19,
+   "page": 20,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-19.html#task-2",
    "curriculum": null
   },
   {
    "id": "c19.3",
-   "page": 19,
+   "page": 20,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-19.html#task-3",
    "curriculum": null
   },
   {
+   "id": "moe8-p10-q9",
+   "page": 21,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-010.webp",
+   "curriculum": "moe8-p10-q9",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 10,
+    "officialQuestion": 9,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-010.webp",
+    "bbb": "g8.t01.B.Q8",
+    "bbbRelation": "BBB-edited (stem paraphrased; BBB added its own part ב: circumference with π≈3.14)",
+    "presentationChanges": []
+   }
+  },
+  {
+   "id": "c18.1",
+   "page": 22,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c18.2",
+   "page": 22,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c18.3",
+   "page": 22,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-18.html#task-3",
+   "curriculum": null
+  },
+  {
    "id": "c20.1",
-   "page": 20,
+   "page": 23,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-20.html#task-1",
    "curriculum": null
   },
   {
    "id": "c20.2",
-   "page": 20,
+   "page": 23,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-20.html#task-2",
    "curriculum": null
   },
   {
    "id": "c20.3",
-   "page": 20,
+   "page": 23,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-20.html#task-3",
    "curriculum": null
   },
   {
    "id": "c20.4",
-   "page": 20,
+   "page": 23,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-20.html#task-4",
    "curriculum": null
   },
   {
-   "id": "g8-06.1",
-   "page": 21,
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-06.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "g8-06.2",
-   "page": 21,
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-06.html#task-2",
-   "curriculum": null
-  },
-  {
    "id": "c21.1",
-   "page": 22,
+   "page": 24,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-21.html#task-1",
    "curriculum": null
   },
   {
    "id": "c21.2",
-   "page": 22,
+   "page": 24,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-21.html#task-2",
    "curriculum": null
   },
   {
    "id": "c21.3",
-   "page": 22,
+   "page": 24,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-21.html#task-3",
    "curriculum": null
   },
   {
    "id": "c21.4",
-   "page": 22,
+   "page": 24,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-21.html#task-4",
    "curriculum": null
   },
   {
    "id": "c22.1",
-   "page": 23,
+   "page": 25,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-22.html#task-1",
    "curriculum": null
   },
   {
    "id": "c22.2",
-   "page": 23,
+   "page": 25,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-22.html#task-2",
    "curriculum": null
   },
   {
    "id": "c22.3",
-   "page": 23,
+   "page": 25,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-22.html#task-3",
    "curriculum": null
   },
   {
    "id": "c22.4",
-   "page": 23,
+   "page": 25,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-22.html#task-4",
    "curriculum": null
   },
   {
    "id": "c23.1",
-   "page": 24,
+   "page": 26,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-23.html#task-1",
    "curriculum": null
   },
   {
    "id": "c23.2",
-   "page": 24,
+   "page": 26,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-23.html#task-2",
    "curriculum": null
   },
   {
    "id": "c23.3",
-   "page": 24,
+   "page": 26,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-23.html#task-3",
    "curriculum": null
   },
   {
    "id": "c24.1",
-   "page": 25,
+   "page": 27,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-24.html#task-1",
    "curriculum": null
   },
   {
    "id": "c24.2",
-   "page": 25,
+   "page": 27,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-24.html#task-2",
    "curriculum": null
   },
   {
    "id": "c24.3",
-   "page": 25,
+   "page": 27,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-24.html#task-3",
    "curriculum": null
   },
   {
    "id": "c25.1",
-   "page": 26,
+   "page": 28,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-25.html#task-1",
    "curriculum": null
   },
   {
    "id": "c25.2",
-   "page": 26,
+   "page": 28,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-25.html#task-2",
    "curriculum": null
   },
   {
    "id": "c25.3",
-   "page": 26,
+   "page": 28,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-25.html#task-3",
    "curriculum": null
   },
   {
    "id": "c26.1",
-   "page": 27,
+   "page": 29,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-26.html#task-1",
    "curriculum": null
   },
   {
    "id": "c26.2",
-   "page": 27,
+   "page": 29,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-26.html#task-2",
    "curriculum": null
   },
   {
    "id": "c26.3",
-   "page": 27,
+   "page": 29,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-26.html#task-3",
    "curriculum": null
   },
   {
    "id": "c26.4",
-   "page": 27,
+   "page": 29,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-26.html#task-4",
    "curriculum": null
   },
   {
    "id": "c26.5",
-   "page": 27,
+   "page": 29,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-26.html#task-5",
    "curriculum": null
   },
   {
    "id": "c27.1",
-   "page": 28,
+   "page": 30,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-27.html#task-1",
    "curriculum": null
   },
   {
    "id": "c27.2",
-   "page": 28,
+   "page": 30,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-27.html#task-2",
    "curriculum": null
   },
   {
    "id": "c27.3",
-   "page": 28,
+   "page": 30,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-27.html#task-3",
    "curriculum": null
   },
   {
    "id": "c27.4",
-   "page": 28,
+   "page": 30,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-27.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c28.1",
-   "page": 29,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c28.2",
-   "page": 29,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c28.3",
-   "page": 29,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c28.4",
-   "page": 29,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c29.1",
-   "page": 30,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c29.2",
-   "page": 30,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c29.3",
-   "page": 30,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c29.4",
-   "page": 30,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-4",
    "curriculum": null
   },
   {
@@ -1372,351 +1774,392 @@
    "curriculum": null
   },
   {
-   "id": "c31.1",
+   "id": "c28.1",
    "page": 32,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c28.2",
+   "page": 32,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c28.3",
+   "page": 32,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-28.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c29.1",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c29.2",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c29.3",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c29.4",
+   "page": 33,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-29.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "c31.1",
+   "page": 34,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-31.html#task-1",
    "curriculum": null
   },
   {
    "id": "c31.2",
-   "page": 32,
+   "page": 34,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-31.html#task-2",
    "curriculum": null
   },
   {
    "id": "c31.3",
-   "page": 32,
+   "page": 34,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-31.html#task-3",
    "curriculum": null
   },
   {
    "id": "c31.4",
-   "page": 32,
+   "page": 34,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-31.html#task-4",
    "curriculum": null
   },
   {
-   "id": "c32.1",
-   "page": 33,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c32.2",
-   "page": 33,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c32.3",
-   "page": 33,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c32.4",
-   "page": 33,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-4",
-   "curriculum": null
-  },
-  {
    "id": "c33.1",
-   "page": 34,
+   "page": 35,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html#task-1",
    "curriculum": null
   },
   {
    "id": "c33.2",
-   "page": 34,
+   "page": 35,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html#task-2",
    "curriculum": null
   },
   {
    "id": "c33.3",
-   "page": 34,
+   "page": 35,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html#task-3",
    "curriculum": null
   },
   {
    "id": "c33.4",
-   "page": 34,
+   "page": 35,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html#task-4",
    "curriculum": null
   },
   {
    "id": "c33.5",
-   "page": 34,
+   "page": 35,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html#task-5",
    "curriculum": null
   },
   {
    "id": "c33.6",
-   "page": 34,
+   "page": 35,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-33.html#task-6",
    "curriculum": null
   },
   {
+   "id": "moe8-p4-q1",
+   "page": 36,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-004.webp",
+   "curriculum": "moe8-p4-q1",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 4,
+    "officialQuestion": 1,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-004.webp",
+    "bbb": "g8.t01.B.Q1",
+    "bbbRelation": "BBB-edited (story condensed to one sentence, hint 'היעזרו ב־π ≈ 3.14' added)",
+    "presentationChanges": [
+     "dropped the stray fragment 'תו' before 'תומר זכר' (unambiguous leftover)",
+     "ASCII quote in ס\"מ written as gershayim ס״מ (maagal typography)"
+    ]
+   }
+  },
+  {
+   "id": "moe8-p5-q2",
+   "page": 36,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-005.webp",
+   "curriculum": "moe8-p5-q2",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 5,
+    "officialQuestion": 2,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-005.webp",
+    "bbb": "g8.t01.B.Q2",
+    "bbbRelation": "same (BBB 'כמתואר' for 'כפי שמתואר')",
+    "presentationChanges": [
+     "part א ended with '.' although it is a question; changed to '?'"
+    ]
+   }
+  },
+  {
+   "id": "moe8-p5-q5",
+   "page": 36,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-005.webp",
+   "curriculum": "moe8-p5-q5",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 5,
+    "officialQuestion": 5,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-005.webp",
+    "bbb": "g8.t01.B.lost-p05-toy-car-track",
+    "bbbRelation": "not in BBB (lost; only in the deleted crop bbb@57ae2f2 p05.png)",
+    "presentationChanges": []
+   }
+  },
+  {
+   "id": "c32.1",
+   "page": 37,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c32.2",
+   "page": 37,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c32.3",
+   "page": 37,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c32.4",
+   "page": 37,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-32.html#task-4",
+   "curriculum": null
+  },
+  {
    "id": "c34.1",
-   "page": 35,
+   "page": 38,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html#task-1",
    "curriculum": null
   },
   {
    "id": "c34.2",
-   "page": 35,
+   "page": 38,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html#task-2",
    "curriculum": null
   },
   {
    "id": "c34.3",
-   "page": 35,
+   "page": 38,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html#task-3",
    "curriculum": null
   },
   {
    "id": "c34.4",
-   "page": 35,
+   "page": 38,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html#task-4",
    "curriculum": null
   },
   {
    "id": "c34.5",
-   "page": 35,
+   "page": 38,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html#task-5",
    "curriculum": null
   },
   {
    "id": "c34.6",
-   "page": 35,
+   "page": 38,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html#task-6",
    "curriculum": null
   },
   {
    "id": "c34.7",
-   "page": 35,
+   "page": 38,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-34.html#task-7",
    "curriculum": null
   },
   {
    "id": "c35.1",
-   "page": 36,
+   "page": 39,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-35.html#task-1",
    "curriculum": null
   },
   {
    "id": "c35.2",
-   "page": 36,
+   "page": 39,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-35.html#task-2",
    "curriculum": null
   },
   {
    "id": "c35.3",
-   "page": 36,
+   "page": 39,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-35.html#task-3",
    "curriculum": null
   },
   {
    "id": "c36.1",
-   "page": 37,
+   "page": 40,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-36.html#task-1",
    "curriculum": null
   },
   {
    "id": "c36.2",
-   "page": 37,
+   "page": 40,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-36.html#task-2",
    "curriculum": null
   },
   {
    "id": "c36.3",
-   "page": 37,
+   "page": 40,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-36.html#task-3",
    "curriculum": null
   },
   {
    "id": "c37.1",
-   "page": 38,
+   "page": 41,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-37.html#task-1",
    "curriculum": null
   },
   {
    "id": "c37.2",
-   "page": 38,
+   "page": 41,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-37.html#task-2",
    "curriculum": null
   },
   {
    "id": "c37.3",
-   "page": 38,
+   "page": 41,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-37.html#task-3",
    "curriculum": null
   },
   {
    "id": "c37.4",
-   "page": 38,
+   "page": 41,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-37.html#task-4",
    "curriculum": null
   },
   {
    "id": "c38.1",
-   "page": 39,
+   "page": 42,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-38.html#task-1",
    "curriculum": null
   },
   {
    "id": "c38.2",
-   "page": 39,
+   "page": 42,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-38.html#task-2",
    "curriculum": null
   },
   {
    "id": "c38.3",
-   "page": 39,
+   "page": 42,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-38.html#task-3",
    "curriculum": null
   },
   {
    "id": "c38.4",
-   "page": 39,
+   "page": 42,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-38.html#task-4",
    "curriculum": null
   },
   {
    "id": "c39.1",
-   "page": 40,
+   "page": 43,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-39.html#task-1",
    "curriculum": null
   },
   {
    "id": "c39.2",
-   "page": 40,
+   "page": 43,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-39.html#task-2",
    "curriculum": null
   },
   {
    "id": "c39.3",
-   "page": 40,
+   "page": 43,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-39.html#task-3",
    "curriculum": null
   },
   {
    "id": "c39.4",
-   "page": 40,
+   "page": 43,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-39.html#task-4",
    "curriculum": null
   },
   {
    "id": "c40.1",
-   "page": 41,
+   "page": 44,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-40.html#task-1",
    "curriculum": null
   },
   {
    "id": "c40.2",
-   "page": 41,
+   "page": 44,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-40.html#task-2",
    "curriculum": null
   },
   {
    "id": "c40.3",
-   "page": 41,
+   "page": 44,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-40.html#task-3",
    "curriculum": null
   },
   {
-   "id": "g8-05.1",
-   "page": 42,
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-05.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "g8-01.1",
-   "page": 43,
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-01.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "g8-01.2",
-   "page": 43,
-   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-01.html#task-2",
-   "curriculum": null
-  },
-  {
    "id": "c41.1",
-   "page": 44,
+   "page": 45,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html#task-1",
    "curriculum": null
   },
   {
    "id": "c41.2",
-   "page": 44,
+   "page": 45,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html#task-2",
    "curriculum": null
   },
   {
+   "id": "c41.5",
+   "page": 45,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html#task-5",
+   "curriculum": null
+  },
+  {
    "id": "c41.3",
-   "page": 44,
+   "page": 45,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html#task-3",
    "curriculum": null
   },
   {
    "id": "c41.4",
-   "page": 44,
+   "page": 45,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html#task-4",
    "curriculum": null
   },
   {
-   "id": "c41.5",
-   "page": 44,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-41.html#task-5",
-   "curriculum": null
-  },
-  {
-   "id": "c42.1",
-   "page": 45,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c42.2",
-   "page": 45,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c42.3",
-   "page": 45,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c42.4",
-   "page": 45,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c43.1",
+   "id": "g8-01.1",
    "page": 46,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-1",
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-01.html#task-1",
    "curriculum": null
   },
   {
-   "id": "c43.2",
+   "id": "g8-01.2",
    "page": 46,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c43.3",
-   "page": 46,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c43.4",
-   "page": 46,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-4",
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-01.html#task-2",
    "curriculum": null
   },
   {
@@ -1738,1216 +2181,1482 @@
    "curriculum": null
   },
   {
-   "id": "c45.1",
-   "page": 48,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c45.2",
-   "page": 48,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c45.3",
-   "page": 48,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c45.4",
-   "page": 48,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c46.9",
-   "page": 49,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-46.html#task-9",
-   "curriculum": null
-  },
-  {
    "id": "c47.1",
-   "page": 50,
+   "page": 48,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html#task-1",
    "curriculum": null
   },
   {
    "id": "c47.2",
-   "page": 50,
+   "page": 48,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html#task-2",
    "curriculum": null
   },
   {
    "id": "c47.3",
-   "page": 50,
+   "page": 48,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html#task-3",
    "curriculum": null
   },
   {
    "id": "c47.4",
-   "page": 50,
+   "page": 48,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html#task-4",
    "curriculum": null
   },
   {
    "id": "c47.5",
-   "page": 50,
+   "page": 48,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html#task-5",
    "curriculum": null
   },
   {
    "id": "c47.6",
-   "page": 50,
+   "page": 48,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-47.html#task-6",
    "curriculum": null
   },
   {
-   "id": "c48.1",
+   "id": "c42.1",
+   "page": 49,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c42.2",
+   "page": 49,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c42.3",
+   "page": 49,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c42.4",
+   "page": 49,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-42.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "c43.1",
+   "page": 50,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c43.2",
+   "page": 50,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c43.3",
+   "page": 50,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c43.4",
+   "page": 50,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-43.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "c45.1",
    "page": 51,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c45.2",
+   "page": 51,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c45.3",
+   "page": 51,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c45.4",
+   "page": 51,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-45.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "c46.9",
+   "page": 52,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-46.html#task-9",
+   "curriculum": null
+  },
+  {
+   "id": "c46.n1",
+   "page": 52,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-46.html#restructured",
+   "curriculum": null
+  },
+  {
+   "id": "c48.1",
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-1",
    "curriculum": null
   },
   {
    "id": "c48.2",
-   "page": 51,
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-2",
    "curriculum": null
   },
   {
    "id": "c48.3",
-   "page": 51,
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-3",
    "curriculum": null
   },
   {
    "id": "c48.4",
-   "page": 51,
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-4",
    "curriculum": null
   },
   {
    "id": "c48.5",
-   "page": 51,
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-5",
    "curriculum": null
   },
   {
    "id": "c48.6",
-   "page": 51,
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-6",
    "curriculum": null
   },
   {
    "id": "c48.7",
-   "page": 51,
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-7",
    "curriculum": null
   },
   {
    "id": "c48.8",
-   "page": 51,
+   "page": 53,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-48.html#task-8",
    "curriculum": null
   },
   {
-   "id": "c49.1",
-   "page": 52,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-49.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c49.2",
-   "page": 52,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-49.html#task-2",
-   "curriculum": null
-  },
-  {
    "id": "c50.1",
-   "page": 53,
+   "page": 54,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-50.html#task-1",
    "curriculum": null
   },
   {
-   "id": "c50.2",
-   "page": 53,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-50.html#task-2",
-   "curriculum": null
-  },
-  {
    "id": "c50.3",
-   "page": 53,
+   "page": 54,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-50.html#task-3",
    "curriculum": null
   },
   {
    "id": "c50.4",
-   "page": 53,
+   "page": 54,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-50.html#task-4",
    "curriculum": null
   },
   {
    "id": "c51.1",
-   "page": 54,
+   "page": 55,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-51.html#task-1",
    "curriculum": null
   },
   {
    "id": "c51.2",
-   "page": 54,
+   "page": 55,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-51.html#task-2",
    "curriculum": null
   },
   {
    "id": "c51.3",
-   "page": 54,
+   "page": 55,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-51.html#task-3",
    "curriculum": null
   },
   {
    "id": "c51.4",
-   "page": 54,
+   "page": 55,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-51.html#task-4",
    "curriculum": null
   },
   {
-   "id": "c52.1",
-   "page": 55,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c52.2",
-   "page": 55,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c52.3",
-   "page": 55,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c53.1",
+   "id": "c49.1",
    "page": 56,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html#task-1",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-49.html#task-1",
    "curriculum": null
   },
   {
-   "id": "c53.2",
+   "id": "c49.2",
    "page": 56,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c53.3",
-   "page": 56,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c54.1",
-   "page": 57,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c54.2",
-   "page": 57,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c54.3",
-   "page": 57,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html#task-3",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-49.html#task-2",
    "curriculum": null
   },
   {
    "id": "c55.1",
-   "page": 58,
+   "page": 57,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-55.html#task-1",
    "curriculum": null
   },
   {
    "id": "c55.2",
-   "page": 58,
+   "page": 57,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-55.html#task-2",
    "curriculum": null
   },
   {
    "id": "c55.3",
-   "page": 58,
+   "page": 57,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-55.html#task-3",
    "curriculum": null
   },
   {
-   "id": "c56.1",
+   "id": "c52.1",
+   "page": 58,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c52.2",
+   "page": 58,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c52.3",
+   "page": 58,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-52.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c53.1",
    "page": 59,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c53.2",
+   "page": 59,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c53.3",
+   "page": 59,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-53.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c54.1",
+   "page": 60,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c54.2",
+   "page": 60,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c54.3",
+   "page": 60,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-54.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c56.1",
+   "page": 61,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-56.html#task-1",
    "curriculum": null
   },
   {
    "id": "c56.2",
-   "page": 59,
+   "page": 61,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-56.html#task-2",
    "curriculum": null
   },
   {
    "id": "c56.3",
-   "page": 59,
+   "page": 61,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-56.html#task-3",
    "curriculum": null
   },
   {
    "id": "c57.1",
-   "page": 60,
+   "page": 62,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-57.html#task-1",
    "curriculum": null
   },
   {
    "id": "c57.2",
-   "page": 60,
+   "page": 62,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-57.html#task-2",
    "curriculum": null
   },
   {
    "id": "c57.3",
-   "page": 60,
+   "page": 62,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-57.html#task-3",
    "curriculum": null
   },
   {
    "id": "c57.4",
-   "page": 60,
+   "page": 62,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-57.html#task-4",
    "curriculum": null
   },
   {
    "id": "c58.1",
-   "page": 61,
+   "page": 63,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-58.html#task-1",
    "curriculum": null
   },
   {
    "id": "c58.2",
-   "page": 61,
+   "page": 63,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-58.html#task-2",
    "curriculum": null
   },
   {
    "id": "c58.3",
-   "page": 61,
+   "page": 63,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-58.html#task-3",
    "curriculum": null
   },
   {
    "id": "c59.1",
-   "page": 62,
+   "page": 64,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html#task-1",
    "curriculum": null
   },
   {
    "id": "c59.2",
-   "page": 62,
+   "page": 64,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html#task-2",
    "curriculum": null
   },
   {
    "id": "c59.3",
-   "page": 62,
+   "page": 64,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html#task-3",
    "curriculum": null
   },
   {
    "id": "c59.4",
-   "page": 62,
+   "page": 64,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html#task-4",
    "curriculum": null
   },
   {
    "id": "c59.5",
-   "page": 62,
+   "page": 64,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html#task-5",
    "curriculum": null
   },
   {
    "id": "c59.6",
-   "page": 62,
+   "page": 64,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-59.html#task-6",
    "curriculum": null
   },
   {
    "id": "c60.1",
-   "page": 63,
+   "page": 65,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html#task-1",
    "curriculum": null
   },
   {
    "id": "c60.2",
-   "page": 63,
+   "page": 65,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html#task-2",
    "curriculum": null
   },
   {
    "id": "c60.3",
-   "page": 63,
+   "page": 65,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html#task-3",
    "curriculum": null
   },
   {
    "id": "c60.4",
-   "page": 63,
+   "page": 65,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html#task-4",
    "curriculum": null
   },
   {
    "id": "c60.5",
-   "page": 63,
+   "page": 65,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html#task-5",
    "curriculum": null
   },
   {
    "id": "c60.6",
-   "page": 63,
+   "page": 65,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-60.html#task-6",
    "curriculum": null
   },
   {
-   "id": "c61.1",
-   "page": 64,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c61.2",
-   "page": 64,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c61.3",
-   "page": 64,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c61.4",
-   "page": 64,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c62.1",
-   "page": 65,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c62.2",
-   "page": 65,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c62.3",
-   "page": 65,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c63.1",
-   "page": 66,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c63.2",
-   "page": 66,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c63.3",
-   "page": 66,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c64.1",
-   "page": 67,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c64.2",
-   "page": 67,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c64.3",
-   "page": 67,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c64.4",
-   "page": 67,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c65.1",
-   "page": 68,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c65.2",
-   "page": 68,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c65.3",
-   "page": 68,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c65.4",
-   "page": 68,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c66.1",
-   "page": 69,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c66.2",
-   "page": 69,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c66.3",
-   "page": 69,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c66.4",
-   "page": 69,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c67.1",
-   "page": 70,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c67.2",
-   "page": 70,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c67.3",
-   "page": 70,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c67.4",
-   "page": 70,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c68.1",
-   "page": 71,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-1",
-   "curriculum": null
-  },
-  {
-   "id": "c68.2",
-   "page": 71,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-2",
-   "curriculum": null
-  },
-  {
-   "id": "c68.3",
-   "page": 71,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-3",
-   "curriculum": null
-  },
-  {
-   "id": "c68.4",
-   "page": 71,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-4",
-   "curriculum": null
-  },
-  {
-   "id": "c68.5",
-   "page": 71,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-5",
-   "curriculum": null
-  },
-  {
    "id": "c69.1",
-   "page": 72,
+   "page": 66,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html#task-1",
    "curriculum": null
   },
   {
    "id": "c69.2",
-   "page": 72,
+   "page": 66,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html#task-2",
    "curriculum": null
   },
   {
    "id": "c69.3",
-   "page": 72,
+   "page": 66,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html#task-3",
    "curriculum": null
   },
   {
    "id": "c69.4",
-   "page": 72,
+   "page": 66,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html#task-4",
    "curriculum": null
   },
   {
    "id": "c69.5",
-   "page": 72,
+   "page": 66,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html#task-5",
    "curriculum": null
   },
   {
-   "id": "c69.6",
+   "id": "g8-05.1",
+   "page": 67,
+   "source": "yanivmizrachiy/razpages@c8fe7bde7ee19215b5593f9379c3db2f0c846538:workbooks/circle/source/targilim/g8-05.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c63.1",
+   "page": 68,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c63.2",
+   "page": 68,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c63.3",
+   "page": 68,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-63.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c64.1",
+   "page": 69,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c64.2",
+   "page": 69,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c64.3",
+   "page": 69,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c64.4",
+   "page": 69,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-64.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "moe8-p7-q3",
+   "page": 70,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-007.webp",
+   "curriculum": "moe8-p7-q3",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 7,
+    "officialQuestion": 3,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-007.webp",
+    "bbb": "g8.t01.B.Q5b",
+    "bbbRelation": "paraphrase ('באיור' for 'באיור הבא')",
+    "presentationChanges": []
+   }
+  },
+  {
+   "id": "moe8-p8-q5",
+   "page": 70,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-008.webp",
+   "curriculum": "moe8-p8-q5",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 8,
+    "officialQuestion": 5,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-008.webp",
+    "bbb": "g8.t01.B.lost-p08-earrings-sector",
+    "bbbRelation": "not in BBB (lost; only in the deleted crop bbb@57ae2f2 p08.png)",
+    "presentationChanges": [
+     "'בזווית בנות 40°' → 'בזוויות בנות 40°' (agreement, one missing letter)",
+     "space before comma removed: '40° ,' → '40°,'"
+    ]
+   }
+  },
+  {
+   "id": "c61.1",
+   "page": 71,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c61.2",
+   "page": 71,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c61.3",
+   "page": 71,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c61.4",
+   "page": 71,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-61.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "moe8-p6-q2",
    "page": 72,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-69.html#task-6",
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp",
+   "curriculum": "moe8-p6-q2",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 6,
+    "officialQuestion": 2,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp",
+    "bbb": "g8.t01.B.Q4",
+    "bbbRelation": "paraphrase (plus choices איור א'/ב'/ג' and 'נמקו')",
+    "presentationChanges": []
+   }
+  },
+  {
+   "id": "moe8-p7-q4",
+   "page": 72,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-007.webp",
+   "curriculum": "moe8-p7-q4",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 7,
+    "officialQuestion": 4,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-007.webp",
+    "bbb": "g8.t01.B.Q5a",
+    "bbbRelation": "same ('עיגול חסום' for 'עיגול החסום')",
+    "presentationChanges": []
+   }
+  },
+  {
+   "id": "c65.1",
+   "page": 73,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-1",
    "curriculum": null
   },
   {
-   "id": "c70.1",
+   "id": "c65.2",
    "page": 73,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-1",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-2",
    "curriculum": null
   },
   {
-   "id": "c70.2",
+   "id": "c65.3",
    "page": 73,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-2",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-3",
    "curriculum": null
   },
   {
-   "id": "c70.3",
+   "id": "c65.4",
    "page": 73,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-3",
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-65.html#task-4",
    "curriculum": null
   },
   {
-   "id": "c70.4",
-   "page": 73,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-4",
+   "id": "moe8-p9-q7",
+   "page": 74,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-009.webp",
+   "curriculum": "moe8-p9-q7",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 9,
+    "officialQuestion": 7,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-009.webp",
+    "bbb": "g8.t01.B.Q6",
+    "bbbRelation": "same ('P ו־Q' for 'P, Q')",
+    "presentationChanges": []
+   }
+  },
+  {
+   "id": "moe8-p9-q8",
+   "page": 74,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-009.webp",
+   "curriculum": "moe8-p9-q8",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 9,
+    "officialQuestion": 8,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-009.webp",
+    "bbb": "g8.t01.B.Q7",
+    "bbbRelation": "BBB-edited (stem shortened to 'הבנויות ממלבן 20×12', claims reshaped into קטן/שווה/גדול, 'נמקו' added)",
+    "presentationChanges": [
+     "the tiny subscript indices 1–3 / 1–4 on the Word checkboxes dropped (list numbering, RULES §4); checkboxes kept"
+    ]
+   }
+  },
+  {
+   "id": "c66.1",
+   "page": 75,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c66.2",
+   "page": 75,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c66.3",
+   "page": 75,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c66.4",
+   "page": 75,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-66.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "c67.1",
+   "page": 76,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c67.2",
+   "page": 76,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c67.3",
+   "page": 76,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c67.4",
+   "page": 76,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-67.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "moe8-p6-q1",
+   "page": 77,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp",
+   "curriculum": "moe8-p6-q1",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 6,
+    "officialQuestion": 1,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-006.webp",
+    "bbb": "g8.t01.B.Q3",
+    "bbbRelation": "same ('המורכב' for 'שמורכב')",
+    "presentationChanges": []
+   }
+  },
+  {
+   "id": "moe8-p8-q6",
+   "page": 77,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-008.webp",
+   "curriculum": "moe8-p8-q6",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 8,
+    "officialQuestion": 6,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-008.webp",
+    "bbb": "g8.t01.B.lost-p08-lawn-field",
+    "bbbRelation": "not in BBB (lost; only in the deleted crop bbb@57ae2f2 p08.png)",
+    "presentationChanges": [
+     "'150 מ' X 200 מ'' → '150 מ׳ · 200 מ׳' (multiplication sign, RULES §8)",
+     "'612 .5π' → '612.5π' (stray space)",
+     "'(בשרטוט - השטח' → '(בשרטוט – השטח' (dash, not minus)",
+     "choice options kept in the source's 2×2 layout: i/ii in the right column, iii/iv in the left"
+    ]
+   }
+  },
+  {
+   "id": "c68.1",
+   "page": 78,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c68.2",
+   "page": 78,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c68.3",
+   "page": 78,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c68.4",
+   "page": 78,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "c68.5",
+   "page": 78,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-68.html#task-5",
    "curriculum": null
   },
   {
    "id": "c71.1",
-   "page": 84,
+   "page": 79,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html#task-1",
    "curriculum": null
   },
   {
    "id": "c71.2",
-   "page": 84,
+   "page": 79,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html#task-2",
    "curriculum": null
   },
   {
    "id": "c71.3",
-   "page": 84,
+   "page": 79,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html#task-3",
    "curriculum": null
   },
   {
    "id": "c71.4",
-   "page": 84,
+   "page": 79,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html#task-4",
    "curriculum": null
   },
   {
    "id": "c71.5",
-   "page": 84,
+   "page": 79,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html#task-5",
    "curriculum": null
   },
   {
    "id": "c71.6",
-   "page": 84,
+   "page": 79,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-71.html#task-6",
    "curriculum": null
   },
   {
    "id": "c72.1",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-1",
    "curriculum": null
   },
   {
    "id": "c72.2",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-2",
    "curriculum": null
   },
   {
    "id": "c72.3",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-3",
    "curriculum": null
   },
   {
    "id": "c72.4",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-4",
    "curriculum": null
   },
   {
    "id": "c72.5",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-5",
    "curriculum": null
   },
   {
    "id": "c72.6",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-6",
    "curriculum": null
   },
   {
    "id": "c72.7",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-7",
    "curriculum": null
   },
   {
    "id": "c72.8",
-   "page": 85,
+   "page": 80,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-72.html#task-8",
    "curriculum": null
   },
   {
    "id": "c73.1",
-   "page": 86,
+   "page": 81,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html#task-1",
    "curriculum": null
   },
   {
    "id": "c73.2",
-   "page": 86,
+   "page": 81,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html#task-2",
    "curriculum": null
   },
   {
    "id": "c73.3",
-   "page": 86,
+   "page": 81,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html#task-3",
    "curriculum": null
   },
   {
    "id": "c73.4",
-   "page": 86,
+   "page": 81,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html#task-4",
    "curriculum": null
   },
   {
    "id": "c73.5",
-   "page": 86,
+   "page": 81,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html#task-5",
    "curriculum": null
   },
   {
    "id": "c73.6",
-   "page": 86,
+   "page": 81,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-73.html#task-6",
    "curriculum": null
   },
   {
    "id": "c74.1",
-   "page": 87,
+   "page": 82,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html#task-1",
    "curriculum": null
   },
   {
    "id": "c74.2",
-   "page": 87,
+   "page": 82,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html#task-2",
    "curriculum": null
   },
   {
    "id": "c74.3",
-   "page": 87,
+   "page": 82,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html#task-3",
    "curriculum": null
   },
   {
    "id": "c74.4",
-   "page": 87,
+   "page": 82,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html#task-4",
    "curriculum": null
   },
   {
    "id": "c74.5",
-   "page": 87,
+   "page": 82,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html#task-5",
    "curriculum": null
   },
   {
    "id": "c74.6",
-   "page": 87,
+   "page": 82,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-74.html#task-6",
    "curriculum": null
   },
   {
    "id": "c75.1",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-1",
    "curriculum": null
   },
   {
    "id": "c75.2",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-2",
    "curriculum": null
   },
   {
    "id": "c75.3",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-3",
    "curriculum": null
   },
   {
    "id": "c75.4",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-4",
    "curriculum": null
   },
   {
    "id": "c75.5",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-5",
    "curriculum": null
   },
   {
    "id": "c75.6",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-6",
    "curriculum": null
   },
   {
    "id": "c75.7",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-7",
    "curriculum": null
   },
   {
    "id": "c75.8",
-   "page": 88,
+   "page": 83,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-75.html#task-8",
    "curriculum": null
   },
   {
    "id": "c76.1",
-   "page": 89,
+   "page": 84,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html#task-1",
    "curriculum": null
   },
   {
    "id": "c76.2",
-   "page": 89,
+   "page": 84,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html#task-2",
    "curriculum": null
   },
   {
    "id": "c76.3",
-   "page": 89,
+   "page": 84,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html#task-3",
    "curriculum": null
   },
   {
    "id": "c76.4",
-   "page": 89,
+   "page": 84,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html#task-4",
    "curriculum": null
   },
   {
    "id": "c76.5",
-   "page": 89,
+   "page": 84,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html#task-5",
    "curriculum": null
   },
   {
-   "id": "c76.6",
-   "page": 89,
-   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-76.html#task-6",
-   "curriculum": null
-  },
-  {
    "id": "c77.1",
-   "page": 90,
+   "page": 85,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html#task-1",
    "curriculum": null
   },
   {
    "id": "c77.2",
-   "page": 90,
+   "page": 85,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html#task-2",
    "curriculum": null
   },
   {
    "id": "c77.3",
-   "page": 90,
+   "page": 85,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html#task-3",
    "curriculum": null
   },
   {
    "id": "c77.4",
-   "page": 90,
+   "page": 85,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html#task-4",
    "curriculum": null
   },
   {
    "id": "c77.5",
-   "page": 90,
+   "page": 85,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html#task-5",
    "curriculum": null
   },
   {
    "id": "c77.6",
-   "page": 90,
+   "page": 85,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-77.html#task-6",
    "curriculum": null
   },
   {
    "id": "c78.1",
-   "page": 91,
+   "page": 86,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html#task-1",
    "curriculum": null
   },
   {
    "id": "c78.2",
-   "page": 91,
+   "page": 86,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html#task-2",
    "curriculum": null
   },
   {
    "id": "c78.3",
-   "page": 91,
+   "page": 86,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html#task-3",
    "curriculum": null
   },
   {
    "id": "c78.4",
-   "page": 91,
+   "page": 86,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html#task-4",
    "curriculum": null
   },
   {
    "id": "c78.5",
-   "page": 91,
+   "page": 86,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html#task-5",
    "curriculum": null
   },
   {
    "id": "c78.6",
-   "page": 91,
+   "page": 86,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-78.html#task-6",
    "curriculum": null
   },
   {
    "id": "c79.1",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-1",
    "curriculum": null
   },
   {
    "id": "c79.2",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-2",
    "curriculum": null
   },
   {
    "id": "c79.3",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-3",
    "curriculum": null
   },
   {
    "id": "c79.4",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-4",
    "curriculum": null
   },
   {
    "id": "c79.5",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-5",
    "curriculum": null
   },
   {
    "id": "c79.6",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-6",
    "curriculum": null
   },
   {
    "id": "c79.7",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-7",
    "curriculum": null
   },
   {
    "id": "c79.8",
-   "page": 92,
+   "page": 87,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-79.html#task-8",
    "curriculum": null
   },
   {
    "id": "c80.1",
-   "page": 93,
+   "page": 88,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-80.html#task-1",
    "curriculum": null
   },
   {
    "id": "c80.2",
-   "page": 93,
+   "page": 88,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-80.html#task-2",
    "curriculum": null
   },
   {
    "id": "c80.3",
-   "page": 93,
+   "page": 88,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-80.html#task-3",
    "curriculum": null
   },
   {
    "id": "c81.1",
-   "page": 94,
+   "page": 89,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-81.html#task-1",
    "curriculum": null
   },
   {
    "id": "c81.2",
-   "page": 94,
+   "page": 89,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-81.html#task-2",
    "curriculum": null
   },
   {
    "id": "c81.3",
-   "page": 94,
+   "page": 89,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-81.html#task-3",
    "curriculum": null
   },
   {
    "id": "c81.4",
-   "page": 94,
+   "page": 89,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-81.html#task-4",
    "curriculum": null
   },
   {
    "id": "c82.1",
-   "page": 95,
+   "page": 90,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-82.html#task-1",
    "curriculum": null
   },
   {
    "id": "c82.2",
-   "page": 95,
+   "page": 90,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-82.html#task-2",
    "curriculum": null
   },
   {
    "id": "c82.3",
-   "page": 95,
+   "page": 90,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-82.html#task-3",
    "curriculum": null
   },
   {
    "id": "c82.4",
-   "page": 95,
+   "page": 90,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-82.html#task-4",
    "curriculum": null
   },
   {
    "id": "c83.1",
-   "page": 96,
+   "page": 91,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-83.html#task-1",
    "curriculum": null
   },
   {
    "id": "c83.2",
-   "page": 96,
+   "page": 91,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-83.html#task-2",
    "curriculum": null
   },
   {
    "id": "c83.3",
-   "page": 96,
+   "page": 91,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-83.html#task-3",
    "curriculum": null
   },
   {
    "id": "c83.4",
-   "page": 96,
+   "page": 91,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-83.html#task-4",
    "curriculum": null
   },
   {
    "id": "c83.5",
-   "page": 96,
+   "page": 91,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-83.html#task-5",
    "curriculum": null
   },
   {
    "id": "c84.1",
-   "page": 97,
+   "page": 92,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-84.html#task-1",
    "curriculum": null
   },
   {
    "id": "c84.2",
-   "page": 97,
+   "page": 92,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-84.html#task-2",
    "curriculum": null
   },
   {
    "id": "c84.3",
-   "page": 97,
+   "page": 92,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-84.html#task-3",
    "curriculum": null
   },
   {
    "id": "c84.4",
-   "page": 97,
+   "page": 92,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-84.html#task-4",
    "curriculum": null
   },
   {
    "id": "c85.1",
-   "page": 98,
+   "page": 93,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-85.html#task-1",
    "curriculum": null
   },
   {
    "id": "c85.2",
-   "page": 98,
+   "page": 93,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-85.html#task-2",
    "curriculum": null
   },
   {
    "id": "c85.3",
-   "page": 98,
+   "page": 93,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-85.html#task-3",
    "curriculum": null
   },
   {
+   "id": "moe8-p3-q2",
+   "page": 94,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-003.webp",
+   "curriculum": "moe8-p3-q2",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 3,
+    "officialQuestion": 2,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-003.webp",
+    "bbb": "g8.t01.A.Q2",
+    "bbbRelation": "BBB-edited (reworded stem, added part א 'draw the circle on a grid', answer boxes)",
+    "presentationChanges": [
+     "hyphen-minus in F(-3,4) G(-4,3) H(-5,0) written as the minus sign − (RULES §8)"
+    ]
+   }
+  },
+  {
+   "id": "moe8-p3-q3",
+   "page": 94,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-003.webp",
+   "curriculum": "moe8-p3-q3",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 3,
+    "officialQuestion": 3,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-003.webp",
+    "bbb": "g8.t01.A.Q3",
+    "bbbRelation": "paraphrase (BBB: 'במערכת הצירים שלפניכם מסורטט מעגל, ו־AB הוא קוטר המעגל', plus an added 'נמקו' and a grid in the figure)",
+    "presentationChanges": []
+   }
+  },
+  {
    "id": "c86.1",
-   "page": 99,
+   "page": 95,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-86.html#task-1",
    "curriculum": null
   },
   {
    "id": "c86.2",
-   "page": 99,
+   "page": 95,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-86.html#task-2",
    "curriculum": null
   },
   {
    "id": "c86.3",
-   "page": 99,
+   "page": 95,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-86.html#task-3",
    "curriculum": null
   },
   {
    "id": "c86.4",
-   "page": 99,
+   "page": 95,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-86.html#task-4",
    "curriculum": null
   },
   {
    "id": "c87.1",
-   "page": 100,
+   "page": 96,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-87.html#task-1",
    "curriculum": null
   },
   {
    "id": "c87.2",
-   "page": 100,
+   "page": 96,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-87.html#task-2",
    "curriculum": null
   },
   {
    "id": "c87.3",
-   "page": 100,
+   "page": 96,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-87.html#task-3",
    "curriculum": null
   },
   {
    "id": "c87.4",
-   "page": 100,
+   "page": 96,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-87.html#task-4",
    "curriculum": null
   },
   {
    "id": "c88.1",
-   "page": 101,
+   "page": 97,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html#task-1",
    "curriculum": null
   },
   {
    "id": "c88.2",
-   "page": 101,
+   "page": 97,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html#task-2",
    "curriculum": null
   },
   {
    "id": "c88.3",
-   "page": 101,
+   "page": 97,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html#task-3",
    "curriculum": null
   },
   {
    "id": "c88.4",
-   "page": 101,
+   "page": 97,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html#task-4",
    "curriculum": null
   },
   {
    "id": "c88.5",
-   "page": 101,
+   "page": 97,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html#task-5",
    "curriculum": null
   },
   {
    "id": "c88.6",
-   "page": 101,
+   "page": 97,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html#task-6",
    "curriculum": null
   },
   {
    "id": "c88.7",
-   "page": 101,
+   "page": 97,
    "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-88.html#task-7",
    "curriculum": null
+  },
+  {
+   "id": "c62.2",
+   "page": 98,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c62.1",
+   "page": 98,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c62.3",
+   "page": 98,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-62.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c70.1",
+   "page": 99,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-1",
+   "curriculum": null
+  },
+  {
+   "id": "c70.2",
+   "page": 99,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-2",
+   "curriculum": null
+  },
+  {
+   "id": "c70.3",
+   "page": 99,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-3",
+   "curriculum": null
+  },
+  {
+   "id": "c70.4",
+   "page": 99,
+   "source": "yanivmizrachiy/smartschool-hebrew-voice-notes@760f64e82dc6f309c67324df100399532f89bc8f:circle/page-70.html#task-4",
+   "curriculum": null
+  },
+  {
+   "id": "moe8-p11-q1",
+   "page": 100,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp",
+   "curriculum": "moe8-p11-q1",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 11,
+    "officialQuestion": 1,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp",
+    "bbb": "g8.t01.B.park-hamizraka",
+    "bbbRelation": "BBB-edited (intro condensed, prices turned into a table, parts 6–10 paraphrased and shortened)",
+    "presentationChanges": [
+     "RTL-garbled '5 = מטרים' / '2 = מטרים' → '= 5 מטרים' / '= 2 מטרים'",
+     "misplaced punctuation spacing fixed: 'העיר .הפארק' → 'העיר. הפארק', 'הפנימי :בריכת' / 'החיצונית :טיילת' / 'בטיחות :תוצב' / 'גדרות :מהו' / 'הפרויקט :חשבו' / 'הקפוא\" :\"' → colon after the word",
+     "3 decorative emoji before the price items dropped (💧 plus 2 glyphs that do not render)",
+     "part 9: missing opening quote added: 'ואמר: \"תקציב שלנו…בתקציב.\"'",
+     "part 10: the unclosed city quote closed after 'שטחי הציבור', with a period: '…שטחי הציבור\". כלומר,' ('לכם' in the next clause addresses the students, so the quote must end there)",
+     "'(שטח הטבעת - ההפרש' → '(שטח הטבעת – ההפרש' (dash)",
+     "'חלק א'/ב'/ג'/ד' –' prefixes removed from the 4 section headings (RULES §4 labels). The section names are kept as sub-headings, and 'האדריכלית הראשית הגישה תוכנית ראשונית:' is split into its own sentence.",
+     "the park-components list 1.–3. is shown as a bulleted list (it is not a set of questions), so it cannot be confused with the part reference '1ב'",
+     "part numbers 6–10 removed (RULES §4) except the part that part 10 refers to ('בסעיף 1ב'). '6. חישוב שטחים' with 'a./b.' is shown as '1.' with 'א.'/'ב.' plus data-keep-label, so it matches the source's own cross-reference. The 6–10 numbering is a Word auto-numbering continuation of the 1–3 list; nothing is missing."
+    ]
+   }
+  },
+  {
+   "id": "moe8-p11-2.n1",
+   "page": 101,
+   "source": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp",
+   "curriculum": "moe8-p11-q1",
+   "curriculumProof": {
+    "officialDocument": "משרד החינוך — תחום גאומטרי לכיתה ח (geometry_8.pdf, עדכון תשפ״ז)",
+    "url": "https://meyda.education.gov.il/files/Pop/0files/matmatika/Chativat-Beynayim/curriculum/updating/geometry_8.pdf",
+    "officialPage": 11,
+    "officialQuestion": 1,
+    "verifiedAgainst": "yanivmizrachiy/jerusalem2@ffa9833f9f:public/media/curriculum/idkun-geometri-8/pages/page-011.webp",
+    "bbb": "g8.t01.B.park-hamizraka",
+    "bbbRelation": "BBB-edited (intro condensed, prices turned into a table, parts 6–10 paraphrased and shortened)",
+    "presentationChanges": [
+     "RTL-garbled '5 = מטרים' / '2 = מטרים' → '= 5 מטרים' / '= 2 מטרים'",
+     "misplaced punctuation spacing fixed: 'העיר .הפארק' → 'העיר. הפארק', 'הפנימי :בריכת' / 'החיצונית :טיילת' / 'בטיחות :תוצב' / 'גדרות :מהו' / 'הפרויקט :חשבו' / 'הקפוא\" :\"' → colon after the word",
+     "3 decorative emoji before the price items dropped (💧 plus 2 glyphs that do not render)",
+     "part 9: missing opening quote added: 'ואמר: \"תקציב שלנו…בתקציב.\"'",
+     "part 10: the unclosed city quote closed after 'שטחי הציבור', with a period: '…שטחי הציבור\". כלומר,' ('לכם' in the next clause addresses the students, so the quote must end there)",
+     "'(שטח הטבעת - ההפרש' → '(שטח הטבעת – ההפרש' (dash)",
+     "'חלק א'/ב'/ג'/ד' –' prefixes removed from the 4 section headings (RULES §4 labels). The section names are kept as sub-headings, and 'האדריכלית הראשית הגישה תוכנית ראשונית:' is split into its own sentence.",
+     "the park-components list 1.–3. is shown as a bulleted list (it is not a set of questions), so it cannot be confused with the part reference '1ב'",
+     "part numbers 6–10 removed (RULES §4) except the part that part 10 refers to ('בסעיף 1ב'). '6. חישוב שטחים' with 'a./b.' is shown as '1.' with 'א.'/'ב.' plus data-keep-label, so it matches the source's own cross-reference. The 6–10 numbering is a Word auto-numbering continuation of the 1–3 list; nothing is missing."
+    ]
+   }
   }
  ],
  "allowExactPiLayouts": [

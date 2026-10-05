@@ -3,7 +3,10 @@
    הטקסט הלימודי מגיע 1:1 מ-sources/bbb/geometry8/worksheet.html — כאן עיצוב בלבד. */
 
 .bbb-geometry8-page { color: var(--text-main); }
-.bbb-geometry8-page .question-block { justify-content: flex-start; gap: 9px; }
+/* ניצול גובה A4 (SSOT "תרווח"): השאלות נפרשות על כל גובה העמוד עם ריווח אחיד
+   למעלה/באמצע/למטה — בלי רצועה ריקה בתחתית מעל הפוטר. חל על כל עמודי ה-bbb (1–9).
+   space-evenly מחלק רק מרחב פנוי, לכן עמוד מלא נשאר כפי שהוא (אין חריגה). */
+.bbb-geometry8-page .question-block { justify-content: space-evenly; gap: 9px; }
 
 /* כותרת אחידה: שם החוברת ("מעגל") בגדול, ומתחתיו כיתוב המקטע בקטן (SSOT) */
 .bbb-geometry8-page .title-stack { display: flex; flex-direction: column; align-items: flex-start; gap: 1px; }

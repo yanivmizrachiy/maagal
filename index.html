@@ -50,7 +50,8 @@ function startLoading(){
  // רקע: תור הדרגתי שטוען את *כל* העמודים (ולא מתפרקים) — כך אין חללים ריקים בגלילה (SSOT: viewer.ironRule).
  let qi=0;(function pump(){let did=0;while(qi<slots.length&&did<2){const sl=slots[qi++];if(!sl._loaded){loadSlot(sl);did++;}}if(qi<slots.length)setTimeout(pump,110);})();
 }
-function build(){book.replaceChildren();slots=[];for(let n=1;n<=total;n++){const slot=document.createElement('section');slot.className='slot';slot._page=n;slot.setAttribute('data-page',n);const ph=document.createElement('div');ph.className='ph';ph.textContent=`עמוד ${n}`;slot.appendChild(ph);book.appendChild(slot);sizeSlot(slot);slots.push(slot);}startLoading();}
+function build(){book.replaceChildren();slots=[];for(let n=1;n<=total;n++){const slot=document.createElement('section');slot.className='slot';slot.id='p'+n;slot._page=n;slot.setAttribute('data-page',n);const ph=document.createElement('div');ph.className='ph';ph.textContent=`עמוד ${n}`;slot.appendChild(ph);book.appendChild(slot);sizeSlot(slot);slots.push(slot);}startLoading();if(location.hash){let k=0;const jump=function(){const t=document.getElementById(location.hash.slice(1));if(t)t.scrollIntoView();if(++k<8)setTimeout(jump,90);};setTimeout(jump,60);}}
+window.addEventListener('hashchange',function(){const t=document.getElementById(location.hash.slice(1));if(t)t.scrollIntoView();});
 let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{slots.forEach(sl=>{sizeSlot(sl);if(sl._loaded)fitIframe(sl);});},150);});
 document.getElementById('print').onclick=()=>window.print();
 document.getElementById('download').onclick=()=>window.print();

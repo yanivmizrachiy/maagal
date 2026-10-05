@@ -29,6 +29,13 @@
 .bbb-geometry8-page .ltr, .bbb-geometry8-page .math { direction: ltr; unicode-bidi: isolate; }
 /* זוג סדור (x,y) עם תיבות תשובה — לא נשבר באמצע השורה */
 .bbb-geometry8-page .pair { white-space: nowrap; }
+/* שורת "דוגמה לנקודה ...: (x,y)" — התווית מימין, והזוג הסדור נעוץ בקצה שמאל,
+   כך שכל הזוגות מיושרים בעמודה מדויקת אחת (מיקום קבוע לנקודות). */
+.bbb-geometry8-page .exline { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.bbb-geometry8-page .exline .exlab { flex: 0 1 auto; }
+.bbb-geometry8-page .exline .pair { flex: 0 0 auto; }
+/* סלאש כחול להפרדת אפשרויות בתוך משפט אחד (בלי תווית "הקיפו:" האוטומטית של .mc) */
+.bbb-geometry8-page .slh { color: #1e3a8a; font-weight: 600; margin: 0 7px; }
 
 /* סעיפים — ללא מספור/אותיות: נקודה כחולה מימין בלבד (SSOT: אין מספור לסעיפים) */
 .bbb-geometry8-page ol.parts { list-style: none; margin: 5px 0 0; padding: 0; }

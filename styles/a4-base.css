@@ -21,6 +21,8 @@ html, body {
     color: var(--text-main);
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 .a4-page {

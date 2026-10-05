@@ -4,3 +4,9 @@
 .page-196 .qbody-split { gap: 14px; }
 .page-196 .qbody-split > .qfig { flex: 0 0 48%; }
 .page-196 .qbody-split > .qmain { flex: 1 1 48%; }
+
+/* ניצול הגובה (תרווח): הרווח שנשאר למטה מתחלק — השאלות נפרשות מתחת לכותרת ועד הפוטר,
+   עם ריווח נדיב בין הסעיפים, במקום להצטופף למעלה עם חלל ריק בתחתית. */
+.bbb-geometry8-page.page-196 .question-block { justify-content: space-between; }
+.bbb-geometry8-page.page-196 ol.parts > li { margin: 9px 0; }
+.bbb-geometry8-page.page-196 .q .lines .ln { margin-top: 3px; }

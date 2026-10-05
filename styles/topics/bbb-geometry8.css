@@ -24,6 +24,8 @@
 
 /* LTR למתמטיקה ולמספרים — CSS בלבד (CLAUDE.md §4) */
 .bbb-geometry8-page .ltr, .bbb-geometry8-page .math { direction: ltr; unicode-bidi: isolate; }
+/* זוג סדור (x,y) עם תיבות תשובה — לא נשבר באמצע השורה */
+.bbb-geometry8-page .pair { white-space: nowrap; }
 
 /* סעיפים — ללא מספור/אותיות: נקודה כחולה מימין בלבד (SSOT: אין מספור לסעיפים) */
 .bbb-geometry8-page ol.parts { list-style: none; margin: 5px 0 0; padding: 0; }

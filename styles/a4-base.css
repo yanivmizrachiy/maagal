@@ -38,11 +38,13 @@ html, body {
     overflow: hidden;
 }
 
-/* פוטר קרדיט (יניב רז, 2 שורות) מעל קו כחול כהה לכל הרוחב (SSOT). */
+/* פוטר קרדיט (יניב רז, 2 שורות) מעל קו כחול כהה לכל רוחב העמוד (SSOT).
+   ה-footer פורץ את ריפוד הצד (18mm) של .a4-page כדי שהקו יהיה מקצה-לקצה;
+   הטקסט נשאר ממורכז בעזרת padding פנימי. תיקון קבוע — לא תלוי בתוכן. */
 .a4-page > .gz-footer {
     flex: 0 0 auto;
-    margin-top: auto;
-    padding-top: 2.2mm;
+    margin: auto -18mm 0 -18mm;
+    padding: 2.2mm 18mm 0 18mm;
     border-top: 2px solid #1e3a8a;
     text-align: center;
 }

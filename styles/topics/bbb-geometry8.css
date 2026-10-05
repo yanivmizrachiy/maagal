@@ -117,6 +117,19 @@
 /* הערת מסגרת (note) */
 .bbb-geometry8-page .note { background: var(--bg-subtle); border: 1px solid var(--border-light); border-right: 4px solid var(--title-blue); border-radius: 8px; padding: 7px 12px; font-size: 14px; break-inside: avoid; page-break-inside: avoid; }
 
+/* ───── פריסת "ציור משמאל, שאלות מימין" — לכל שאלה עם ציור (SSOT משותף) ─────
+   הציור בעמודת שמאל (qfig), כל הכיתובים בעמודת ימין (qmain). נקודת השאלה
+   אינליין מימין לשורת ה-lead ומיושרת עם נקודות הסעיפים. */
+.bbb-geometry8-page .q:has(> .qbody-split) { position: relative; }
+.bbb-geometry8-page .qbody-split { display: flex; align-items: flex-start; gap: 18px; }
+.bbb-geometry8-page .qbody-split > .qmain { flex: 1 1 58%; min-width: 0; }
+.bbb-geometry8-page .qbody-split > .qfig { flex: 0 0 38%; align-self: flex-start; margin-top: 2px; }
+.bbb-geometry8-page .qbody-split > .qfig .figure { max-width: 100%; margin: 0; }
+.bbb-geometry8-page .qbody-split .lead { margin: 0 0 8px; padding-inline-start: 20px; }
+.bbb-geometry8-page .q:has(> .qbody-split) > .qhead { position: absolute; top: 9px; right: 0; float: none; margin: 0; }
+/* בפריסת פיצול — טבלת נקודות בשתי עמודות, מתאימה לרוחב הצר */
+.bbb-geometry8-page .qbody-split .tbgrid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 7px 10px; }
+
 /* המשך שאלה שפוצלה על פני עמודים (אפס שינוי תוכן) */
 .bbb-geometry8-page .q.q-cont { border-top: none; }
 .bbb-geometry8-page .q.q-cont > .qbody { margin-top: 0; }

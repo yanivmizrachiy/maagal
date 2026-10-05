@@ -13,6 +13,10 @@
 .bbb-geometry8-page .page-title { font-size: 33px; font-weight: 600; line-height: 1.05; }
 .bbb-geometry8-page .page-subtitle { font-size: 14.5px; font-weight: 400; color: #475569; }
 
+/* כותרת מקטע בתוך הדף: "שאלות מתוך תוכנית הלימודים" מעל שאלות התוכנית בלבד, כאשר
+   השאלה הראשונה בדף היא שאלה מקורית (לא מהתוכנית). קו מפריד דק מעל הכותרת. */
+.bbb-geometry8-page .section-cap { font-size: 15px; font-weight: 500; color: #1e3a8a; margin: 6px 0 2px; padding-top: 8px; border-top: 1px solid #dbe3f0; }
+
 /* כותרות דמו (chapter-bar/breadcrumb) — מוסרות מהמקור ומנוטרלות גלובלית (SSOT: אין כותרות דמו) */
 .bbb-geometry8-page .chapter-bar { display: none !important; }
 

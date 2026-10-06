@@ -4,7 +4,7 @@
   "sourceOfTruth": true,
   "singleWorkbook": true,
   "graded": true,
-  "pageCount": 106,
+  "pageCount": 99,
   "entry": "index.html",
   "canonicalLanguage": {
     "note": "השפה הקנונית של דפי החוברת לקוטר, מיתר ורדיוס. כל ניסוח בדפים חייב להיות עקבי עם ההיגדים האלה.",
@@ -47,7 +47,7 @@
     ]
   },
   "viewer": {
-    "note": "התצוגה המקדימה (index.html) מציגה תמיד, באופן קבוע, את כל 106 עמודי החוברת ברצף גלילה אחד ורציף ונוח — לעולם לא עמוד בודד ולא דפים ריקים/חסרים. כל העמודים נטענים מראש ובהדרגה ברקע (לא טעינה עצלה מקומית), ואינם מתפרקים לעולם. הגלילה נוחה בכל מקום: העמודים הם לתצוגה בלבד (pointer-events:none), כך שגלגלת/טראקפד/מגע מעל כל עמוד גוללים את החוברת ולא נבלעים ב-iframe.",
+    "note": "התצוגה המקדימה (index.html) מציגה תמיד, באופן קבוע, את כל 99 עמודי החוברת ברצף גלילה אחד ורציף ונוח — לעולם לא עמוד בודד ולא דפים ריקים/חסרים. כל העמודים נטענים מראש ובהדרגה ברקע (לא טעינה עצלה מקומית), ואינם מתפרקים לעולם. הגלילה נוחה בכל מקום: העמודים הם לתצוגה בלבד (pointer-events:none), כך שגלגלת/טראקפד/מגע מעל כל עמוד גוללים את החוברת ולא נבלעים ב-iframe.",
     "mode": "continuous-scroll",
     "showsAllPages": true,
     "neverUnload": true,
@@ -57,29 +57,33 @@
     "entry": "index.html"
   },
   "stages": [
-    {"id":"enrichment","title":"שאלות מתוך תוכנית הלימודים","from":1,"to":9},
-    {"id":"solids","title":"גליל וחרוט — מתוך תוכנית הלימודים","from":10,"to":15},
-    {"id":"basics","title":"יסודות — מעגל ועיגול","from":16,"to":25},
-    {"id":"parts","title":"מרכז, רדיוס, קוטר ומיתר","from":26,"to":36},
-    {"id":"measure","title":"π, היקף, שטח וזווית מרכזית","from":37,"to":58},
-    {"id":"advanced","title":"נוסחאות ותרגול מתקדם","from":59,"to":75},
-    {"id":"applications","title":"יישומים, אוריינות ומידול","from":76,"to":88},
-    {"id":"coordinates","title":"מעגל במערכת צירים","from":89,"to":106}
+    {"id":"basics","title":"יסודות: מרכז, רדיוס, קוטר ומיתר","from":1,"to":21},
+    {"id":"circumference","title":"היקף והקבוע π","from":22,"to":35},
+    {"id":"area","title":"שטח העיגול","from":36,"to":53},
+    {"id":"applications","title":"יישום, אלגברה ומידול","from":54,"to":73},
+    {"id":"coordinates","title":"מעגל במערכת צירים","from":74,"to":85},
+    {"id":"enrichment","title":"שאלות מתוך תוכנית הלימודים","from":86,"to":94},
+    {"id":"bridge","title":"גשר אל הגליל","from":95,"to":99}
   ],
   "segments": [
-    {"from":1,"to":2,"kind":"bbb","sourceStart":196},
-    {"from":3,"to":8,"kind":"bbb","sourceStart":199},
-    {"from":9,"to":9,"kind":"bbb","sourceStart":205},
-    {"from":10,"to":15,"kind":"bbb","sourceStart":206},
-    {"from":16,"to":35,"kind":"original","sourceStart":1},
-    {"from":36,"to":36,"kind":"targilim","source":"g8-06"},
-    {"from":37,"to":56,"kind":"original","sourceStart":21},
-    {"from":57,"to":57,"kind":"targilim","source":"g8-05"},
-    {"from":58,"to":58,"kind":"targilim","source":"g8-01"},
-    {"from":59,"to":88,"kind":"original","sourceStart":41},
-    {"from":89,"to":106,"kind":"original","sourceStart":71}
+    {"from":1,"to":20,"kind":"original","sourceStart":1},
+    {"from":21,"to":21,"kind":"targilim","source":"g8-06"},
+    {"from":22,"to":41,"kind":"original","sourceStart":21},
+    {"from":42,"to":42,"kind":"targilim","source":"g8-05"},
+    {"from":43,"to":43,"kind":"targilim","source":"g8-01"},
+    {"from":44,"to":73,"kind":"original","sourceStart":41},
+    {"from":74,"to":74,"kind":"original","sourceStart":71},
+    {"from":75,"to":75,"kind":"original","sourceStart":76},
+    {"from":76,"to":76,"kind":"original","sourceStart":79},
+    {"from":77,"to":85,"kind":"original","sourceStart":80},
+    {"from":86,"to":87,"kind":"bbb","sourceStart":196},
+    {"from":88,"to":93,"kind":"bbb","sourceStart":199},
+    {"from":94,"to":94,"kind":"bbb","sourceStart":205},
+    {"from":95,"to":98,"kind":"bbb","sourceStart":206},
+    {"from":99,"to":99,"kind":"bbb","sourceStart":211}
   ],
   "provenance": {
+    "reorder":{"appliedOn":"2026-10-06","rationale":"Graded textbook order: fundamentals → circumference → area → applications → coordinates → official curriculum questions → bridge to the cylinder. Source files are unchanged on disk; only the manifest sequence changed, so every step is reversible.","dedupSection":"מעגל ברביע הראשון","keptOriginalPages":[71,76,79],"droppedFromSequence":[72,73,74,75,77,78],"coneExcluded":"עמוד-210 (גביע חרוט) הוצא מהרצף — חרוט מחוץ לתחום; הקובץ נשמר.","movedToEnd":"שאלות bbb מתוכנית הלימודים הועברו מההתחלה לסוף (סיכום + גשר).","previousPageCount":106},
     "originalCircle":{"pages":88,"preservedRelativeOrder":true,"archive":"source/original-88/"},
     "targilim":{"sourcePath":"generator/g8-01.js","sourceCommit":"88352a5671fc5df7dc812136e686176a26c5fb0a","families":["G8-06","G8-05","G8-01"],"canonicalPages":[30,51,52]},
     "bbb":{"sourcePath":"geometry8/topics/t01_circle.py","sourceCommit":"ad12425c6b2e1d4dac84030a5cd865c2b03d3804","archive":"source/bbb/","canonicalRange":[1,15],"merged":"עמוד-198 אוחד לתוך עמוד-197 (עמוד 2)","continuation":"עמוד 9 (מקור 205) הוא המשך שאלת המכרז מעמוד 8 (מקור 204) — אותם נתוני בריכה/טיילת; נוספה כותרת .section-cap-cont 'המשך עמוד 8' בראש התוכן.","solids":"עמודים 10–15 (מקורות עמוד-206..211) הם מקטע 'גליל וחרוט' — כל 7 תרגילי הגופים מ-t01_circle.py (section 3), שנשאבו ועוצבו בסגנון ה-bbb שלנו (שאלה אחת/שתיים לעמוד). עמוד 10 פותח בכותרת .section-cap 'גליל וחרוט'. מיפוי: 10=שני גלילים נפח/מעטפת, 11=גובה מים+שני כלים (גליל בתיבה/תיבה בגליל), 12=ארבעה גלילים עם משולשים, 13=צנצנות דבש, 14=גביע חרוט, 15=גלגול דף לגליל. שלושה איורים שהיו רסטר במקור (p15b/p16/p17) שורטטו מחדש כ-SVG וקטורי נקי (ראה scratch/figgen.py); שלושה איורים נוספים (גלילים/חרוט/גלגול) נבנו מ-geo.py עם הסרת מספרי מידה מהציור (הנתונים בטקסט בלבד)."}

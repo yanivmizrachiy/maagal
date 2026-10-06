@@ -35,3 +35,25 @@
 .a4-page:has(.page-number[aria-label="עמוד 90"]) .coord-card svg{max-height:68mm!important}
 .a4-page:has(.page-number[aria-label="עמוד 90"]) .choice-grid{gap:2.8mm!important}
 .a4-page:has(.page-number[aria-label="עמוד 90"]) .choice-box{padding:2.8mm!important}
+/* === district footer + SSOT compliance (ssot, legacy pages) === */
+.a4-page::after{content:none !important}            /* neutralize old empty credit line; gz-footer draws it */
+.a4-page > .gz-footer{position:absolute;left:0;right:0;bottom:6mm;padding-top:3px;border-top:1px solid #1d4ed8;text-align:center;line-height:1.2}
+.a4-page > .gz-footer .f1{font-size:10.5px;font-weight:500;color:#1f2a44;padding-inline:18mm}
+.a4-page > .gz-footer .f2{font-size:9.5px;color:#475569;padding-inline:18mm}
+.task-row > .qmark{flex:0 0 9px;width:9px;height:9px;border-radius:50%;background:#1e3a8a;margin-top:2.4mm}
+.solve{margin:2.5mm 0 1mm}.solve-lab{color:#1e3a8a;font-weight:600;margin-bottom:1.5mm}
+.work-grid{height:34mm;border:1px solid #cbd5e1;border-radius:2mm;background-color:#fff;background-image:repeating-linear-gradient(to right,rgba(30,58,138,.09) 0 1px,transparent 1px 5.5mm),repeating-linear-gradient(to bottom,rgba(30,58,138,.09) 0 1px,transparent 1px 5.5mm)}
+.work-grid.sm{height:24mm}
+.ansline{display:inline-block;min-width:22mm;height:5.5mm;border-bottom:2px solid #1e3a8a;vertical-align:baseline;margin:0 2mm}
+.answer-sentence{margin-top:2mm;font-weight:500}
+
+/* === tight density helpers for dense legacy pages (ssot) === */
+.a4-page.tight .coord-card svg{max-height:60mm}
+.a4-page.tight .coord-card.compact svg{max-height:46mm}
+.a4-page.tight .coord-strip .coord-card svg{max-height:50mm}
+.a4-page.tight .choice-grid{gap:2mm 3mm}
+.a4-page.tight .choice-box{padding:2mm 2.5mm}
+.a4-page.tight .task{margin:2.2mm 0}
+.a4-page.tight .anchor{margin:3mm 0 2.5mm;padding:2mm 3mm}
+
+.a4-page.tight .work-table td:empty,.a4-page.tight .classify-table td:empty{height:7mm}
